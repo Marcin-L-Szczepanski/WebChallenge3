@@ -436,11 +436,41 @@ template {
   # BLOCK --- Header start -----------------------------------------------
 \************************************************************************/
 /* __ Header__logo  ---------------------------------------------------- */
+.header__logo {
+  display: flex;
+  align-items: center;
+  height: 28px; }
+
 /* __ __ logo__text -------------------------------------------------- */
 .logo__text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   text-transform: uppercase; }
+
+/* __ __ logo__pic -------------------------------------------------- */
+.logo__pic {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-right: 4px; }
+
+.logo__pic img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.logo__pic::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 0;
+  left: 0;
+  background-color: #7cc576;
+  border-radius: 50%;
+  z-index: -10; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
