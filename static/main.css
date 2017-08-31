@@ -438,6 +438,7 @@ template {
 /* header  ---------------------------------------------------- */
 .header {
   width: 100%;
+  background-color: #FFFFFF;
   position: fixed;
   top: 0;
   left: 0; }
