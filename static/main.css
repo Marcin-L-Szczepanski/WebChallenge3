@@ -435,19 +435,19 @@ template {
 /************************************************************************\
   # BLOCK --- Header start -----------------------------------------------
 \************************************************************************/
-/* __ Header__logo  ---------------------------------------------------- */
-.header__logo {
+/* logo  ---------------------------------------------------- */
+.logo {
   display: flex;
   align-items: center;
   height: 28px; }
 
-/* __ __ logo__text -------------------------------------------------- */
+/* __ logo__text -------------------------------------------------- */
 .logo__text {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: uppercase; }
 
-/* __ __ logo__pic -------------------------------------------------- */
+/* __ logo__pic -------------------------------------------------- */
 .logo__pic {
   position: relative;
   width: 28px;
@@ -471,6 +471,24 @@ template {
   background-color: #7cc576;
   border-radius: 50%;
   z-index: -10; }
+
+/* menu  ---------------------------------------------------- */
+/* __ menu__item -------------------------------------------------- */
+.menu__item {
+  display: inline-block;
+  margin-left: 17px;
+  margin-right: 17px; }
+
+/* __ menu__link -------------------------------------------------- */
+.menu__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #777777;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.menu__link:hover {
+  color: #222222; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
