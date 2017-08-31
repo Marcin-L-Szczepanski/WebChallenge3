@@ -3,3 +3,8 @@
     align-items: center;
     height: 28px;
 }
+
+.logo:hover .logo__text {
+    color: #222222;
+    text-decoration: none;
+}

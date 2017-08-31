@@ -437,6 +437,13 @@ template {
 \************************************************************************/
 /* header  ---------------------------------------------------- */
 .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+/* __ header__wrapper -------------------------------------------------- */
+.header__wrapper {
   width: 940px;
   height: 113px;
   margin: 0 auto 0 auto;
@@ -450,12 +457,17 @@ template {
   align-items: center;
   height: 28px; }
 
+.logo:hover .logo__text {
+  color: #222222;
+  text-decoration: none; }
+
 /* __ logo__text -------------------------------------------------- */
 .logo__text {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  color: #555555; }
+  color: #555555;
+  text-decoration: none; }
 
 /* __ logo__pic -------------------------------------------------- */
 .logo__pic {
@@ -499,6 +511,10 @@ template {
 
 .menu__link:hover {
   color: #222222; }
+
+/* banner  ---------------------------------------------------- */
+.banner {
+  margin-top: 113px; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
