@@ -454,7 +454,8 @@ template {
 .logo__text {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #555555; }
 
 /* __ logo__pic -------------------------------------------------- */
 .logo__pic {
