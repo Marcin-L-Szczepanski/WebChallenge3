@@ -445,7 +445,8 @@ template {
 
 /* __ header__wrapper -------------------------------------------------- */
 .header__wrapper {
-  width: 940px;
+  width: 100%;
+  max-width: 940px;
   height: 113px;
   margin: 0 auto 0 auto;
   display: flex;
@@ -516,7 +517,71 @@ template {
 /* banner  ---------------------------------------------------- */
 .banner {
   margin-top: 113px;
-  background: url("../img/banner/background.png"); }
+  background: url("../img/banner/background.png");
+  height: 530px;
+  position: relative;
+  z-index: -2;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.banner::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+/* __ banner__container -------------------------------------------------- */
+.banner__container {
+  width: 625px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+/* __ banner__title -------------------------------------------------- */
+.banner__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+/* button  ---------------------------------------------------- */
+.button {
+  background-color: #7cc576;
+  width: 140px;
+  height: 60px;
+  border: none;
+  position: relative; }
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30px;
+  background-color: #7cc576;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: -1; }
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -30px;
+  background-color: #7cc576;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: -1; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
