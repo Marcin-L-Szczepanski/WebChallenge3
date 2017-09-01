@@ -70,6 +70,14 @@
 /* __ banner__subtitle -------------------------------------------------- */
         @import "blocks/banner/__subtitle/banner__subtitle.scss"; 
 
+/* services  ---------------------------------------------------- */
+    @import "blocks/services/services.scss"; 
+/* __ services__header -------------------------------------------------- */
+        @import "blocks/services/__header/services__header.scss";  
+/* __ services__header -------------------------------------------------- */
+        @import "blocks/services/__items-wrapper/services__items-wrapper.scss";  
+
+
 /* contact  ---------------------------------------------------- */
     @import "blocks/contact/contact.scss"; 
 /* button  ---------------------------------------------------- */
