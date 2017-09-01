@@ -521,7 +521,6 @@ template {
   background-size: cover;
   height: 530px;
   position: relative;
-  z-index: -2;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -534,7 +533,7 @@ template {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; }
+  z-index: 1; }
 
 /* __ banner__container -------------------------------------------------- */
 .banner__container {
@@ -552,13 +551,15 @@ template {
   font-size: 60px;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  z-index: 1; }
 
 /* __ banner__subtitle -------------------------------------------------- */
 .banner__subtitle {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  color: #cccccc; }
+  color: #cccccc;
+  z-index: 1; }
 
 /* button  ---------------------------------------------------- */
 .button {
@@ -573,7 +574,9 @@ template {
   color: #ffffff;
   font-weight: 100;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  cursor: pointer;
+  z-index: 2; }
 
 .button::before {
   content: "";
@@ -596,6 +599,9 @@ template {
   height: 60px;
   border-radius: 50%;
   z-index: -1; }
+
+.button:hover, .button:hover::before, .button:hover::after {
+  background-color: #60af5a; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
