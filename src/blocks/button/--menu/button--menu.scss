@@ -1,7 +1,7 @@
 .button--menu {
     background-color: transparent;
     width: 100px;
-    height: 35px;
+    height: 55px;
     border: 2px solid #777777;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -10,6 +10,8 @@
     font-weight: 100;
     cursor: pointer;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 
