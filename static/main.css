@@ -561,6 +561,10 @@ template {
   color: #cccccc;
   z-index: 1; }
 
+/* contact  ---------------------------------------------------- */
+.contact {
+  background-color: #7cc576; }
+
 /* button  ---------------------------------------------------- */
 .button {
   background-color: #7cc576;
@@ -602,6 +606,24 @@ template {
 
 .button:hover, .button:hover::before, .button:hover::after {
   background-color: #60af5a; }
+
+/* __ button--rectangle -------------------------------------------------- */
+.button--rectangle {
+  background-color: transparent;
+  width: 180px;
+  height: 55px;
+  border: 3px solid #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 100;
+  cursor: pointer;
+  border-radius: 3px; }
+
+.button--rectangle:hover {
+  background-color: #ffffff;
+  color: #7cc576; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------

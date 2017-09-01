@@ -1,0 +1,19 @@
+.button--rectangle {
+    background-color: transparent;
+    width: 180px;
+    height: 55px;
+    border: 3px solid #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.button--rectangle:hover {
+    background-color: #ffffff;
+    color: #7cc576;
+}
