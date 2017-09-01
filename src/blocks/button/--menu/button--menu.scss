@@ -1,0 +1,19 @@
+.button--menu {
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #777777;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.button--menu:hover {
+    color: #222222;
+    border: 2px solid #222222;
+}

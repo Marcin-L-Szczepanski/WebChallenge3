@@ -467,7 +467,8 @@ template {
 .logo {
   display: flex;
   align-items: center;
-  height: 28px; }
+  height: 28px;
+  margin-left: 20px; }
 
 .logo:hover .logo__text {
   color: #222222;
@@ -507,6 +508,10 @@ template {
   z-index: -10; }
 
 /* menu  ---------------------------------------------------- */
+/* __ menu__list -------------------------------------------------- */
+.menu__list {
+  display: none; }
+
 /* __ menu__item -------------------------------------------------- */
 .menu__item {
   display: inline-block;
@@ -523,6 +528,10 @@ template {
 
 .menu__link:hover {
   color: #222222; }
+
+/* __ menu__link -------------------------------------------------- */
+.menu__button {
+  margin-right: 20px; }
 
 /* banner  ---------------------------------------------------- */
 .banner {
