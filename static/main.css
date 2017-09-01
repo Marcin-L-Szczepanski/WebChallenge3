@@ -26,6 +26,15 @@
   padding: 0;
   box-sizing: border-box; }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #222222;
+  background: #7cc576; }
+
+::selection {
+  color: #222222;
+  background: #7cc576; }
+
 /************************************************************************\
   # SETTINGS --- Global end ----------------------------------------------
 \************************************************************************/
@@ -625,6 +634,24 @@ template {
 .button--rectangle:hover {
   background-color: #ffffff;
   color: #7cc576; }
+
+/* __ button--rectangle -------------------------------------------------- */
+.button--menu {
+  background-color: transparent;
+  width: 100px;
+  height: 35px;
+  border: 2px solid #777777;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #777777;
+  font-weight: 100;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.button--menu:hover {
+  color: #222222;
+  border: 2px solid #222222; }
 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------

@@ -72,7 +72,9 @@
 /* button  ---------------------------------------------------- */
     @import "blocks/button/button.scss"; 
 /* __ button--rectangle -------------------------------------------------- */
-        @import "blocks/button/--rectangle/button--rectangle.scss"; 
+        @import "blocks/button/--rectangle/button--rectangle.scss";  
+/* __ button--rectangle -------------------------------------------------- */
+        @import "blocks/button/--menu/button--menu.scss"; 
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
 \************************************************************************/

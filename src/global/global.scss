@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #222222;
+    background: #7cc576;
+}
+
+::selection {
+    color: #222222;
+    background: #7cc576;
+}
