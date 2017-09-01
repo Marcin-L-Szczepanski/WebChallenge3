@@ -512,6 +512,9 @@ template {
 .menu__list {
   display: none; }
 
+@media all and (min-width: 650px) {
+  .menu__list {
+    display: flex; } }
 /* __ menu__item -------------------------------------------------- */
 .menu__item {
   display: inline-block;
@@ -662,6 +665,9 @@ template {
   color: #222222;
   border: 2px solid #222222; }
 
+@media all and (min-width: 650px) {
+  .button--menu {
+    display: none; } }
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
 \************************************************************************/

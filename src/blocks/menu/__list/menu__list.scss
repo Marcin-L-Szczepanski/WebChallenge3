@@ -1,3 +1,9 @@
 .menu__list {
     display: none
 }
+
+@media all and (min-width: 650px) {
+    .menu__list {
+        display: flex;
+    }
+}
