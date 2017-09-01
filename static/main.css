@@ -518,6 +518,7 @@ template {
 .banner {
   margin-top: 113px;
   background: url("../img/banner/background.png");
+  background-size: cover;
   height: 530px;
   position: relative;
   z-index: -2;
@@ -541,7 +542,7 @@ template {
   height: 290px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center; }
 
@@ -551,7 +552,13 @@ template {
   font-size: 60px;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 700; }
+
+/* __ banner__subtitle -------------------------------------------------- */
+.banner__subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #cccccc; }
 
 /* button  ---------------------------------------------------- */
 .button {
@@ -559,7 +566,14 @@ template {
   width: 140px;
   height: 60px;
   border: none;
-  position: relative; }
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 100;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  letter-spacing: -1px; }
 
 .button::before {
   content: "";
