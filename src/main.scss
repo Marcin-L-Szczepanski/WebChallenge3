@@ -74,6 +74,8 @@
 
 /* services  ---------------------------------------------------- */
     @import "blocks/services/services.scss"; 
+/* __ services__wrapper -------------------------------------------------- */
+        @import "blocks/services/__wrapper/services__wrapper.scss";  
 /* __ services__header -------------------------------------------------- */
         @import "blocks/services/__header/services__header.scss";  
 /* __ services__subtitle -------------------------------------------------- */

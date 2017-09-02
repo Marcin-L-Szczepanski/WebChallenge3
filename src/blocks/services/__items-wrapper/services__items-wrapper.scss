@@ -1,4 +1,12 @@
 .services__items-wrapper {
-   /* width: 940px;
-    display: flex; */
+   width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media all and (min-width: 975px) {
+    .services__items-wrapper {
+        flex-direction: row;
+    }
 }

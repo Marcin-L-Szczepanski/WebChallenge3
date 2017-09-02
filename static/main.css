@@ -607,8 +607,23 @@ template {
 
 /* services  ---------------------------------------------------- */
 .services {
-  height: 535px; }
+  height: 535px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
+/* __ services__wrapper -------------------------------------------------- */
+.services__wrapper {
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+@media all and (min-width: 975px) {
+  .services__wrapper {
+    height: 335px; } }
 /* __ services__header -------------------------------------------------- */
 .services__header {
   font-family: 'Montserrat', sans-serif;
@@ -625,9 +640,14 @@ template {
 
 /* __ services__items-wrapper -------------------------------------------------- */
 .services__items-wrapper {
-  /* width: 940px;
-   display: flex; */ }
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
+@media all and (min-width: 975px) {
+  .services__items-wrapper {
+    flex-direction: row; } }
 /* offer  ---------------------------------------------------- */
 .offer__list {
   margin-left: 50px;
