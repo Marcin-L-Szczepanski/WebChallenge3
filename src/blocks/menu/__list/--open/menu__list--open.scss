@@ -1,0 +1,11 @@
+.menu__list--open {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 113px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
