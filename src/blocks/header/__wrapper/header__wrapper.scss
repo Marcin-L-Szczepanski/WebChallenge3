@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-@media screen and (orientation: landscape) {
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
     .header__wrapper {
         height: 50px;
     }

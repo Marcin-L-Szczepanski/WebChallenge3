@@ -463,7 +463,7 @@ template {
   align-items: center;
   justify-content: space-between; }
 
-@media screen and (orientation: landscape) {
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
   .header__wrapper {
     height: 50px; } }
 /* logo  ---------------------------------------------------- */
@@ -576,7 +576,7 @@ template {
   left: 0;
   z-index: 1; }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-device-width: 667px) and (orientation: landscape) {
   .banner {
     margin-top: 50px; } }
 /* __ banner__container -------------------------------------------------- */
