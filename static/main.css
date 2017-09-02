@@ -612,10 +612,6 @@ template {
   font-weight: 700; }
 
 /* __ services__header -------------------------------------------------- */
-.services__items-wrapper {
-  width: 940px;
-  display: flex; }
-
 /* contact  ---------------------------------------------------- */
 .contact {
   background-color: #7cc576; }
