@@ -463,6 +463,9 @@ template {
   align-items: center;
   justify-content: space-between; }
 
+@media screen and (orientation: landscape) {
+  .header__wrapper {
+    height: 50px; } }
 /* logo  ---------------------------------------------------- */
 .logo {
   display: flex;
@@ -612,6 +615,10 @@ template {
   font-weight: 700; }
 
 /* __ services__header -------------------------------------------------- */
+.services__items-wrapper {
+  /* width: 940px;
+   display: flex; */ }
+
 /* contact  ---------------------------------------------------- */
 .contact {
   background-color: #7cc576; }
