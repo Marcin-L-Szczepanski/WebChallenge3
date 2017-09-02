@@ -608,6 +608,7 @@ template {
 /* services  ---------------------------------------------------- */
 .services {
   height: 535px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -640,14 +641,15 @@ template {
 
 /* __ services__items-wrapper -------------------------------------------------- */
 .services__items-wrapper {
-  width: 940px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
 @media all and (min-width: 975px) {
   .services__items-wrapper {
-    flex-direction: row; } }
+    flex-direction: row;
+    width: 940px; } }
 /* offer  ---------------------------------------------------- */
 .offer__list {
   margin-left: 50px;
