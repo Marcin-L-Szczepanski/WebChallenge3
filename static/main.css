@@ -583,6 +583,23 @@ template {
   color: #cccccc;
   z-index: 1; }
 
+/* services  ---------------------------------------------------- */
+.services {
+  height: 535px; }
+
+/* __ services__header -------------------------------------------------- */
+.services__header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+/* __ services__header -------------------------------------------------- */
+.services__items-wrapper {
+  width: 940px;
+  display: flex; }
+
 /* contact  ---------------------------------------------------- */
 .contact {
   background-color: #7cc576; }
@@ -651,7 +668,7 @@ template {
 .button--menu {
   background-color: transparent;
   width: 100px;
-  height: 35px;
+  height: 55px;
   border: 2px solid #777777;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -659,15 +676,53 @@ template {
   color: #777777;
   font-weight: 100;
   cursor: pointer;
-  border-radius: 5px; }
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all 300ms linear; }
 
 .button--menu:hover {
   color: #222222;
   border: 2px solid #222222; }
 
+.button--menu:hover g {
+  stroke: #000000; }
+
 @media all and (min-width: 650px) {
   .button--menu {
     display: none; } }
+.button--menu span {
+  margin-right: 5px;
+  margin-left: 5px; }
+
+.button--menu .icon__close line {
+  opacity: 0;
+  transform: translateY(40px); }
+
+.button--menu .icon__open {
+  opacity: 1;
+  transform: translateY(-40px); }
+
+.button--open .icon__open {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: all 300ms linear; }
+
+.button--open .icon__close line {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 300ms linear; }
+
+.button--close .icon__open {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 300ms linear; }
+
+.button--close .icon__close line {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 300ms linear; }
+
 /************************************************************************\
   # BLOCK --- Banner end -------------------------------------------------
 \************************************************************************/
