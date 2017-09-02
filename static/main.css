@@ -617,7 +617,13 @@ template {
   text-transform: uppercase;
   font-weight: 700; }
 
-/* __ services__header -------------------------------------------------- */
+/* __ services__subtitle -------------------------------------------------- */
+.services__subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #777777; }
+
+/* __ services__items-wrapper -------------------------------------------------- */
 .services__items-wrapper {
   /* width: 940px;
    display: flex; */ }
