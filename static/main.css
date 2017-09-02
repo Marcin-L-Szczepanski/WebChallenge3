@@ -628,6 +628,11 @@ template {
   /* width: 940px;
    display: flex; */ }
 
+/* offer  ---------------------------------------------------- */
+.offer__list {
+  margin-left: 50px;
+  list-style-image: url("../img/offer/circle-checkmark.svg"); }
+
 /* contact  ---------------------------------------------------- */
 .contact {
   background-color: #7cc576; }
