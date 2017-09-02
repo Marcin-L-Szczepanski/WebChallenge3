@@ -19,3 +19,9 @@
     left: 0;
     z-index: 1;
 }
+
+@media screen and (orientation: landscape) {
+    .banner {
+        margin-top: 50px;
+    }
+}
