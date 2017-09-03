@@ -576,7 +576,7 @@ template {
   left: 0;
   z-index: 1; }
 
-@media screen and (max-device-width: 667px) and (orientation: landscape) {
+@media screen and (max-device-width: 900px) and (orientation: landscape) {
   .banner {
     margin-top: 50px; } }
 /* __ banner__container -------------------------------------------------- */
