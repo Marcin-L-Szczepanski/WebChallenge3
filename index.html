@@ -6,6 +6,7 @@
 		<title>TREEHOUSE</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="static/normalize.scss">
         <link rel="stylesheet" href="static/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -57,27 +58,35 @@
         
         <section class="services">
             <div class="services__wrapper">
-            <h2 class="services__header">Professional Services</h2>
-            <p class="services__subtitle">Proin iaculis purus consequat sem cure</p>
+            <div class="services__header">  
+                <h2 class="services__title">Professional Services</h2>
+                <p class="services__subtitle">Proin iaculis purus consequat sem cure</p>
+            </div>
             <div class="services__items-wrapper">
-                <div class="services__item">
-                    <img src="img/services/icon-heart.svg" alt="">
-                    <h3 class="service__header">Beautiful Designs</h3>
-                    <p class="service__description">Proin iaculis purus consequat sem cure<br>
+                <div class="services__item item">
+                    <div class="item__icon">
+                        <img src="img/services/icon-heart.svg" alt="">
+                    </div>
+                    <h3 class="item__title">Beautiful Designs</h3>
+                    <p class="item__description">Proin iaculis purus consequat sem cure<br>
                         digni ssim. Donec porttitora entum suscipit<br>
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
-                <div class="services__item">
-                    <img src="img/services/icon-mobile.svg" alt="">
-                    <h3 class="service__header">Responsive Design</h3>
-                    <p class="service__description">Proin iaculis purus consequat sem cure<br>
+                <div class="services__item item">
+                    <div class="item__icon">
+                        <img src="img/services/icon-mobile.svg" alt="">
+                    </div>
+                    <h3 class="item__title">Responsive Web</h3>
+                    <p class="item__description">Proin iaculis purus consequat sem cure<br>
                         digni ssim. Donec porttitora entum suscipit<br>
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
-                <div class="services__item">
-                    <img src="img/services/icon-graph.svg" alt="">
-                    <h3 class="service__header">Marketing Tools</h3>
-                    <p class="service__description">Proin iaculis purus consequat sem cure<br>
+                <div class="services__item item">
+                    <div class="item__icon">
+                        <img src="img/services/icon-graph.svg" alt="">
+                    </div>
+                    <h3 class="item__title">Marketing Tools</h3>
+                    <p class="item__description">Proin iaculis purus consequat sem cure<br>
                         digni ssim. Donec porttitora entum suscipit<br>
                         aenean rhoncus posuere odio in tincidunt.</p>
                 </div>
@@ -127,22 +136,22 @@
             <p class="values__description"></p>
             <div class="values__value">
                 <img src="img/values/icon-music.png" alt="">
-                <h3 class="value__header">Work-life Balance</h3>
-                <p class="value__description">Proin iaculis purus consequat sem cure<br> 
+                <h3 class="item__title">Work-life Balance</h3>
+                <p class="item__description">Proin iaculis purus consequat sem cure<br> 
                     digni ssim. Donec porttitora entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>
             <div class="values__value">
                 <img src="img/values/icon-graph.png" alt="">
-                <h3 class="value__header">Quality Over Quantity</h3>
-                <p class="value__description">Proin iaculis purus consequat sem cure<br> 
+                <h3 class="item__title">Quality Over Quantity</h3>
+                <p class="item__description">Proin iaculis purus consequat sem cure<br> 
                     digni ssim. Donec porttitora entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>
             <div class="values__value">
                 <img src="img/values/icon-star.png" alt="">
-                <h3 class="value__header">Deliver Excelence</h3>
-                <p class="value__description">Proin iaculis purus consequat sem cure <br>
+                <h3 class="item__title">Deliver Excelence</h3>
+                <p class="item__description">Proin iaculis purus consequat sem cure <br>
                     digni ssim. Donec porttitora entum suscipit <br>
                     aenean rhoncus posuere odio in tincidunt.</p>
             </div>

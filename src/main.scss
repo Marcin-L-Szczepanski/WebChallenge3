@@ -25,13 +25,6 @@
 /************************************************************************\
   # SETTINGS --- Global end ----------------------------------------------
 \************************************************************************/
-/************************************************************************\
-  # SETTINGS --- Normalize.css start -------------------------------------
-\************************************************************************/
-@import "../static/normalize.scss"; 
-/************************************************************************\
-  # SETTINGS --- Normalize.css end ---------------------------------------
-\************************************************************************/
 /*\
 ***
 \*/
@@ -78,11 +71,21 @@
         @import "blocks/services/__wrapper/services__wrapper.scss";  
 /* __ services__header -------------------------------------------------- */
         @import "blocks/services/__header/services__header.scss";  
+/* __ services__title -------------------------------------------------- */
+        @import "blocks/services/__title/services__title.scss";
 /* __ services__subtitle -------------------------------------------------- */
         @import "blocks/services/__subtitle/services__subtitle.scss";  
 /* __ services__items-wrapper -------------------------------------------------- */
         @import "blocks/services/__items-wrapper/services__items-wrapper.scss";  
 
+/* item --------------------------------------------------------- */
+    @import "blocks/item/item.scss";  
+/* __ item__icon -------------------------------------------------- */
+        @import "blocks/item/__icon/item__icon.scss";  
+/* __ item__title -------------------------------------------------- */
+        @import "blocks/item/__title/item__title.scss";  
+/* __ item__description -------------------------------------------------- */
+        @import "blocks/item/__description/item__description.scss";
 
 /* offer  ---------------------------------------------------- */
     @import "blocks/offer/__list/offer__list.scss"; 
