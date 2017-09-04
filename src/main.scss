@@ -29,6 +29,20 @@
 ***
 \*/
 /************************************************************************\
+  2# LAYOUT start ######################################################
+\************************************************************************/
+/* l-section  ---------------------------------------------------- */
+@import "layout/l-section/l-section.scss"; 
+/* >> l-section--wrapper -------------------------------------------------- */
+    @import "layout/l-section/--green/l-section--green.scss"; 
+/* __ l-section__wrapper -------------------------------------------------- */
+    @import "layout/l-section/__wrapper/l-section__wrapper.scss"; 
+/* l-features-wrapper ---------------------------------------------------- */
+@import "layout/l-features-wrapper/l-features-wrapper.scss"; 
+/*\
+***
+\*/
+/************************************************************************\
   3# BLOCKS start ########################################################
 \************************************************************************/
 /************************************************************************\
@@ -61,37 +75,34 @@
 /* __ banner__container -------------------------------------------------- */
         @import "blocks/banner/__container/banner__container.scss"; 
 /* __ banner__title -------------------------------------------------- */
-        @import "blocks/banner/__title/banner__title.scss"; 
-/* __ banner__subtitle -------------------------------------------------- */
-        @import "blocks/banner/__subtitle/banner__subtitle.scss"; 
 
-/* services  ---------------------------------------------------- */
-    @import "blocks/services/services.scss"; 
-/* __ services__wrapper -------------------------------------------------- */
-        @import "blocks/services/__wrapper/services__wrapper.scss";  
-/* __ services__header -------------------------------------------------- */
-        @import "blocks/services/__header/services__header.scss";  
-/* __ services__title -------------------------------------------------- */
-        @import "blocks/services/__title/services__title.scss";
-/* __ services__subtitle -------------------------------------------------- */
-        @import "blocks/services/__subtitle/services__subtitle.scss";  
-/* __ services__items-wrapper -------------------------------------------------- */
-        @import "blocks/services/__items-wrapper/services__items-wrapper.scss";  
 
-/* item --------------------------------------------------------- */
-    @import "blocks/item/item.scss";  
-/* __ item__icon -------------------------------------------------- */
-        @import "blocks/item/__icon/item__icon.scss";  
-/* __ item__title -------------------------------------------------- */
-        @import "blocks/item/__title/item__title.scss";  
-/* __ item__description -------------------------------------------------- */
-        @import "blocks/item/__description/item__description.scss";
+/* heading  ---------------------------------------------------- */
+    /*@import "blocks/heading/heading.scss"; 
+/* __ heading__title -------------------------------------------------- */
+        @import "blocks/heading/__title/heading__title.scss";  
+/* __>> heading__title--white -------------------------------------------------- */
+        @import "blocks/heading/__title/--white/heading__title--white.scss";   
+/* __>> heading__title--large -------------------------------------------------- */
+        @import "blocks/heading/__title/--large/heading__title--large.scss";  
+/* __ heading__subtitle -------------------------------------------------- */
+        @import "blocks/heading/__subtitle/heading__subtitle.scss";    
+/* __>> heading__subtitle--small -------------------------------------------------- */
+        @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";  
 
-/* offer  ---------------------------------------------------- */
-    @import "blocks/offer/__list/offer__list.scss"; 
+/* feature --------------------------------------------------------- */
+    @import "blocks/feature/feature.scss";  
+/* __ feature__icon -------------------------------------------------- */
+        @import "blocks/feature/__icon/feature__icon.scss";  
+/* __ feature__title -------------------------------------------------- */
+        @import "blocks/feature/__title/feature__title.scss";  
+/* __ feature__description -------------------------------------------------- */
+        @import "blocks/feature/__description/feature__description.scss";
 
-/* contact  ---------------------------------------------------- */
-    @import "blocks/contact/contact.scss"; 
+/* list ---------------------------------------------------- */
+    @import "blocks/list/list.scss"; 
+
+
 /* button  ---------------------------------------------------- */
     @import "blocks/button/button.scss"; 
 /* __ button--rectangle -------------------------------------------------- */

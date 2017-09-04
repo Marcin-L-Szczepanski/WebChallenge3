@@ -42,6 +42,43 @@
 ***
 \*/
 /************************************************************************\
+  2# LAYOUT start ######################################################
+\************************************************************************/
+/* l-section  ---------------------------------------------------- */
+l-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* >> l-section--wrapper -------------------------------------------------- */
+.l-section--green {
+  background-color: #7cc576; }
+
+/* __ l-section__wrapper -------------------------------------------------- */
+.l-section__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+/* l-features-wrapper ---------------------------------------------------- */
+.l-features-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+@media all and (min-width: 975px) {
+  .l-features-wrapper {
+    flex-direction: row;
+    width: 940px;
+    height: 180px; } }
+/*\
+***
+\*/
+/************************************************************************\
   3# BLOCKS start ########################################################
 \************************************************************************/
 /************************************************************************\
@@ -166,11 +203,7 @@
   margin-top: 113px;
   background: url("../img/banner/background.png");
   background-size: cover;
-  height: 530px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  position: relative; }
 
 .banner::before {
   content: "";
@@ -180,7 +213,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: -1; }
 
 @media screen and (max-device-width: 900px) and (orientation: landscape) {
   .banner {
@@ -196,113 +229,68 @@
   text-align: center; }
 
 /* __ banner__title -------------------------------------------------- */
-.banner__title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-weight: 700;
-  z-index: 1; }
-
-/* __ banner__subtitle -------------------------------------------------- */
-.banner__subtitle {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-  color: #cccccc;
-  z-index: 1; }
-
-/* services  ---------------------------------------------------- */
-.services {
-  height: 735px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-@media all and (min-width: 975px) {
-  .services {
-    height: 535px; } }
-/* __ services__wrapper -------------------------------------------------- */
-.services__wrapper {
-  height: 635px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; }
-
-@media all and (min-width: 975px) {
-  .services__wrapper {
-    height: 335px; } }
-/* __ services__header -------------------------------------------------- */
-.services__header {
-  height: 69px; }
-
-/* __ services__title -------------------------------------------------- */
-.services__title {
+/* heading  ---------------------------------------------------- */
+    /*@import "blocks/heading/heading.scss"; 
+/* __ heading__title -------------------------------------------------- */
+.heading__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: #222222;
   text-transform: uppercase;
   font-weight: 700; }
 
-/* __ services__subtitle -------------------------------------------------- */
-.services__subtitle {
+/* __>> heading__title--white -------------------------------------------------- */
+.heading__title--white {
+  color: #FFFFFF; }
+
+/* __>> heading__title--large -------------------------------------------------- */
+.heading__title--large {
+  font-size: 60px; }
+
+/* __ heading__subtitle -------------------------------------------------- */
+.heading__subtitle {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   color: #777777; }
 
-/* __ services__items-wrapper -------------------------------------------------- */
-.services__items-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+/* __>> heading__subtitle--small -------------------------------------------------- */
+.heading__subtitle--small {
+  font-size: 16px; }
 
-@media all and (min-width: 975px) {
-  .services__items-wrapper {
-    flex-direction: row;
-    width: 940px;
-    height: 180px; } }
-/* item --------------------------------------------------------- */
-.item {
+/* feature --------------------------------------------------------- */
+.feature {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px; }
 
-/* __ item__icon -------------------------------------------------- */
-.item__icon {
+/* __ feature__icon -------------------------------------------------- */
+.feature__icon {
   padding-bottom: 15px; }
 
-/* __ item__title -------------------------------------------------- */
-.item__title {
+/* __ feature__title -------------------------------------------------- */
+.feature__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: #222222; }
 
-/* __ item__description -------------------------------------------------- */
-.item__description {
+/* __ feature__description -------------------------------------------------- */
+.feature__description {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
   color: #777777;
   line-height: 1.5; }
 
-/* offer  ---------------------------------------------------- */
-.offer__list {
+/* list ---------------------------------------------------- */
+.list {
   margin-left: 50px;
   list-style-image: url("../img/offer/circle-checkmark.svg"); }
-
-/* contact  ---------------------------------------------------- */
-.contact {
-  background-color: #7cc576; }
 
 /* button  ---------------------------------------------------- */
 .button {
   background-color: #7cc576;
-  width: 140px;
   height: 60px;
   border: none;
   position: relative;
