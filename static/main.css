@@ -80,13 +80,10 @@
 .l-section--top-footer {
   background-color: #222222; }
 
-/* __ l-section__wrapper -------------------------------------------------- */
-.l-section__wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; }
+/* __ l-section__content-wrapper -------------------------------------------------- */
+.l-section__content-wrapper {
+  width: 940px;
+  margin: 100px auto 100px auto; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
@@ -223,37 +220,6 @@
 .menu__button {
   margin-right: 20px; }
 
-/* banner  ---------------------------------------------------- */
-.banner {
-  margin-top: 113px;
-  background: url("../img/banner/background.png");
-  background-size: cover;
-  position: relative; }
-
-.banner::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1; }
-
-@media screen and (max-device-width: 900px) and (orientation: landscape) {
-  .banner {
-    margin-top: 50px; } }
-/* __ banner__container -------------------------------------------------- */
-.banner__container {
-  width: 625px;
-  height: 290px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; }
-
-/* __ banner__title -------------------------------------------------- */
 /* heading  ---------------------------------------------------- */
     /*@import "blocks/heading/heading.scss"; 
 /* __ heading__title -------------------------------------------------- */

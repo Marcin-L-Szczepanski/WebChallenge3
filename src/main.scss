@@ -39,8 +39,8 @@
     @import "layout/l-section/--contact/l-section--contact.scss";
 /* >> l-section--top-footer -------------------------------------------------- */
     @import "layout/l-section/--top-footer/l-section--top-footer.scss"; 
-/* __ l-section__wrapper -------------------------------------------------- */
-    @import "layout/l-section/__wrapper/l-section__wrapper.scss"; 
+/* __ l-section__content-wrapper -------------------------------------------------- */
+    @import "layout/l-section/__content-wrapper/l-section__content-wrapper.scss"; 
 /* l-features-wrapper ---------------------------------------------------- */
 @import "layout/l-features-wrapper/l-features-wrapper.scss"; 
 /*\
@@ -73,12 +73,6 @@
         @import "blocks/menu/__link/menu__link.scss"; 
 /* __ menu__link -------------------------------------------------- */
         @import "blocks/menu/__button/menu__button.scss"; 
-
-/* banner  ---------------------------------------------------- */
-    @import "blocks/banner/banner.scss"; 
-/* __ banner__container -------------------------------------------------- */
-        @import "blocks/banner/__container/banner__container.scss"; 
-/* __ banner__title -------------------------------------------------- */
 
 
 /* heading  ---------------------------------------------------- */
