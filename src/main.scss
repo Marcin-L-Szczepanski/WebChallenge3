@@ -33,6 +33,8 @@
 \************************************************************************/
 /* l-section  ---------------------------------------------------- */
 @import "layout/l-section/l-section.scss"; 
+/* >> l-section--banner -------------------------------------------------- */
+    @import "layout/l-section/--banner/l-section--banner.scss";
 /* >> l-section--contact -------------------------------------------------- */
     @import "layout/l-section/--contact/l-section--contact.scss";
 /* >> l-section--top-footer -------------------------------------------------- */
