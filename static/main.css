@@ -51,9 +51,13 @@ l-section {
   align-items: center;
   justify-content: center; }
 
-/* >> l-section--wrapper -------------------------------------------------- */
-.l-section--green {
+/* >> l-section--contact -------------------------------------------------- */
+.l-section--contact {
   background-color: #7cc576; }
+
+/* >> l-section--top-footer -------------------------------------------------- */
+.l-section--top-footer {
+  background-color: #222222; }
 
 /* __ l-section__wrapper -------------------------------------------------- */
 .l-section__wrapper {
@@ -261,9 +265,7 @@ l-section {
 .feature {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  justify-content: space-between; }
 
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {

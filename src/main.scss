@@ -33,8 +33,10 @@
 \************************************************************************/
 /* l-section  ---------------------------------------------------- */
 @import "layout/l-section/l-section.scss"; 
-/* >> l-section--wrapper -------------------------------------------------- */
-    @import "layout/l-section/--green/l-section--green.scss"; 
+/* >> l-section--contact -------------------------------------------------- */
+    @import "layout/l-section/--contact/l-section--contact.scss";
+/* >> l-section--top-footer -------------------------------------------------- */
+    @import "layout/l-section/--top-footer/l-section--top-footer.scss"; 
 /* __ l-section__wrapper -------------------------------------------------- */
     @import "layout/l-section/__wrapper/l-section__wrapper.scss"; 
 /* l-features-wrapper ---------------------------------------------------- */
