@@ -85,6 +85,9 @@
   width: 940px;
   margin: 100px auto 100px auto; }
 
+.l-section--banner .l-section__content-wrapper {
+  margin: 120px auto 120px auto; }
+
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
   width: 100%;
@@ -228,7 +231,8 @@
   font-size: 40px;
   color: #222222;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 20px; }
 
 /* __>> heading__title--white -------------------------------------------------- */
 .heading__title--white {
@@ -236,13 +240,18 @@
 
 /* __>> heading__title--large -------------------------------------------------- */
 .heading__title--large {
-  font-size: 60px; }
+  font-size: 60px;
+  margin-bottom: 40px; }
 
 /* __ heading__subtitle -------------------------------------------------- */
 .heading__subtitle {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  color: #777777; }
+  color: #777777;
+  margin-bottom: 90px; }
+
+.l-section--banner .heading__subtitle {
+  margin-bottom: 60px; }
 
 /* __>> heading__subtitle--small -------------------------------------------------- */
 .heading__subtitle--small {
