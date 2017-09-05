@@ -72,6 +72,10 @@
 @media screen and (max-device-width: 900px) and (orientation: landscape) {
   .l-section--banner {
     margin-top: 50px; } }
+/* >> l-section--shade -------------------------------------------------- */
+.l-section--shade {
+  background-color: #f9f9f9; }
+
 /* >> l-section--contact -------------------------------------------------- */
 .l-section--contact {
   background-color: #7cc576; }
