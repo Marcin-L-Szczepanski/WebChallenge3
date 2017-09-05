@@ -1,6 +1,7 @@
-l-section { 
-    width: 100%;
+.l-section { 
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
