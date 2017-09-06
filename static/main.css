@@ -73,16 +73,16 @@
   .l-section--banner {
     margin-top: 50px; } }
 /* >> l-section--shade -------------------------------------------------- */
-.l-section--shade {
+.l-section--background_light {
   background-color: #f9f9f9; }
 
-/* >> l-section--contact -------------------------------------------------- */
-.l-section--contact {
-  background-color: #7cc576; }
-
 /* >> l-section--top-footer -------------------------------------------------- */
-.l-section--top-footer {
+.l-section--background_dark {
   background-color: #222222; }
+
+/* >> l-section--contact -------------------------------------------------- */
+.l-section--background_green {
+  background-color: #7cc576; }
 
 /* __ l-section__content-wrapper -------------------------------------------------- */
 .l-section__content-wrapper {
