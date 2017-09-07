@@ -93,7 +93,8 @@
   z-index: 1; }
 
 .l-section--banner .l-section__content-wrapper {
-  margin: 120px auto 120px auto; }
+  height: calc(100vh / 2);
+  margin: 50% auto auto auto; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
