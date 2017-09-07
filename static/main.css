@@ -89,7 +89,7 @@
   width: 100%;
   max-width: 940px;
   margin: 100px auto 100px auto;
-  z-index: 2; }
+  z-index: 1; }
 
 .l-section--banner .l-section__content-wrapper {
   margin: 120px auto 120px auto; }
@@ -305,7 +305,8 @@
   font-weight: 100;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   letter-spacing: -1px;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 3; }
 
 .button::before {
   content: "";
