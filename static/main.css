@@ -94,11 +94,7 @@
 
 .l-section--banner .l-section__content-wrapper {
   margin: 120px auto 120px auto;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
+  height: 100vh; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
