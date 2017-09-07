@@ -57,7 +57,7 @@
   margin-top: 113px;
   background: url("../img/banner/background.png");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: relative;
   height: calc(100vh - 113px); }
 
