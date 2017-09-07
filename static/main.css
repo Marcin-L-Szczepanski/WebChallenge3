@@ -59,7 +59,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh; }
+  height: calc(100vh - 113px); }
 
 .l-section--banner::before {
   content: "";
@@ -93,7 +93,6 @@
   z-index: 1; }
 
 .l-section--banner .l-section__content-wrapper {
-  height: 100%;
   margin: 0 auto 0 auto; }
 
 /* l-features-wrapper ---------------------------------------------------- */
