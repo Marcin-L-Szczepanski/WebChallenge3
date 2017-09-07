@@ -1,6 +1,9 @@
 .l-section__content-wrapper {
-    width: 940px;
+    width: 100%;
+    max-width: 940px;
     margin: 100px auto 100px auto;
+    
+    z-index: 2;
 }
 
 .l-section--banner .l-section__content-wrapper {
