@@ -1,5 +1,4 @@
  .l-section--offer {
-    margin-top: 80px;
     background: url("../img/offer/background.png");
     background-size: cover;
     background-position: right;
@@ -16,10 +15,4 @@
     position: absolute;
     top: 0;
     left: 0;
-}
-
-@media screen and (max-device-width: 900px) and (orientation: landscape) {
-    .l-section--offer {
-        margin-top: 50px;
-    }
 }

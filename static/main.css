@@ -75,7 +75,6 @@
     margin-top: 50px; } }
 /* >> l-section--offer -------------------------------------------------- */
 .l-section--offer {
-  margin-top: 80px;
   background: url("../img/offer/background.png");
   background-size: cover;
   background-position: right;
@@ -91,9 +90,6 @@
   top: 0;
   left: 0; }
 
-@media screen and (max-device-width: 900px) and (orientation: landscape) {
-  .l-section--offer {
-    margin-top: 50px; } }
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
