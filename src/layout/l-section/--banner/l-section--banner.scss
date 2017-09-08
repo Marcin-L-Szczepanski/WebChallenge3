@@ -1,10 +1,10 @@
 .l-section--banner {
-    margin-top: 113px;
+    margin-top: 90px;
     background: url("../img/banner/background.png");
-    background-size: 1600px;
+    background-size: contain;
     background-position: bottom;
     position: relative;
-    height: calc(100vh - 113px);
+    height: 600px;
 }
 
 
