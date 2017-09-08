@@ -82,7 +82,8 @@
   background-size: cover;
   background-position: right;
   position: relative;
-  height: 550px; }
+  height: 600px;
+  text-align: left; }
 
 .l-section--offer::before {
   content: "";
@@ -111,6 +112,10 @@
   max-width: 940px;
   margin: 50px auto;
   z-index: 1; }
+
+.l-section--offer .l-section__content-wrapper {
+  margin-left: 10%;
+  width: 90%; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
@@ -272,10 +277,13 @@
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   color: #777777;
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
 
 .l-section--banner .heading__subtitle {
   margin-bottom: 60px; }
+
+.l-section--offer .heading__subtitle {
+  margin-bottom: 20px; }
 
 /* __>> heading__subtitle--small -------------------------------------------------- */
 .heading__subtitle--small {
@@ -313,8 +321,16 @@
 .list {
   font-family: 'Roboto Slab', serif;
   color: #777777;
-  margin-left: 50px;
   list-style-image: url("../img/offer/circle-checkmark.svg"); }
+
+/* __ list__item -------------------------------------------------- */
+.list__item {
+  margin-left: 35px;
+  margin-bottom: 10px;
+  padding-left: 15px; }
+
+.list__item:last-child {
+  margin-bottom: 50px; }
 
 /* button  ---------------------------------------------------- */
 .button {
