@@ -48,7 +48,7 @@
 .l-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center; }
 
@@ -56,8 +56,8 @@
 .l-section--banner {
   margin-top: 90px;
   background: url("../img/banner/background.png");
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
+  background-position: right;
   position: relative;
   height: 600px; }
 
