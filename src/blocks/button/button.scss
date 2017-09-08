@@ -40,5 +40,7 @@
 }
 
 .button:hover, .button:hover::before, .button:hover::after {
-    background-color: #60af5a;
+    background-color: #ffffff;
+    color: #222222;
+    text-shadow: none;
 }

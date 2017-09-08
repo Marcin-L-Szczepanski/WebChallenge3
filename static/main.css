@@ -282,7 +282,11 @@
 .feature {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 50px; }
+
+.feature:first-child {
+  margin-top: 0; }
 
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {
@@ -346,7 +350,9 @@
   z-index: -1; }
 
 .button:hover, .button:hover::before, .button:hover::after {
-  background-color: #60af5a; }
+  background-color: #ffffff;
+  color: #222222;
+  text-shadow: none; }
 
 /* __ button--rectangle -------------------------------------------------- */
 .button--rectangle {
