@@ -107,12 +107,16 @@
         @import "blocks/list/__item/list__item.scss";
 
 
-/* quotation ---------------------------------------------------- */
-    @import "blocks/quotation/quotation.scss"; 
-/* __ quotation__text -------------------------------------------------- */
-        @import "blocks/quotation/__text/quotation__text.scss";
-/* __ quotation__author -------------------------------------------------- */
-        @import "blocks/quotation/__author/quotation__author.scss";
+/* opinion ---------------------------------------------------- */
+    @import "blocks/opinion/opinion.scss"; 
+/* __ opinion__picture -------------------------------------------------- */
+        @import "blocks/opinion/__picture/opinion__picture.scss";
+/* __ opinion__quotation -------------------------------------------------- */
+        @import "blocks/opinion/__quotation/opinion__quotation.scss";
+/* __ opinion__text -------------------------------------------------- */
+        @import "blocks/opinion/__text/opinion__text.scss";
+/* __ opinion__author -------------------------------------------------- */
+        @import "blocks/opinion/__author/opinion__author.scss";
 
 /* button  ---------------------------------------------------- */
     @import "blocks/button/button.scss"; 
