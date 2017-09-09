@@ -299,6 +299,9 @@
 .feature:first-child {
   margin-top: 0; }
 
+@media all and (min-width: 975px) {
+  .feature {
+    margin-top: 0; } }
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {
   padding-bottom: 15px; }

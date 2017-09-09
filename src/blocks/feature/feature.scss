@@ -8,3 +8,10 @@
 .feature:first-child {
     margin-top: 0;
 }
+
+
+@media all and (min-width: 975px) {
+    .feature {
+        margin-top: 0;
+    }
+}
