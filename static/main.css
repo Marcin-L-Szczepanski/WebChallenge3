@@ -35,6 +35,10 @@
   color: #222222;
   background: #7cc576; }
 
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #777777; }
+
 .green-text {
   color: #7cc576; }
 
@@ -274,9 +278,7 @@
 
 /* __ heading__subtitle -------------------------------------------------- */
 .heading__subtitle {
-  font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  color: #777777;
   margin-bottom: 60px; }
 
 .l-section--banner .heading__subtitle {
@@ -322,15 +324,11 @@
 
 /* __ feature__description -------------------------------------------------- */
 .feature__description {
-  font-family: 'Roboto Slab', serif;
   font-size: 14px;
-  color: #777777;
   line-height: 1.5; }
 
 /* list ---------------------------------------------------- */
 .list {
-  font-family: 'Roboto Slab', serif;
-  color: #777777;
   list-style-image: url("../img/offer/circle-checkmark.svg"); }
 
 /* __ list__item -------------------------------------------------- */
