@@ -1,3 +1,11 @@
 .feature__icon {
     padding-bottom: 15px;
+    position: relative;
+}
+
+.feature__icon img {
+    width: 90px;
+    height: 90px;
+    border: 4px solid #777777;
+    border-radius: 50%;
 }
