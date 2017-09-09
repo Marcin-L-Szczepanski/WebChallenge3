@@ -1,0 +1,41 @@
+.opinion__quotation {
+    background-color: #f9f9f9;
+    padding: 40px;
+    width: 80%;
+    max-width: 640px;
+    position: relative;
+}
+
+
+.opinion__quotation::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: calc(50% - 13px);
+    top: -23px;
+    border-bottom: 23px solid #f9f9f9;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: none;
+    z-index: 100;
+}
+ 
+/*
+
+.opinion__quotation::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: calc(50% - 13px);
+    left: -23px;
+    border-right: 23px solid #f9f9f9;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: none;
+    z-index: 100;
+}
+
+
+*/

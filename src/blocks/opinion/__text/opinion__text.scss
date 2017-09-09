@@ -1,0 +1,13 @@
+.opinion__text {
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.opinion__text::before {
+    content: '" ';
+}
+
+.opinion__text::after {
+    content: ' "';
+}

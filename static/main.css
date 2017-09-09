@@ -361,7 +361,8 @@ body {
 .opinion__quotation {
   background-color: #f9f9f9;
   padding: 40px;
-  width: 50%;
+  width: 80%;
+  max-width: 640px;
   position: relative; }
 
 .opinion__quotation::before {
