@@ -342,9 +342,37 @@ body {
 
 /* quotation ---------------------------------------------------- */
 .quotation {
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  padding: 40px;
+  width: 640px;
+  margin-bottom: 80px;
+  position: relative; }
+
+.quotation::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: calc(50% - 13px);
+  left: -23px;
+  border-right: 23px solid #f9f9f9;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: none;
+  z-index: 100; }
 
 /* __ quotation__text -------------------------------------------------- */
+.quotation__text {
+  position: relative;
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.quotation__text::before {
+  content: '" '; }
+
+.quotation__text::after {
+  content: ' "'; }
+
 /* __ quotation__author -------------------------------------------------- */
 /* button  ---------------------------------------------------- */
 .button {

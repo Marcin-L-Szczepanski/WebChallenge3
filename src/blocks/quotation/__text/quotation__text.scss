@@ -1,0 +1,13 @@
+.quotation__text {
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.quotation__text::before {
+    content: '" ';
+}
+
+.quotation__text::after {
+    content: ' "';
+}

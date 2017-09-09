@@ -110,9 +110,9 @@
 /* quotation ---------------------------------------------------- */
     @import "blocks/quotation/quotation.scss"; 
 /* __ quotation__text -------------------------------------------------- */
-    //    @import "blocks/quotation/__text/quotation__text.scss";
+        @import "blocks/quotation/__text/quotation__text.scss";
 /* __ quotation__author -------------------------------------------------- */
-    //    @import "blocks/quotation/__author/quotation__author.scss";
+        @import "blocks/quotation/__author/quotation__author.scss";
 
 /* button  ---------------------------------------------------- */
     @import "blocks/button/button.scss"; 
