@@ -10,12 +10,13 @@
     position: relative;
 }
 
-.feature__icon-circle::after {
-    content: "";
-    position: absolute;
-    width: 170px;
-    top: calc(50% - 4px);
-    left: 115px;
-    border-bottom: 5px solid #777777;
-    
+@media all and (min-width: 975px) {
+    .feature__icon-circle::after {
+        content: "";
+        position: absolute;
+        width: 170px;
+        top: calc(50% - 4px);
+        left: 115px;
+        border-bottom: 5px solid #777777;
+    }
 }
