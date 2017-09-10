@@ -5,10 +5,11 @@
     justify-content: space-between;
 }
 
-@media all and (min-width: 975px) {
+@media all and (min-width: 1075px) {
     .l-features-wrapper {
         flex-direction: row;
-        width: 940px;
+        width: 100%;
+        max-width: 940px;
         height: 180px;
     }
 }
