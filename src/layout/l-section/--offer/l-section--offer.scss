@@ -1,19 +1,8 @@
  .l-section--offer {
-    background: url("../img/offer/background.png");
-    background-size: cover;
-    background-position: right;
+    background: url("../img/offer/gear.png");
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     height: 600px;
     text-align: left;
-}
-
-
-.l-section--offer::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .75);
-    position: absolute;
-    top: 0;
-    left: 0;
 }
