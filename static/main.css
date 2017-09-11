@@ -113,7 +113,8 @@ body {
   width: 970px;
   height: 600px;
   margin: 0;
-  padding: 50px; }
+  padding: 50px;
+  align-self: flex-end; }
 
 .l-section--offer .l-section__content-wrapper::before {
   content: "";
