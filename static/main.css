@@ -311,6 +311,9 @@ body {
 @media all and (min-width: 1075px) {
   .feature {
     margin-top: 0; } }
+.l-section--background_dark .feature {
+  align-items: flex-start; }
+
 /* __ feature__icon-circle -------------------------------------------------- */
 .feature__icon-circle {
   margin: 0 auto 0 auto;
