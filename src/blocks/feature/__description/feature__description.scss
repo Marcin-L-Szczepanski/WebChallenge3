@@ -4,8 +4,9 @@
 }
 
 .l-section--background_dark .feature__description {
-    color: #ececec;
+    color: $description-light;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 7px;
 }
