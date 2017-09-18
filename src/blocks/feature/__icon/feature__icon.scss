@@ -3,7 +3,11 @@
 }
 
 .l-section--background_dark .feature__icon {
-    padding-right: 15px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 0;
+    padding-right: 10px;
 }
 

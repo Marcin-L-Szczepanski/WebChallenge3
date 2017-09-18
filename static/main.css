@@ -17,6 +17,7 @@
 
 
 /* variables  ---------------------------------------------------- */
+/* Font colors */
 /* global  ---------------------------------------------------- */
 *, *::before, *::after {
   margin: 0;
@@ -35,6 +36,13 @@
 body {
   font-family: 'Roboto Slab', serif;
   color: #777777; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: #7cc576; }
 
 .green-text {
   color: #7cc576; }
@@ -340,8 +348,12 @@ body {
   padding-bottom: 15px; }
 
 .l-section--background_dark .feature__icon {
-  padding-right: 15px;
-  padding-bottom: 0; }
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+  padding-right: 10px; }
 
 /* __ feature__title -------------------------------------------------- */
 .feature__title {
@@ -364,7 +376,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
   margin: 7px; }
+
+/* __>> feature__description--small -------------------------------------------------- */
+.feature__description--small {
+  font-size: 12px; }
+
+/* __>> feature__description--hashtag -------------------------------------------------- */
+.feature__description--hashtag {
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L"; }
 
 /* list ---------------------------------------------------- */
 .list {

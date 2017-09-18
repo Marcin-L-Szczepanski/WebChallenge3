@@ -19,6 +19,15 @@ body {
     color: #777777;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $green-text;
+}
+
 .green-text {
     color: #7cc576;
 }
