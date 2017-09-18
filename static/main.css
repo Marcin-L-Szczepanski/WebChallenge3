@@ -431,6 +431,15 @@ body {
   content: ' "'; }
 
 /* __ opinion__author -------------------------------------------------- */
+/* partners ---------------------------------------------------- */
+.partners {
+  display: flex;
+  flex-direction: column; }
+
+/* __ partners__logo -------------------------------------------------- */
+.partners__logo {
+  margin: 20px; }
+
 /* button  ---------------------------------------------------- */
 .button {
   background-color: #7cc576;
