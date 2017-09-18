@@ -355,6 +355,11 @@ a:hover {
   padding-bottom: 0;
   padding-right: 10px; }
 
+/* __>> feature__icon--top -------------------------------------------------- */
+.feature__icon--top {
+  align-self: flex-start;
+  padding-top: 3px; }
+
 /* __ feature__title -------------------------------------------------- */
 .feature__title {
   font-family: 'Montserrat', sans-serif;
