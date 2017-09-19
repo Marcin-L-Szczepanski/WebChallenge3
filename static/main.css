@@ -483,6 +483,23 @@ a:hover {
 .partners__logo {
   margin: 20px; }
 
+/* socials ---------------------------------------------------- */
+/* __ socials__icons -------------------------------------------------- */
+.socials__icons {
+  display: flex;
+  flex-direction: row; }
+
+/* __ socials__icon -------------------------------------------------- */
+.socials__icon {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; }
+
 /* button  ---------------------------------------------------- */
 .button {
   background-color: #7cc576;
