@@ -484,10 +484,16 @@ a:hover {
   margin: 20px; }
 
 /* socials ---------------------------------------------------- */
+/* __ socials__copyright -------------------------------------------------- */
+.socials__copyright {
+  margin: 20px; }
+
 /* __ socials__icons -------------------------------------------------- */
 .socials__icons {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin: 20px;
+  margin-top: 0; }
 
 /* __ socials__icon -------------------------------------------------- */
 .socials__icon {
@@ -498,7 +504,8 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin: 5px; }
 
 /* button  ---------------------------------------------------- */
 .button {
