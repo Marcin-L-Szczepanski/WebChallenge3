@@ -1,11 +1,12 @@
 .socials__icon {
-    width: 40px;
-    height: 40px;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
     margin: 5px;
+    transition: background-color 150ms linear;
 }
