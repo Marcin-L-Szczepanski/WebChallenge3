@@ -119,6 +119,8 @@
 
 /* opinion ---------------------------------------------------- */
     @import "blocks/opinion/opinion.scss"; 
+/* __ opinion__picture-background -------------------------------------------------- */
+        @import "blocks/opinion/__picture-background/opinion__picture-background.scss";
 /* __ opinion__picture -------------------------------------------------- */
         @import "blocks/opinion/__picture/opinion__picture.scss";
 /* __ opinion__quotation -------------------------------------------------- */
