@@ -94,6 +94,8 @@
     @import "blocks/feature/feature.scss";  
 /* __ feature__icon-circle -------------------------------------------------- */
         @import "blocks/feature/__icon-circle/feature__icon-circle.scss";  
+/* __>> feature__icon-circle--black -------------------------------------------------- */
+            @import "blocks/feature/__icon-circle/--black/feature__icon-circle--black.scss";
 /* __>> feature__icon-circle--last -------------------------------------------------- */
             @import "blocks/feature/__icon-circle/--last/feature__icon-circle--last.scss";
 /* __ feature__icon -------------------------------------------------- */

@@ -339,6 +339,21 @@ a:hover {
     top: calc(50% - 2px);
     left: 115px;
     border-bottom: 2px solid #777777; } }
+/* __>> feature__icon-circle--black -------------------------------------------------- */
+.feature__icon-circle--black {
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  position: relative; }
+
+.feature__icon-circle--black::after {
+  border-bottom: none; }
+
 /* __>> feature__icon-circle--last -------------------------------------------------- */
 .feature__icon-circle--last::after {
   border-bottom: none; }
