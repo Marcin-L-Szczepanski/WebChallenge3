@@ -88,12 +88,25 @@ a:hover {
 /* >> l-section--offer -------------------------------------------------- */
 .l-section--offer {
   background: url("../img/offer/gear.png");
-  background-position: center;
+  background-color: #e9e9e9;
+  background-position: 10%;
   background-repeat: no-repeat;
   position: relative;
   height: 600px;
   text-align: left; }
 
+/*
+.l-section--banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+*/
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
@@ -115,11 +128,14 @@ a:hover {
 
 .l-section--offer .l-section__content-wrapper {
   background: url("../img/offer/background.png");
-  width: 970px;
+  min-width: 1070px;
   height: 600px;
   margin: 0;
   padding: 50px;
-  align-self: flex-end; }
+  align-self: flex-end;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .l-section--offer .l-section__content-wrapper::before {
   content: "";
@@ -128,7 +144,8 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.75);
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: -100; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
