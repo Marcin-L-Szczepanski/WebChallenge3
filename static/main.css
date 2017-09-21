@@ -133,7 +133,8 @@ a:hover {
   align-self: flex-end;
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .l-section--offer .l-section__content-wrapper::before {
   content: "";
