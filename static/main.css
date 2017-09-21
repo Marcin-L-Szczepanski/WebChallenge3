@@ -129,7 +129,7 @@ a:hover {
   background: url("../img/offer/background.png");
   width: 100%;
   margin: 0;
-  padding: 25px;
+  padding: 100px 25px;
   align-self: flex-end;
   position: relative;
   background-repeat: no-repeat;
