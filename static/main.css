@@ -92,7 +92,6 @@ a:hover {
   background-position: 10%;
   background-repeat: no-repeat;
   position: relative;
-  height: 600px;
   text-align: left; }
 
 /*
@@ -128,8 +127,7 @@ a:hover {
 
 .l-section--offer .l-section__content-wrapper {
   background: url("../img/offer/background.png");
-  min-width: 1070px;
-  height: 600px;
+  width: 100%;
   margin: 0;
   padding: 50px;
   align-self: flex-end;
