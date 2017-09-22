@@ -17,7 +17,8 @@
 
 
 /* variables  ---------------------------------------------------- */
-/* Font colors */
+/* Font */
+/* Colors */
 /* global  ---------------------------------------------------- */
 *, *::before, *::after {
   margin: 0;
@@ -34,7 +35,7 @@
   background: #7cc576; }
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   color: #777777; }
 
 a {
@@ -393,7 +394,7 @@ a:hover {
 
 /* __ feature__title -------------------------------------------------- */
 .feature__title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: #222222; }

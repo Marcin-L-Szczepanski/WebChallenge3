@@ -6,16 +6,16 @@
 
 ::-moz-selection { /* Code for Firefox */
     color: #222222;
-    background: #7cc576;
+    background: $green;
 }
 
 ::selection {
     color: #222222;
-    background: #7cc576;
+    background: $green;
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: $baseFont;
     color: #777777;
 }
 
@@ -25,9 +25,9 @@ a {
 }
 
 a:hover {
-    color: $green-text;
+    color: $green;
 }
 
 .green-text {
-    color: #7cc576;
+    color: $green;
 }
