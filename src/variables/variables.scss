@@ -1,14 +1,23 @@
-/* Font */
-$baseFont: 'Roboto Slab', serif;
-$secondFont: 'Montserrat', sans-serif;
+/* Font family*/
+$font-first: 'Roboto Slab', serif;
+$font-second: 'Montserrat', sans-serif;
+
+/* Font size*/
+$font-size-xxs: 14px;
+$font-size-xs: 16px;
+$font-size-s: 18px;
+$font-size-m: 20px;
+$font-size-l: 22px;
+$font-size-xl: 40px;
+$font-size-xxl: 60px;
+
 
 /* Colors */
-
-$greyLvl1: #ffffff;
-$greyLvl2: #ececec;
-$greyLvl3: #cccccc;
-$greyLvl4: #777777;
-$greyLvl5: #555555;
-$greyLvl6: #222222;
+$grey-lvl1: #ffffff;
+$grey-lvl2: #ececec;
+$grey-lvl3: #cccccc;
+$grey-lvl4: #777777;
+$grey-lvl5: #555555;
+$grey-lvl6: #222222;
 
 $green: #7cc576;

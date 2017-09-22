@@ -1,7 +1,9 @@
 .logo__text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #555555;
+    font-family: $font-second;
+    font-size: $font-size-s;
+
     text-decoration: none;
+    text-transform: uppercase;
+
+    color: $grey-lvl5;
 }

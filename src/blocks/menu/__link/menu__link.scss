@@ -1,11 +1,13 @@
 .menu__link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #777777;
+    font-family: $font-second;
+    font-size: $font-size-xxs;
+
     text-decoration: none;
     text-transform: uppercase;
+
+    color: $grey-lvl4;
 }
 
 .menu__link:hover {
-    color: #222222;
+    color: $grey-lvl6;
 }

@@ -1,8 +1,10 @@
 .logo__pic {
     position: relative;
+
+    display: inline-block;
+
     width: 28px;
     height: 28px;
-    display: inline-block;
     margin-right: 4px;
 }
 
@@ -10,17 +12,21 @@
     position: absolute;
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
 }
 
 .logo__pic::before {
-    content: "";
     position: absolute;
-    width: 28px;
-    height: 28px;
+    z-index: -10;
     top: 0;
     left: 0;
-    background-color: $green;
+
+    width: 28px;
+    height: 28px;
+
+    content: '';
+
     border-radius: 50%;
-    z-index: -10;
+    background-color: $green;
 }
