@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .l-section--offer .l-section__content-wrapper::before {
@@ -27,4 +26,10 @@
     top: 0;
     left: 0;
     z-index: -100;
+}
+
+@media only screen and (min-width: 736px) {
+    .l-section--offer .l-section__content-wrapper{
+        background-attachment: fixed;
+    }
 }
