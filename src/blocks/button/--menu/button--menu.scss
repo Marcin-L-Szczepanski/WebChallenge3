@@ -27,15 +27,16 @@
         margin-right: 5px;
         margin-left: 5px;
     }
-}
-
-
-
-@media only all and (min-width: 650px) {
-    .button--menu {
+    
+    @include respond(650px) {
         display: none;
     }
 }
+
+
+
+
+
 
 
 

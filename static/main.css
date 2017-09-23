@@ -20,6 +20,7 @@
 /* Font family*/
 /* Font size*/
 /* Colors */
+/* mixins  ---------------------------------------------------- */
 /* global  ---------------------------------------------------- */
 *, *::before, *::after {
   margin: 0;
@@ -645,10 +646,10 @@ a:hover {
   .button--menu span {
     margin-right: 5px;
     margin-left: 5px; }
+  @media only all and (min-width: 650px) {
+    .button--menu {
+      display: none; } }
 
-@media only all and (min-width: 650px) {
-  .button--menu {
-    display: none; } }
 .button--open .icon__open {
   transform: translateY(-40px);
   opacity: 0;
