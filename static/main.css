@@ -96,18 +96,6 @@ a:hover {
   position: relative;
   text-align: left; }
 
-/*
-.l-section--banner::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .75);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-*/
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
@@ -136,7 +124,8 @@ a:hover {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .l-section--offer .l-section__content-wrapper::before {
   content: "";
@@ -410,7 +399,7 @@ a:hover {
   line-height: 1.5; }
 
 .l-section--background_dark .feature__description {
-  color: #ececec;
+  color: #f9f9f9;
   display: flex;
   justify-content: center;
   align-items: center;
