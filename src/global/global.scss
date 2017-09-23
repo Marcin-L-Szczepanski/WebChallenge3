@@ -5,18 +5,18 @@
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: #222222;
+    color: $grey-lvl8;
     background: $green;
 }
 
 ::selection {
-    color: #222222;
+    color: $grey-lvl8;
     background: $green;
 }
 
 body {
     font-family: $font-first;
-    color: #777777;
+    color: $grey-lvl6;
 }
 
 a {
