@@ -86,11 +86,15 @@
 /* __>> heading__title--white -------------------------------------------------- */
         @import "blocks/heading/__title/--white/heading__title--white.scss";   
 /* __>> heading__title--large -------------------------------------------------- */
-        @import "blocks/heading/__title/--large/heading__title--large.scss";  
+        @import "blocks/heading/__title/--large/heading__title--large.scss";   
+/* __>> heading__title--subheading -------------------------------------------------- */
+        @import "blocks/heading/__title/--subheading/heading__title--subheading.scss";  
 /* __ heading__subtitle -------------------------------------------------- */
         @import "blocks/heading/__subtitle/heading__subtitle.scss";    
 /* __>> heading__subtitle--small -------------------------------------------------- */
         @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";  
+/* __>> heading__subtitle--subheading -------------------------------------------------- */
+        @import "blocks/heading/__subtitle/--subheading/heading__subtitle--subheading.scss";  
 
 /* feature --------------------------------------------------------- */
     @import "blocks/feature/feature.scss";  

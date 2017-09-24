@@ -303,6 +303,10 @@ a:hover {
     .heading__title--large {
       font-size: 43px; } }
 
+/* __>> heading__title--subheading -------------------------------------------------- */
+.heading__title--subheading {
+  font-size: 18px; }
+
 /* __ heading__subtitle -------------------------------------------------- */
 .heading__subtitle {
   font-size: 20px;
@@ -317,6 +321,11 @@ a:hover {
 /* __>> heading__subtitle--small -------------------------------------------------- */
 .heading__subtitle--small {
   font-size: 16px; }
+
+/* __>> heading__subtitle--subheading -------------------------------------------------- */
+.heading__subtitle--subheading {
+  font-size: 14px;
+  margin-bottom: 20px; }
 
 /* feature --------------------------------------------------------- */
 .feature {
