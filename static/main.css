@@ -287,6 +287,9 @@ a:hover {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 20px; }
+  @media only all and (max-width: 360px) {
+    .heading__title {
+      font-size: 33px; } }
 
 /* __>> heading__title--white -------------------------------------------------- */
 .heading__title--white {
@@ -296,6 +299,9 @@ a:hover {
 .heading__title--large {
   font-size: 50px;
   margin-bottom: 40px; }
+  @media only all and (max-width: 360px) {
+    .heading__title--large {
+      font-size: 43px; } }
 
 /* __ heading__subtitle -------------------------------------------------- */
 .heading__subtitle {
@@ -400,6 +406,9 @@ a:hover {
 .feature__description {
   font-size: 14px;
   line-height: 1.5; }
+  @media only all and (max-width: 360px) {
+    .feature__description {
+      font-size: 11px; } }
 
 .l-section--background_dark .feature__description {
   color: #f9f9f9;

@@ -1,6 +1,10 @@
 .feature__description {
     font-size: 14px;
     line-height: 1.5;
+    
+    @media only all and (max-width: 360px) {
+        font-size: 11px;
+    }
 }
 
 .l-section--background_dark .feature__description {
