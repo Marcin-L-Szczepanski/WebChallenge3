@@ -297,7 +297,7 @@ a:hover {
 
 /* __>> heading__title--large -------------------------------------------------- */
 .heading__title--large {
-  font-size: 50px;
+  font-size: 4.28vw;
   margin-bottom: 40px; }
   @media only all and (max-width: 360px) {
     .heading__title--large {
