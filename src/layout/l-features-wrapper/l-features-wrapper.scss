@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.project .l-features-wrapper {
+    align-items: left;
+}
+
 @media all and (min-width: 1075px) {
     .l-features-wrapper {
         flex-direction: row;

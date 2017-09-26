@@ -95,6 +95,8 @@
         @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";  
 /* __>> heading__subtitle--subheading -------------------------------------------------- */
         @import "blocks/heading/__subtitle/--subheading/heading__subtitle--subheading.scss";  
+/* project --------------------------------------------------------- */
+    @import "blocks/project/project.scss";  
 
 /* feature --------------------------------------------------------- */
     @import "blocks/feature/feature.scss";  
@@ -107,7 +109,9 @@
 /* __ feature__icon -------------------------------------------------- */
         @import "blocks/feature/__icon/feature__icon.scss";  
 /* __>> feature__icon--top -------------------------------------------------- */
-        @import "blocks/feature/__icon/--top/feature__icon--top.scss";  
+        @import "blocks/feature/__icon/--top/feature__icon--top.scss"; 
+/* __ feature__text -------------------------------------------------- */
+        @import "blocks/feature/__text/feature__text.scss";   
 /* __ feature__title -------------------------------------------------- */
         @import "blocks/feature/__title/feature__title.scss";  
 /* __ feature__description -------------------------------------------------- */
@@ -116,6 +120,8 @@
             @import "blocks/feature/__description/--small/feature__description--small.scss";
 /* __>> feature__description--hashtag -------------------------------------------------- */
             @import "blocks/feature/__description/--hashtag/feature__description--hashtag.scss";
+/* B--M feature--inline -------------------------------------------------- */
+        @import "blocks/feature/--inline/feature--inline.scss";  
 
 /* list ---------------------------------------------------- */
     @import "blocks/list/list.scss"; 
