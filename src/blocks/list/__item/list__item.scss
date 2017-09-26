@@ -1,7 +1,14 @@
 .list__item {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    padding-left: 15px;
+    background: {
+        image: url("../img/offer/circle-checkmark.svg");
+        position: 0 6px;
+        repeat: no-repeat;
+    }
+    padding: {
+        left: 41px;
+        top: 12px;
+        bottom: 12px;
+    }
 }
 
 .list__item:last-child {

@@ -125,7 +125,8 @@ a:hover {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  color: #cccccc; }
 
 .l-section--offer .l-section__content-wrapper::before {
   content: "";
@@ -437,13 +438,16 @@ a:hover {
 
 /* list ---------------------------------------------------- */
 .list {
-  list-style-image: url("../img/offer/circle-checkmark.svg"); }
+  list-style-type: none; }
 
 /* __ list__item -------------------------------------------------- */
 .list__item {
-  margin-left: 35px;
-  margin-bottom: 10px;
-  padding-left: 15px; }
+  background-image: url("../img/offer/circle-checkmark.svg");
+  background-position: 0 6px;
+  background-repeat: no-repeat;
+  padding-left: 41px;
+  padding-top: 12px;
+  padding-bottom: 12px; }
 
 .list__item:last-child {
   margin-bottom: 50px; }
