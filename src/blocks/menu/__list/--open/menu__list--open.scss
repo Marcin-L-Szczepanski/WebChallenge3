@@ -17,3 +17,9 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media only screen and (orientation: landscape) {
+    .menu__list--open {
+        display: none;
+    }
+}
