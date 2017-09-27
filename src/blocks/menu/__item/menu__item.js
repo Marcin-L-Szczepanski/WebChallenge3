@@ -7,6 +7,7 @@ function closeButtonIcon() {
 function closeShowMenu() {
     "use strict";
     document.querySelector(".menu__list").classList.remove("menu__list--open");
+    document.querySelector("body").classList.toggle("body-cover");
 }
 
 var list = document.querySelector(".menu__list");

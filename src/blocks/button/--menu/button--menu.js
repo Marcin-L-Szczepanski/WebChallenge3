@@ -7,6 +7,7 @@ function toggleButtonIcon() {
 function toggleShowMenu() {
     "use strict";
     document.querySelector(".menu__list").classList.toggle("menu__list--open");
+    document.querySelector("body").classList.toggle("body-cover");
 }
 
 
