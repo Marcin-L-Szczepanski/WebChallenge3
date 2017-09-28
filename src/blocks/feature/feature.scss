@@ -10,6 +10,11 @@
     margin-top: 0;
 }
 
+.feature img {    
+    transition: transform 150ms ease-in;
+
+}
+
 
 @media all and (min-width: 1075px) {
     .feature {
