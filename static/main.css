@@ -363,9 +363,6 @@ a:hover {
 .feature:first-child {
   margin-top: 0; }
 
-.feature img {
-  transition: transform 150ms ease-in; }
-
 @media all and (min-width: 1075px) {
   .feature {
     margin-top: 0; } }
@@ -425,9 +422,6 @@ a:hover {
   padding-bottom: 0;
   padding-right: 10px; }
 
-.l-section--background_light .feature:hover img {
-  transform: scale(1.2); }
-
 .l-section--background_light .feature:hover .feature__icon {
   transform: scale(1); }
 
@@ -438,6 +432,14 @@ a:hover {
 .feature__icon--top {
   align-self: flex-start;
   padding-top: 3px; }
+
+/* __ feature__svg -------------------------------------------------- */
+.feature__svg {
+  transition: transform 150ms ease-in; }
+
+/*.l-section--background_light*/
+.feature:hover .feature__svg {
+  transform: scale(1.2); }
 
 /* __ feature__text -------------------------------------------------- */
 .feature__text {

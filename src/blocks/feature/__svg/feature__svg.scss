@@ -1,0 +1,7 @@
+ .feature__svg {  
+    transition: transform 150ms ease-in;
+}
+
+/*.l-section--background_light*/ .feature:hover .feature__svg {
+    transform: scale(1.2);
+}
