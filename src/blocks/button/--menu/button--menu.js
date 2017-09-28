@@ -11,7 +11,7 @@ function toggleShowMenu() {
 }
 
 
-var button = document.querySelector(".button--menu");
+const button = document.querySelector(".button--menu");
 button.addEventListener("click", function () {
     "use strict";
     toggleButtonIcon();

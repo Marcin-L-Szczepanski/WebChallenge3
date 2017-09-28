@@ -12,16 +12,16 @@ function closeShowMenu() {
 
 window.addEventListener("resize", function () {
     "use strict";
-    var screenWidth = document.body.scrollWidth;
+    let screenWidth = document.body.scrollWidth;
     if (screenWidth > 633) {
         closeButtonIcon();
         closeShowMenu();
     }
 });
 
-var list = document.querySelector(".menu__list");
-var link = document.querySelectorAll(".menu__item");
-for (var i=0; i<=link.length; i++) {
+const list = document.querySelector(".menu__list");
+const link = document.querySelectorAll(".menu__item");
+for (let i=0; i<=link.length; i++) {
     link[i].addEventListener("click", function(){
         closeButtonIcon();
         closeShowMenu();
