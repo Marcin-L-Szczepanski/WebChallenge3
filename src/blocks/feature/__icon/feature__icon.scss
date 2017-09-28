@@ -1,5 +1,6 @@
 .feature__icon {
     padding-bottom: 15px;
+    transition: transform 100ms ease-in;
 }
 
 .l-section--background_dark .feature__icon {
@@ -11,3 +12,6 @@
     padding-right: 10px;
 }
 
+.feature:hover .feature__icon {
+    transform: scale(1.2);
+}
