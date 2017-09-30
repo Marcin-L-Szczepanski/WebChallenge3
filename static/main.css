@@ -379,7 +379,8 @@ a:hover {
   height: 90px;
   border: 2px solid #777777;
   border-radius: 50%;
-  position: relative; }
+  position: relative;
+  transition: transform 150ms ease-in; }
 
 @media all and (min-width: 1075px) {
   .feature__icon-circle::after {
@@ -390,6 +391,12 @@ a:hover {
     left: 115px;
     border-bottom: 2px solid #777777;
     display: inline; } }
+.feature:hover .feature__icon-circle {
+  transform: scale(1.2); }
+
+.l-section--background_light .feature:hover .feature__icon-circle {
+  transform: scale(1); }
+
 /* __>> feature__icon-circle--black -------------------------------------------------- */
 .feature__icon-circle--black {
   margin: 0 auto 0 auto;
@@ -411,8 +418,7 @@ a:hover {
 
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {
-  padding-bottom: 15px;
-  transition: transform 150ms ease-in; }
+  padding-bottom: 15px; }
 
 .l-section--background_dark .feature__icon {
   width: 40px;
@@ -421,12 +427,6 @@ a:hover {
   align-items: center;
   padding-bottom: 0;
   padding-right: 10px; }
-
-.l-section--background_light .feature:hover .feature__icon {
-  transform: scale(1); }
-
-.feature:hover .feature__icon {
-  transform: scale(1.2); }
 
 /* __>> feature__icon--top -------------------------------------------------- */
 .feature__icon--top {

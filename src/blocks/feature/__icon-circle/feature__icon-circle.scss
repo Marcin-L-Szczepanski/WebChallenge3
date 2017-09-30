@@ -8,6 +8,7 @@
     border: 2px solid #777777;
     border-radius: 50%;
     position: relative;
+    transition: transform 150ms ease-in;
 }
 
 @media all and (min-width: 1075px) {
@@ -20,4 +21,13 @@
         border-bottom: 2px solid #777777;
         display: inline;
     }
+}
+
+
+.feature:hover .feature__icon-circle {
+    transform: scale(1.2);
+}
+
+.l-section--background_light .feature:hover .feature__icon-circle {
+    transform: scale(1);
 }
