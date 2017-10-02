@@ -1,4 +1,4 @@
-.button--rectangle {
+.button--transparent {
     background-color: transparent;
     width: 180px;
     height: 55px;
@@ -10,10 +10,10 @@
     font-weight: 100;
     cursor: pointer;
     border-radius: 3px;
+    transition: all 300ms ease-in;
 }
 
-
-.button--rectangle:hover {
+.button--transparent:hover {
     background-color: #ffffff;
     color: $green;
 }

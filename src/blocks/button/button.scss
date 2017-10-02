@@ -12,34 +12,11 @@
     letter-spacing: -1px;
     cursor: pointer;
     z-index: 3;
+    border-radius: 45px;
+    padding: 0 35px;
 }
 
-
-.button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -30px;
-    background-color: $green;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    z-index: -1;
-}
-
-.button::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -30px;
-    background-color: $green;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    z-index: -1;
-}
-
-.button:hover, .button:hover::before, .button:hover::after {
+.button:hover {
     background-color: $grey-lvl1;
     color: $grey-lvl8;
     text-shadow: none;
