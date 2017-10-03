@@ -356,6 +356,12 @@ a:hover {
 .project__features {
   text-align: left; }
 
+/* >> project__link --------------------------------------------------------- */
+.project__link {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600; }
+
 /* feature --------------------------------------------------------- */
 .feature {
   display: flex;
