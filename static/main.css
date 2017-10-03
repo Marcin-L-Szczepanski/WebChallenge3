@@ -115,12 +115,13 @@ a:hover {
   text-align: left; }
 
 /* >> l-section--projects -------------------------------------------------- */
-.l-section--projects {
-  margin-top: 80px;
-  background: url("../img/projects/ipad.png");
-  background-position: right center;
-  background-repeat: no-repeat; }
-
+@media only screen and (min-width: 725px) {
+  .l-section--projects {
+    background: url("../img/projects/ipad.png");
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 45%; } }
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
