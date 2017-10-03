@@ -8,6 +8,8 @@ function closeShowMenu() {
     "use strict";
     document.querySelector(".menu__list").classList.remove("menu__list--open");
     document.querySelector("body").classList.remove("body-cover");
+    document.querySelector("main").classList.toggle("blur");
+    document.querySelector(".footer").classList.toggle("blur");
 }
 
 window.addEventListener("resize", function () {
