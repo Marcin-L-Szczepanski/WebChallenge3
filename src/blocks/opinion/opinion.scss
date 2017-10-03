@@ -9,4 +9,8 @@
     .opinion {
         flex-direction: row;
     }
+    
+    .opinion:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 }

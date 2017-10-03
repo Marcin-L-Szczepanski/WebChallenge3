@@ -524,7 +524,10 @@ a:hover {
 
 @media only screen and (min-width: 750px) {
   .opinion {
-    flex-direction: row; } }
+    flex-direction: row; }
+
+  .opinion:nth-child(even) {
+    flex-direction: row-reverse; } }
 /* __ opinion__picture-background -------------------------------------------------- */
 .opinion__picture-background {
   width: 220px;
@@ -542,6 +545,7 @@ a:hover {
   .opinion__picture-background {
     margin-bottom: 0;
     margin-left: 0;
+    margin-right: 0;
     width: 100%;
     max-width: 220px; } }
 /* __ opinion__picture -------------------------------------------------- */
@@ -572,13 +576,21 @@ a:hover {
   z-index: 100; }
 
 @media only screen and (min-width: 750px) {
+  .opinion__quotation {
+    margin-left: 30px;
+    margin-right: 30px; }
+
   .opinion__quotation::before {
     top: calc(50% - 13px);
     left: -23px;
     border-right: 23px solid #f9f9f9;
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
-    border-left: none; } }
+    border-left: none; }
+
+  .opinion:nth-child(even) .opinion__quotation::before {
+    left: 100%;
+    transform: scaleX(-1); } }
 /* __ opinion__text -------------------------------------------------- */
 .opinion__text {
   position: relative;
