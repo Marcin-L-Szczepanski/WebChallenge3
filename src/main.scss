@@ -120,6 +120,8 @@
         @import "blocks/feature/__text/feature__text.scss";   
 /* __ feature__title -------------------------------------------------- */
         @import "blocks/feature/__title/feature__title.scss";  
+/* __>> feature__title--lowercase -------------------------------------------------- */
+        @import "blocks/feature/__title/--lowercase/feature__title--lowercase.scss";  
 /* __ feature__description -------------------------------------------------- */
         @import "blocks/feature/__description/feature__description.scss";
 /* __>> feature__description--small -------------------------------------------------- */

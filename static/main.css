@@ -345,12 +345,14 @@ a:hover {
 .heading__subtitle--subheading {
   font-size: 14px;
   margin-bottom: 25px;
-  /* width: 425px; */
-  text-align: justify; }
+  text-align: justify;
+  line-height: 1.5; }
 
 /* project --------------------------------------------------------- */
 .project {
-  text-align: left; }
+  text-align: left;
+  width: 100%;
+  max-width: 470px; }
 
 /* >> project__features --------------------------------------------------------- */
 .project__features {
@@ -466,6 +468,10 @@ a:hover {
 .l-section--background_dark .feature__title {
   color: #ffffff;
   margin-bottom: 15px; }
+
+/* __>> feature__title--lowercase -------------------------------------------------- */
+.feature__title--lowercase {
+  text-transform: capitalize; }
 
 /* __ feature__description -------------------------------------------------- */
 .feature__description {
