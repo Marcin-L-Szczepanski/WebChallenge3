@@ -166,9 +166,6 @@ a:hover {
   justify-content: space-between;
   align-items: center; }
 
-.project .l-features-wrapper {
-  align-items: left; }
-
 @media all and (min-width: 1075px) {
   .l-features-wrapper {
     flex-direction: row;
@@ -355,6 +352,10 @@ a:hover {
 .project {
   text-align: left; }
 
+/* >> project__features --------------------------------------------------------- */
+.project__features {
+  text-align: left; }
+
 /* feature --------------------------------------------------------- */
 .feature {
   display: flex;
@@ -491,7 +492,9 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   /* width: 470px; */
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 100%;
+  max-width: 470px; }
 
 .feature--inline:last-of-type {
   margin-bottom: 15px; }
