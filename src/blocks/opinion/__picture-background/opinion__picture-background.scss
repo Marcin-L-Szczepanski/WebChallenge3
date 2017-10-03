@@ -14,5 +14,7 @@
 @include respond(750px) {
     .opinion__picture-background {
         margin-bottom: 0;
+        width: 100%;
+        max-width: 220px;
     }
 }
