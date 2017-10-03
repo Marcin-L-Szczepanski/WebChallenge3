@@ -541,6 +541,7 @@ a:hover {
 @media only screen and (min-width: 750px) {
   .opinion__picture-background {
     margin-bottom: 0;
+    margin-left: 0;
     width: 100%;
     max-width: 220px; } }
 /* __ opinion__picture -------------------------------------------------- */
