@@ -10,3 +10,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@include respond(750px) {
+    .opinion__picture-background {
+        margin-bottom: 0;
+    }
+}

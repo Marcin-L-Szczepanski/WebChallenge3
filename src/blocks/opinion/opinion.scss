@@ -4,3 +4,9 @@
     align-items: center;
     margin-bottom: 40px;
 }
+
+@include respond(750px) {
+    .opinion {
+        flex-direction: row;
+    }
+}

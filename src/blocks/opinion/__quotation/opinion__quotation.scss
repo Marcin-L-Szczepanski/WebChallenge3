@@ -21,21 +21,14 @@
     z-index: 100;
 }
  
-/*
+@include respond(750px) {
 
-.opinion__quotation::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: calc(50% - 13px);
-    left: -23px;
-    border-right: 23px solid #f9f9f9;
-    border-top: 13px solid transparent;
-    border-bottom: 13px solid transparent;
-    border-left: none;
-    z-index: 100;
+    .opinion__quotation::before {
+        top: calc(50% - 13px);
+        left: -23px;
+        border-right: 23px solid #f9f9f9;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: none;
+    }
 }
-
-
-*/

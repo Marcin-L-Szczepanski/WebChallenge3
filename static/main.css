@@ -522,6 +522,9 @@ a:hover {
   align-items: center;
   margin-bottom: 40px; }
 
+@media only screen and (min-width: 750px) {
+  .opinion {
+    flex-direction: row; } }
 /* __ opinion__picture-background -------------------------------------------------- */
 .opinion__picture-background {
   width: 220px;
@@ -535,6 +538,9 @@ a:hover {
   align-items: center;
   justify-content: center; }
 
+@media only screen and (min-width: 750px) {
+  .opinion__picture-background {
+    margin-bottom: 0; } }
 /* __ opinion__picture -------------------------------------------------- */
 .opinion__picture {
   width: 90%;
@@ -562,24 +568,14 @@ a:hover {
   border-top: none;
   z-index: 100; }
 
-/*
-
-.opinion__quotation::before {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
+@media only screen and (min-width: 750px) {
+  .opinion__quotation::before {
     top: calc(50% - 13px);
     left: -23px;
     border-right: 23px solid #f9f9f9;
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent;
-    border-left: none;
-    z-index: 100;
-}
-
-
-*/
+    border-left: none; } }
 /* __ opinion__text -------------------------------------------------- */
 .opinion__text {
   position: relative;
@@ -715,7 +711,7 @@ a:hover {
   .button--menu span {
     margin-right: 5px;
     margin-left: 5px; }
-  @media only all and (min-width: 650px) {
+  @media only screen and (min-width: 650px) {
     .button--menu {
       display: none; } }
 

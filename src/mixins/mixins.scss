@@ -1,5 +1,5 @@
 @mixin respond($query) {
-    @media only all and (min-width: $query) {
+    @media only screen and (min-width: $query) {
         @content
     }
 }
