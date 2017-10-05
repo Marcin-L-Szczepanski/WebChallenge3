@@ -69,8 +69,14 @@ a:hover {
 
 /* preloader  ---------------------------------------------------- */
 .preloader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -78,6 +84,9 @@ a:hover {
   top: 0;
   left: 0;
   z-index: 1000;
+  background: #76b852 -webkit-gradient(linear, left top, right top, from(#76b852), to(#7cc576));
+  background: #76b852 -webkit-linear-gradient(left, #76b852, #7cc576);
+  background: #76b852 -o-linear-gradient(left, #76b852, #7cc576);
   background: #76b852 linear-gradient(to right, #76b852, #7cc576);
   -webkit-transition: opacity .35s ease;
   -o-transition: opacity .35s ease;
@@ -89,18 +98,33 @@ a:hover {
   margin: 0 10px;
   border: 4px solid #ffffff;
   border-radius: 50%;
+  -webkit-animation: show-hide 1s ease infinite;
   animation: show-hide 1s ease infinite; }
 
 .dot:nth-child(2) {
+  -webkit-animation-delay: 300ms;
   animation-delay: 300ms; }
 
 .dot:nth-child(3) {
+  -webkit-animation-delay: 600ms;
   animation-delay: 600ms; }
 
-@keyframes show-hide {
+@-webkit-keyframes show-hide {
   0% {
+    -webkit-transform: scale(0);
     transform: scale(0); }
   50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes show-hide {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1; }
   100% {
