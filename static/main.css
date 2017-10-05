@@ -115,13 +115,16 @@ a:hover {
   text-align: left; }
 
 /* >> l-section--projects -------------------------------------------------- */
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 850px) {
   .l-section--projects {
     background: url("../img/projects/ipad.png");
     background-position-x: right;
     background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size: 45%; } }
+    background-size: 57%; } }
+@media only screen and (min-width: 1200px) {
+  .l-section--projects {
+    background-size: auto; } }
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
