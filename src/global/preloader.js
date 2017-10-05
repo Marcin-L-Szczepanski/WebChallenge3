@@ -7,4 +7,4 @@ window.addEventListener('load', function() {
         this.classList.add('preloader__hidden');
         this.classList.remove('preloader__hiding');
     });
-}, false);
+});
