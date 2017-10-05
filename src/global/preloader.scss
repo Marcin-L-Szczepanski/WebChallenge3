@@ -9,6 +9,8 @@
     left: 0;
     z-index: 1000;
     background: #76b852 linear-gradient(to right, #76b852, #7cc576);
+    -webkit-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
     transition: opacity .35s ease;
 }
 
