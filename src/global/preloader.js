@@ -1,5 +1,5 @@
-const preloader = document.querySelector('#preloader');
+var preloader = document.querySelector('#preloader');
 
-document.addEventListener('load', function(event) {
+window.addEventListener('load', function() {
     preloader.style.background = "red";
 }, false);
