@@ -15,7 +15,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-left: 90px;
     color: $grey-lvl5;
 }
 
@@ -32,6 +31,7 @@
 
 @media only screen and (min-width: 736px) {
     .l-section--offer .l-section__content-wrapper{
-        background-attachment: fixed;
+        background-attachment: fixed;  
+        padding-left: 90px;
     }
 }

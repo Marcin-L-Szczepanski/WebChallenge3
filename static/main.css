@@ -222,7 +222,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-left: 90px;
   color: #cccccc; }
 
 .l-section--offer .l-section__content-wrapper::before {
@@ -237,7 +236,8 @@ a:hover {
 
 @media only screen and (min-width: 736px) {
   .l-section--offer .l-section__content-wrapper {
-    background-attachment: fixed; } }
+    background-attachment: fixed;
+    padding-left: 90px; } }
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
   width: 100%;
@@ -420,7 +420,7 @@ a:hover {
 /* __>> heading__subtitle--small -------------------------------------------------- */
 .heading__subtitle--small {
   font-size: 16px;
-  width: 520px; }
+  max-width: 520px; }
 
 /* __>> heading__subtitle--subheading -------------------------------------------------- */
 .heading__subtitle--subheading {
