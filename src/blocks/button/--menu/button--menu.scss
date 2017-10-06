@@ -1,8 +1,8 @@
 .button--menu {
     background-color: transparent;
     width: 100px;
-    height: 55px;
-    border: 2px solid $grey-lvl6;
+    height: 35px;
+    border: 1px solid $grey-lvl6;
     font-family: $font-second;
     font-size: 18px;
     text-transform: uppercase;
@@ -26,6 +26,11 @@
     span {
         margin-right: 5px;
         margin-left: 5px;
+    }
+    
+    @include respond(600px) {
+        height: 55px;
+        border: 2px solid $grey-lvl6;
     }
     
     @include respond(640px) {

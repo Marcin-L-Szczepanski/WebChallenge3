@@ -799,8 +799,8 @@ a:hover {
 .button--menu {
   background-color: transparent;
   width: 100px;
-  height: 55px;
-  border: 2px solid #777777;
+  height: 35px;
+  border: 1px solid #777777;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -819,6 +819,10 @@ a:hover {
   .button--menu span {
     margin-right: 5px;
     margin-left: 5px; }
+  @media only screen and (min-width: 600px) {
+    .button--menu {
+      height: 55px;
+      border: 2px solid #777777; } }
   @media only screen and (min-width: 640px) {
     .button--menu {
       display: none; } }
