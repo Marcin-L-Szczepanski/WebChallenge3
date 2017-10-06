@@ -15,7 +15,7 @@ function closeShowMenu() {
 window.addEventListener("resize", function () {
     "use strict";
     let screenWidth = document.body.scrollWidth;
-    if (screenWidth > 633) {
+    if (screenWidth > 622) {
         closeButtonIcon();
         closeShowMenu();
     }

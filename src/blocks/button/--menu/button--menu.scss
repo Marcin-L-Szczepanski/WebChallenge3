@@ -28,7 +28,7 @@
         margin-left: 5px;
     }
     
-    @include respond(650px) {
+    @include respond(640px) {
         display: none;
     }
 }

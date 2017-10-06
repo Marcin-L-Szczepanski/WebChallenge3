@@ -335,7 +335,7 @@ a:hover {
 .menu__list {
   display: none; }
 
-@media all and (min-width: 650px) {
+@media all and (min-width: 640px) {
   .menu__list {
     display: flex; } }
 /* __>> menu__list--open -------------------------------------------------- */
@@ -819,7 +819,7 @@ a:hover {
   .button--menu span {
     margin-right: 5px;
     margin-left: 5px; }
-  @media only screen and (min-width: 650px) {
+  @media only screen and (min-width: 640px) {
     .button--menu {
       display: none; } }
 
