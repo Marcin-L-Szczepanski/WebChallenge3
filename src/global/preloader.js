@@ -1,4 +1,5 @@
 window.addEventListener('load', function() {
+    "use strict";
     const preloader = document.querySelector('#preloader');
     preloader.classList.add('preloader__hiding');
     
