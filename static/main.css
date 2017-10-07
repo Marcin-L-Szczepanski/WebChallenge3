@@ -283,9 +283,12 @@ a:hover {
 .header__wrapper a {
   text-decoration: none; }
 
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
+@media only screen and (max-width: 900px) and (orientation: landscape) {
   .header__wrapper {
     height: 50px; } }
+@media only screen and (min-width: 765px) and (orientation: portrait) {
+  .header__wrapper {
+    height: 115px; } }
 /* logo  ---------------------------------------------------- */
 .logo {
   display: flex;
