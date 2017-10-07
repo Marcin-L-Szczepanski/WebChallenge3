@@ -7,7 +7,9 @@
 
 .l-section--offer .l-section__content-wrapper {
     background: url("../img/offer/background.png");
-    width: 100%;
+    width: 75%;
+    max-width: none;
+    min-width: 750px;
     margin: 0;
     padding: 100px 25px;
     align-self: flex-end;
@@ -15,6 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: left;
     color: $grey-lvl5;
 }
 
@@ -29,7 +32,7 @@
     z-index: -100;
 }
 
-@media only screen and (min-width: 736px) {
+@media only screen and (min-width: 765px) {
     .l-section--offer .l-section__content-wrapper{
         background-attachment: fixed;  
         padding-left: 90px;
@@ -43,7 +46,6 @@
     background-position: left;
     background-repeat: no-repeat;
     position: relative;
-    text-align: left;
     position: absolute;
     top: 0;
     left: -200px;
