@@ -246,7 +246,7 @@ a:hover {
   justify-content: space-between;
   align-items: center; }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1060px) {
   .l-features-wrapper {
     flex-direction: row;
     width: 100%;
@@ -464,7 +464,7 @@ a:hover {
 .feature:first-child {
   margin-top: 0; }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1060px) {
   .feature {
     margin-top: 0; } }
 .l-section--background_dark .feature {
@@ -483,7 +483,7 @@ a:hover {
   position: relative;
   transition: transform 150ms ease-in; }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1060px) {
   .feature__icon-circle::after {
     content: "";
     position: absolute;
