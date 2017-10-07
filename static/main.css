@@ -209,9 +209,8 @@ a:hover {
 
 .l-section--offer .l-section__content-wrapper {
   background: url("../img/offer/background.png");
-  width: 75%;
+  width: 100%;
   max-width: none;
-  min-width: 750px;
   margin: 0;
   padding: 100px 25px;
   align-self: flex-end;
@@ -235,7 +234,9 @@ a:hover {
 @media only screen and (min-width: 765px) {
   .l-section--offer .l-section__content-wrapper {
     background-attachment: fixed;
-    padding-left: 90px; }
+    padding-left: 90px;
+    width: 75%;
+    min-width: 750px; }
 
   .l-section--offer .l-section__content-wrapper::after {
     content: "";
