@@ -1,8 +1,8 @@
 .button--menu {
     background-color: transparent;
     width: 100px;
-    height: 35px;
-    border: 1px solid $grey-lvl6;
+    height: 55px;
+    border: 2px solid $grey-lvl6;
     font-family: $font-second;
     font-size: 18px;
     text-transform: uppercase;
@@ -28,9 +28,9 @@
         margin-left: 5px;
     }
     
-    @include respond(600px) {
-        height: 55px;
-        border: 2px solid $grey-lvl6;
+    @media only screen and (max-width: 640px) and (orientation: landscape)
+    {
+        height: 35px;       
     }
     
     @include respond(640px) {
@@ -38,6 +38,7 @@
     }
 }
 
+    
 
 
 
