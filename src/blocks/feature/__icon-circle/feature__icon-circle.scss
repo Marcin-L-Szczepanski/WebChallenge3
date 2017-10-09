@@ -11,7 +11,7 @@
     transition: transform 150ms ease-in;
 }
 
-@media all and (min-width: 1060px) {
+@media all and (min-width: 765px) {
     .feature__icon-circle::after {
         content: "";
         position: absolute;

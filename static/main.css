@@ -477,7 +477,7 @@ a:hover {
 .feature:first-child {
   margin-top: 0; }
 
-@media all and (min-width: 1060px) {
+@media all and (min-width: 765px) {
   .feature {
     margin-top: 0; } }
 .l-section--background_dark .feature {
@@ -496,7 +496,7 @@ a:hover {
   position: relative;
   transition: transform 150ms ease-in; }
 
-@media all and (min-width: 1060px) {
+@media all and (min-width: 765px) {
   .feature__icon-circle::after {
     content: "";
     position: absolute;
