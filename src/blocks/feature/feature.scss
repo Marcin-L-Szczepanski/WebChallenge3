@@ -3,18 +3,19 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 50px;
-    width: 310px;
+    width: 290px;
 }
 
 .feature:first-child {
     margin-top: 0;
 }
 
-@media all and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .feature {
         margin-top: 0;
     }
 }
+
 
 .l-section--background_dark .feature {
     align-items: flex-start;
