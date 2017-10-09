@@ -231,7 +231,7 @@ a:hover {
   left: 0;
   z-index: -100; }
 
-@media only screen and (min-width: 765px) {
+@media only screen and (min-width: 1024px) {
   .l-section--offer .l-section__content-wrapper {
     background-attachment: fixed;
     padding-left: 90px;
@@ -477,7 +477,7 @@ a:hover {
 .feature:first-child {
   margin-top: 0; }
 
-@media all and (min-width: 765px) {
+@media all and (min-width: 1024px) {
   .feature {
     margin-top: 0; } }
 .l-section--background_dark .feature {
@@ -496,7 +496,7 @@ a:hover {
   position: relative;
   transition: transform 150ms ease-in; }
 
-@media all and (min-width: 765px) {
+@media all and (min-width: 1024px) {
   .feature__icon-circle::after {
     content: "";
     position: absolute;
