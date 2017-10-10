@@ -433,13 +433,15 @@ a:hover {
 .heading__subtitle {
   font-size: 20px;
   margin-bottom: 60px;
-  color: #cccccc; }
+  color: #777777; }
 
 .l-section--banner .heading__subtitle {
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  color: #cccccc; }
 
 .l-section--offer .heading__subtitle {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: #cccccc; }
 
 /* __>> heading__subtitle--small -------------------------------------------------- */
 .heading__subtitle--small {
