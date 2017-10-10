@@ -5,6 +5,10 @@
     margin-bottom: 40px;
 }
 
+.opinion:last-of-type {
+    margin-bottom: 0;
+}
+
 @include respond(750px) {
     .opinion {
         flex-direction: row;

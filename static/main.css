@@ -648,6 +648,9 @@ a:hover {
   align-items: center;
   margin-bottom: 40px; }
 
+.opinion:last-of-type {
+  margin-bottom: 0; }
+
 @media only screen and (min-width: 750px) {
   .opinion {
     flex-direction: row; }
