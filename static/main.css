@@ -188,6 +188,13 @@ a:hover {
 @media only screen and (min-width: 1200px) {
   .l-section--projects {
     background-size: auto; } }
+/* >> l-section--footer -------------------------------------------------- */
+.l-section--footer {
+  flex-direction: column-reverse; }
+
+@media only screen and (min-width: 700px) {
+  .l-section--footer {
+    flex-direction: row; } }
 /* >> l-section--shade -------------------------------------------------- */
 .l-section--background_light {
   background-color: #f9f9f9; }
@@ -754,8 +761,7 @@ a:hover {
 .socials__icons {
   display: flex;
   flex-direction: row;
-  margin: 20px;
-  margin-top: 0; }
+  margin: 20px; }
 
 /* __ socials__icon -------------------------------------------------- */
 .socials__icon {
