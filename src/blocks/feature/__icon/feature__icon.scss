@@ -1,5 +1,11 @@
 .feature__icon {
+    padding-bottom: 15px;
+}
+
+@include respond(1024px) {
+    .feature__icon {
     padding-bottom: 30px;
+}
 }
 
 .l-section--background_dark .feature__icon {

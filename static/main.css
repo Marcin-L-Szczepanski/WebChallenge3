@@ -551,8 +551,11 @@ a:hover {
 
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {
-  padding-bottom: 30px; }
+  padding-bottom: 15px; }
 
+@media only screen and (min-width: 1024px) {
+  .feature__icon {
+    padding-bottom: 30px; } }
 .l-section--background_dark .feature__icon {
   width: 40px;
   display: flex;
@@ -585,10 +588,14 @@ a:hover {
   font-size: 18px;
   text-transform: uppercase;
   color: #222222;
-  margin-bottom: 15px; }
+  margin-bottom: 5px; }
 
+@media only screen and (min-width: 1024px) {
+  .feature__title {
+    margin-bottom: 15px; } }
 .l-section--background_dark .feature__title {
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 15px; }
 
 /* __>> feature__title--lowercase -------------------------------------------------- */
 .feature__title--lowercase {
