@@ -204,7 +204,7 @@ a:hover {
 .l-section__content-wrapper {
   width: 90%;
   max-width: 940px;
-  margin: 60px auto;
+  margin: 100px auto;
   z-index: 1; }
 
 .l-section--offer .l-section__content-wrapper {
@@ -253,6 +253,10 @@ a:hover {
 @media all and (min-width: 1367px) {
   .l-section--offer .l-section__content-wrapper {
     background-attachment: fixed; } }
+/* __ l-section__content-wrapper--small-margin -------------------------------------------------- */
+.l-section__content-wrapper--small-margin {
+  margin: 60px auto; }
+
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
   width: 100%;
