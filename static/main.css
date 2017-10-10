@@ -204,7 +204,7 @@ a:hover {
 .l-section__content-wrapper {
   width: 90%;
   max-width: 940px;
-  margin: 50px auto;
+  margin: 60px auto;
   z-index: 1; }
 
 .l-section--offer .l-section__content-wrapper {
@@ -537,7 +537,7 @@ a:hover {
 
 /* __ feature__icon -------------------------------------------------- */
 .feature__icon {
-  padding-bottom: 15px; }
+  padding-bottom: 30px; }
 
 .l-section--background_dark .feature__icon {
   width: 40px;
@@ -570,11 +570,11 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  color: #222222; }
+  color: #222222;
+  margin-bottom: 15px; }
 
 .l-section--background_dark .feature__title {
-  color: #ffffff;
-  margin-bottom: 15px; }
+  color: #ffffff; }
 
 /* __>> feature__title--lowercase -------------------------------------------------- */
 .feature__title--lowercase {
