@@ -337,13 +337,11 @@ a:hover {
 /* logo  ---------------------------------------------------- */
 .logo {
   display: flex;
-  height: 28px;
-  margin-left: 20px;
-  align-items: center; }
-
-.logo:hover .logo__text {
-  text-decoration: none;
-  color: #222222; }
+  align-items: center;
+  height: 28px; }
+  .logo:hover .logo__text {
+    text-decoration: none;
+    color: #222222; }
 
 /* __ logo__text -------------------------------------------------- */
 .logo__text {
