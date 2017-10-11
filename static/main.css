@@ -436,7 +436,7 @@ a:hover {
   font-size: 40px;
   color: #222222;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px; }
   @media only all and (max-width: 360px) {
     .heading__title {
