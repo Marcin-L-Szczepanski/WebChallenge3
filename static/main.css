@@ -260,12 +260,25 @@ a:hover {
     top: 0;
     left: -200px;
     z-index: -100; } }
-@media all and (min-width: 1367px) {
+@media only screen and (min-width: 1367px) {
   .l-section--offer .l-section__content-wrapper {
     background-attachment: fixed; } }
+.l-section--footer .l-section__content-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; }
+  @media only screen and (min-width: 1024px) {
+    .l-section--footer .l-section__content-wrapper {
+      position: relative;
+      flex-direction: row; } }
+
 /* __ l-section__content-wrapper--small-margin -------------------------------------------------- */
-.l-section__content-wrapper--small-margin {
+.l-section__content-wrapper--margin-small {
   margin: 60px auto; }
+
+/* __ l-section__content-wrapper--xsmall-margin -------------------------------------------------- */
+.l-section__content-wrapper--margin-xsmall {
+  margin: 40px auto; }
 
 /* l-features-wrapper ---------------------------------------------------- */
 .l-features-wrapper {
@@ -279,8 +292,11 @@ a:hover {
   .l-features-wrapper {
     flex-direction: row;
     width: 100%;
-    max-width: 940px;
-    height: 180px; } }
+    max-width: 940px; } }
+/* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
+@media all and (min-width: 1024px) {
+  .l-features-wrapper--top-aligned {
+    align-items: flex-start; } }
 /*\
 ***
 \*/
@@ -764,14 +780,16 @@ a:hover {
 
 /* socials ---------------------------------------------------- */
 /* __ socials__copyright -------------------------------------------------- */
-.socials__copyright {
-  margin: 20px; }
-
 /* __ socials__icons -------------------------------------------------- */
 .socials__icons {
   display: flex;
   flex-direction: row;
-  margin: 20px; }
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 1024px) {
+    .socials__icons {
+      position: absolute;
+      left: calc(50% - 100px);
+      margin: 0; } }
 
 /* __ socials__icon -------------------------------------------------- */
 .socials__icon {

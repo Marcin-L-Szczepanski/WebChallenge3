@@ -1,5 +1,12 @@
 .socials__icons {
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin-bottom: 20px;
+
+
+    @include respond(1024px) {
+        position: absolute;
+        left: calc(50% - 100px);
+        margin: 0;
+    }
 }

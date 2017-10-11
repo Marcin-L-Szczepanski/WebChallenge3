@@ -52,9 +52,13 @@
 /* __ l-section__content-wrapper -------------------------------------------------- */
     @import "layout/l-section/__content-wrapper/l-section__content-wrapper.scss"; 
 /* __ l-section__content-wrapper--small-margin -------------------------------------------------- */
-    @import "layout/l-section/__content-wrapper/--small-margin/l-section__content-wrapper--small-margin.scss"; 
+    @import "layout/l-section/__content-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss"; 
+/* __ l-section__content-wrapper--xsmall-margin -------------------------------------------------- */
+    @import "layout/l-section/__content-wrapper/--margin-xsmall/l-section__content-wrapper--margin-xsmall.scss"; 
 /* l-features-wrapper ---------------------------------------------------- */
 @import "layout/l-features-wrapper/l-features-wrapper.scss"; 
+/* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
+    @import "layout/l-features-wrapper/--top-aligned/l-features-wrapper--top-aligned.scss"; 
 /*\
 ***
 \*/
