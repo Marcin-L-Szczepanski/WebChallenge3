@@ -92,7 +92,7 @@ a:hover {
   -o-transition: opacity .35s ease;
   transition: opacity .35s ease; }
 
-.dot {
+.preloader__dot {
   width: 20px;
   height: 20px;
   margin: 0 10px;
@@ -101,11 +101,11 @@ a:hover {
   -webkit-animation: show-hide 1s ease infinite;
   animation: show-hide 1s ease infinite; }
 
-.dot:nth-child(2) {
+.preloader__dot:nth-child(2) {
   -webkit-animation-delay: 300ms;
   animation-delay: 300ms; }
 
-.dot:nth-child(3) {
+.preloader__dot:nth-child(3) {
   -webkit-animation-delay: 600ms;
   animation-delay: 600ms; }
 
@@ -129,10 +129,10 @@ a:hover {
     opacity: 1; }
   100% {
     opacity: 0; } }
-.preloader__hiding {
+.preloader--hiding {
   opacity: 0; }
 
-.preloader__hidden {
+.preloader--hidden {
   display: none; }
 
 /************************************************************************\
