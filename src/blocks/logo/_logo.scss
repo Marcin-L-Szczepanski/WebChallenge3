@@ -1,0 +1,57 @@
+// Block // 
+.logo {
+    @include flexbox(center, center);
+
+    height: 28px;
+
+    &:hover &__text {
+        text-decoration: none;
+        color: $grey-lvl8;
+    }
+
+    
+// Element //
+    &__pic {
+        position: relative;
+
+        display: inline-block;
+
+        width: 28px;
+        height: 28px;
+        margin-right: 4px;
+        
+        &::before {
+            position: absolute;
+            z-index: -10;
+            top: 0;
+            left: 0;
+
+            width: 28px;
+            height: 28px;
+
+            content: '';
+
+            border-radius: 50%;
+            background-color: $green;
+        }
+
+        & img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            @include translate(-50%, -50%);
+        }    
+    }
+    
+// Element //
+    &__text {
+    font-family: $font-second;
+    font-size: $font-size-s;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: $grey-lvl7;
+    }
+}
