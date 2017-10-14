@@ -25,6 +25,12 @@
     background: $color1 linear-gradient(to $direction, $color1, $color2);
 }
 
+// Box shadow //
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+       -moz-box-shadow: $top $left $blur $color;
+            box-shadow: $top $left $blur $color;
+}
 
 // Animation //
 @mixin animation($name, $duration, $timing-function, $iteration) {

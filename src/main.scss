@@ -73,19 +73,10 @@
 /* __ header__wrapper -------------------------------------------------- */
         @import "blocks/header/__wrapper/header__wrapper.scss"; 
 /* logo  ---------------------------------------------------- */
-    @import "blocks/logo/logo.scss"; 
+    @import "blocks/logo/logo"; 
 
 /* menu  ---------------------------------------------------- */
-/* __ menu__list -------------------------------------------------- */
-        @import "blocks/menu/__list/menu__list.scss"; 
-/* __>> menu__list--open -------------------------------------------------- */
-        @import "blocks/menu/__list/--open/menu__list--open.scss"; 
-/* __ menu__item -------------------------------------------------- */
-        @import "blocks/menu/__item/menu__item.scss"; 
-/* __ menu__link -------------------------------------------------- */
-        @import "blocks/menu/__link/menu__link.scss"; 
-/* __ menu__link -------------------------------------------------- */
-        @import "blocks/menu/__button/menu__button.scss"; 
+    @import "blocks/menu/menu"; 
 
 
 /* heading  ---------------------------------------------------- */
