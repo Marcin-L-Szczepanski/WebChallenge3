@@ -817,26 +817,25 @@ a:hover {
 
 /* button  ---------------------------------------------------- */
 .button {
-  background-color: #7cc576;
   height: 60px;
+  padding: 0 35px;
   border: none;
+  border-radius: 45px;
   position: relative;
+  background-color: #7cc576;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  color: #ffffff;
   font-weight: 100;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   letter-spacing: -1px;
   cursor: pointer;
-  z-index: 3;
-  border-radius: 45px;
-  padding: 0 35px; }
-
-.button:hover {
-  background-color: #ffffff;
-  color: #222222;
-  text-shadow: none; }
+  z-index: 3; }
+  .button:hover {
+    background-color: #ffffff;
+    color: #222222;
+    text-shadow: none; }
 
 /* __ button--transparent -------------------------------------------------- */
 .button--transparent {

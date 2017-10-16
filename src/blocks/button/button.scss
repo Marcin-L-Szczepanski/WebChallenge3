@@ -1,23 +1,24 @@
 .button {
-    background-color: $green;
-    height: 60px;
-    border: none;
-    position: relative;
-    font-family: $font-second;
-    font-size: $font-size-xs;
-    text-transform: uppercase;
-    color: $grey-lvl1;
-    font-weight: 100;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
-    letter-spacing: -1px;
-    cursor: pointer;
-    z-index: 3;
-    border-radius: 45px;
-    padding: 0 35px;
-}
-
-.button:hover {
+  height: 60px;
+  padding: 0 35px;
+  border: none;
+  border-radius: 45px;
+  position: relative;
+  
+  background-color: $color-main;
+  color: $grey-lvl1;
+  font-family: $font-second;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+  letter-spacing: -1px;
+  cursor: pointer;
+  z-index: 3;
+  
+  &:hover {
     background-color: $grey-lvl1;
     color: $grey-lvl8;
     text-shadow: none;
+  }
 }
