@@ -32,8 +32,13 @@
       }
   }
    
+  
   &--menu {
+    &:hover .button__icon {
+      stroke: $grey-lvl8;
+    }
 
+// Write nice mixin for media query
 @media only screen and (max-width: 640px) and (orientation: landscape)
 {
     height: 35px;       
@@ -42,9 +47,33 @@
 @include respond(640px) {
     display: none;
 }
-
 }
 
+  &--open {
+    .button__icon--open {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    .button__icon--close line {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 300ms linear;
+    }
+}
+
+  &--close {
+    .button__icon--open {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+    .button__icon--close line {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 300ms linear;
+    }
+}
+  
+  
   &__icon {
     stroke: $grey-lvl6;
     stroke-width: 3;
@@ -53,38 +82,8 @@
     fill: none;
     transition: all 300ms linear;
     
-    &:hover {
-      stroke: $grey-lvl8;
-    }
   }
   
-  
-  &--open {
-    .icon__open {
-        transform: translateY(-40px);
-        opacity: 0;
-        transition: all 300ms linear;
-        
-    }
-    .icon__close line {
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 300ms linear;
-    }
-}
-
-.button--close {
-    .icon__open {
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 300ms linear;   
-    }
-    .icon__close line {
-        opacity: 0;
-        transform: translateY(40px);
-        transition: all 300ms linear;
-    }
-}
   
   
   &--secondary {
