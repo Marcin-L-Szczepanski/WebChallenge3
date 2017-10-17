@@ -835,20 +835,21 @@ a:hover {
     color: #7cc576; }
   .button--dark {
     border-color: #777777;
-    color: #777777;
-    display: flex;
-    align-items: center; }
+    color: #777777; }
     .button--dark:hover {
       color: #222222;
       border-color: #222222; }
-  .button--menu:hover .button__icon {
-    stroke: #222222; }
-  @media only screen and (max-width: 640px) and (orientation: landscape) {
-    .button--menu {
-      height: 35px; } }
-  @media only screen and (min-width: 640px) {
-    .button--menu {
-      display: none; } }
+  .button--menu {
+    display: flex;
+    align-items: center; }
+    .button--menu:hover .button__icon {
+      stroke: #222222; }
+    @media only screen and (max-width: 640px) and (orientation: landscape) {
+      .button--menu {
+        height: 35px; } }
+    @media only screen and (min-width: 640px) {
+      .button--menu {
+        display: none; } }
   .button__icon-container {
     margin-left: 5px; }
   .button__icon {
