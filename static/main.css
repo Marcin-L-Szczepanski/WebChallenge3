@@ -818,7 +818,7 @@ a:hover {
 /* button  ---------------------------------------------------- */
 .button {
   background-color: transparent;
-  height: 35px;
+  height: 50px;
   padding: 0 30px;
   border: 2px solid #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -842,6 +842,7 @@ a:hover {
   .button--menu {
     display: flex;
     align-items: center;
+    height: 35px;
     padding: 0 10px; }
     .button--menu:hover .button__icon {
       stroke: #222222; }
