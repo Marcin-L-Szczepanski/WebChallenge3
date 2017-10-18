@@ -1,0 +1,20 @@
+// Media Queries //
+// Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
+
+
+// Small screen size (--small-screen)
+@media only screen and (min-width: 370px) {
+  @include button--menu--small-screen;
+}
+
+// Large screen size (--large-screen)
+@media only screen and (min-width: 640px) {
+  @include button--menu--large-screen;
+}
+
+// Portrait orientation
+@media only screen and (min-width: 640px), (orientation: portrait) {
+  @include button--menu--potrait;
+}
+
+

@@ -1,9 +1,11 @@
-// Media Queries //
-@mixin respond($query) {
-    @media only screen and (min-width: $query) {
-        @content
+// To deletion 
+@mixin respond($query) { 
+  @media only screen and (min-width: $query) {
+       @content
     }
 }
+
+
 
 // Flexbox //
 @mixin flexbox($justify-content, $align-items) {
