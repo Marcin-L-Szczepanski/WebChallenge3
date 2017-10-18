@@ -19,9 +19,9 @@
 
 
 /* variables  ---------------------------------------------------- */
-@import "variables/variables.scss"; 
+@import "variables/variables"; 
 /* mixins  ---------------------------------------------------- */
-@import "mixins/mixins.scss"; 
+@import "mixins/mixins"; 
 /* global  ---------------------------------------------------- */
 @import "global/global.scss"; 
 /* preloader  ---------------------------------------------------- */
@@ -182,3 +182,6 @@
 /*\
 ***
 \*/
+
+/* media-queries  ---------------------------------------------------- */
+@import "layout/media-queries"; 

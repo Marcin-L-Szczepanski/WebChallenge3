@@ -1,6 +1,6 @@
 .button {
   background-color: transparent;
-  height: 50px;
+  height: 35px;
   padding: 0 30px;
   border: 2px solid $grey-lvl1; 
   font-family: $font-second;
@@ -32,22 +32,14 @@
   &--menu {
     display: flex;
     align-items: center;
+    padding: 0 10px;
     
     &:hover .button__icon {
       stroke: $grey-lvl8;
     }
-
-// Write nice mixin for media query
-@media only screen and (max-width: 640px) and (orientation: landscape)
-{
-    height: 35px;       
-}
-
-@include respond(640px) {
-    display: none;
-}
-}
-
+  }
+  
+  
   &__icon-container {
     margin-left: 5px;
   }
@@ -107,5 +99,22 @@
       color: $grey-lvl8;
       text-shadow: none;
     }
+  }
+}
+
+// Media queries
+@mixin button--menu--small-screen {
+  .button--menu {
+    padding: 0 30px;
+  }
+}
+@mixin button--menu--large-screen {
+    .button--menu {
+      display: none;
+    }
+  }
+@mixin button--menu--potrait {
+  .button--menu {
+    height: 50px;
   }
 }
