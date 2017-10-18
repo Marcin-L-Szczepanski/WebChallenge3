@@ -12,7 +12,6 @@
   border-radius: 7px;
   transition: all 300ms ease-in;
   z-index: 3;
-
   &:hover {
     background-color: $grey-lvl1;
     color: $color-main;
@@ -21,24 +20,20 @@
   &--dark {
       border-color: $grey-lvl6;
       color: $grey-lvl6;
-
       &:hover {
           color: $grey-lvl8;
           border-color: $grey-lvl8;
       }
   }
    
-  
   &--menu {
     display: flex;
     align-items: center;
     padding: 0 10px;
-    
     &:hover .button__icon {
       stroke: $grey-lvl8;
     }
   }
-  
   
   &__icon-container {
     margin-left: 5px;
@@ -52,7 +47,6 @@
     stroke-linecap: butt;
     fill: none;
     transition: all 300ms linear;
-    
   }
 
 // Icon inside button (humburger or cross) depends on 
@@ -90,11 +84,9 @@
     padding: 0 35px;
     border: none;
     border-radius: 45px;
-
     font-size: $font-size-xs;
     color: $grey-lvl1;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
-    
     &:hover {
       color: $grey-lvl8;
       text-shadow: none;
