@@ -140,17 +140,7 @@
 
 
 /* opinion ---------------------------------------------------- */
-    @import "blocks/opinion/opinion.scss"; 
-/* __ opinion__picture-background -------------------------------------------------- */
-        @import "blocks/opinion/__picture-background/opinion__picture-background.scss";
-/* __ opinion__picture -------------------------------------------------- */
-        @import "blocks/opinion/__picture/opinion__picture.scss";
-/* __ opinion__quotation -------------------------------------------------- */
-        @import "blocks/opinion/__quotation/opinion__quotation.scss";
-/* __ opinion__text -------------------------------------------------- */
-        @import "blocks/opinion/__text/opinion__text.scss";
-/* __ opinion__author -------------------------------------------------- */
-        @import "blocks/opinion/__author/opinion__author.scss";
+    @import "blocks/opinion/opinion"; 
 
 /* partners ---------------------------------------------------- */
     @import "blocks/partners/partners.scss"; 
