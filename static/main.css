@@ -668,16 +668,9 @@ a:hover {
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px; }
+  .opinion :last-of-type {
+    margin-bottom: 0; }
 
-.opinion:last-of-type {
-  margin-bottom: 0; }
-
-@media only screen and (min-width: 750px) {
-  .opinion {
-    flex-direction: row; }
-
-  .opinion:nth-child(even) {
-    flex-direction: row-reverse; } }
 /* __ opinion__picture-background -------------------------------------------------- */
 .opinion__picture-background {
   width: 220px;
@@ -898,5 +891,11 @@ a:hover {
   .menu__list--open {
     top: 80px;
     height: 300px; } }
+@media only screen and (min-width: 750px) {
+  .opinion {
+    flex-direction: row; }
+
+  .opinion:nth-child(even) {
+    flex-direction: row-reverse; } }
 
 /*# sourceMappingURL=main.css.map */
