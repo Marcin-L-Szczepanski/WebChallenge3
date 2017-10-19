@@ -7,10 +7,10 @@
   @include button--menu--small-screen;
 }
 
-// Large screen size (--large-screen)
+// Large screen size (--medium-screen)
 @media only screen and (min-width: 640px) {
-  @include button--menu--large-screen;
-  @include menu__list--large-screen;
+  @include button--menu--medium-screen;
+  @include menu__list--medium-screen;
 }
 
 // Portrait orientation
