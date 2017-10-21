@@ -5,6 +5,10 @@
  //   margin-top: 50px;
     width: 290px;
   
+  &__text {
+    margin-left: 15px;
+    text-align: left;
+  }
   
   &__title {
     font-family: $font-second;
@@ -15,6 +19,19 @@
     
     &--lowercase {
       text-transform: capitalize;
+    }
+  }
+  
+  &__description {
+    font-size: 14px;
+    line-height: 1.5;
+    
+    &--small {
+      font-size: 12px;
+    }
+    
+    &--hashtag {
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L";
     }
   }
   
@@ -79,12 +96,35 @@
 
 
 
-
+  
+.l-section--background_dark .feature {
+    align-items: flex-start;
+}
 
 .l-section--background_dark .feature__title {
     color: $grey-lvl1;
     margin-bottom: 15px;
 }
+
+.l-section--background_dark .feature__description {
+    color: $grey-lvl2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 7px;
+}
+
+.l-section--background_dark .feature__icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-right: 10px;
+}
+
+
 
 .feature:first-child {
    // margin-top: 0;
@@ -106,10 +146,7 @@
     margin-bottom: 15px;
 }
   
-  
-.l-section--background_dark .feature {
-    align-items: flex-start;
-}
+
 }
 
 
@@ -119,11 +156,8 @@
 }
 }
 
-.l-section--background_dark .feature__icon {
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0;
-    padding-right: 10px;
-}
+
+@media only all and (max-width: 360px) {
+        //description 
+      font-size: 11px;
+    }
