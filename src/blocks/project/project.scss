@@ -1,5 +1,27 @@
 .project {
+  text-align: left;
+  width: 100%;
+  max-width: 470px;
+
+  &__title {
+    font-size: 18px;
     text-align: left;
-    width: 100%;
-    max-width: 470px;
+  }
+  
+  &__description {
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  &__features {
+    text-align: left;
+  }
+  
+  &__link {
+    font-family: $font-second;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
 }

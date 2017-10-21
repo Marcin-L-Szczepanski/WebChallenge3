@@ -89,14 +89,10 @@
         @import "blocks/heading/__title/--white/heading__title--white.scss";   
 /* __>> heading__title--large -------------------------------------------------- */
         @import "blocks/heading/__title/--large/heading__title--large.scss";   
-/* __>> heading__title--subheading -------------------------------------------------- */
-        @import "blocks/heading/__title/--subheading/heading__title--subheading.scss";  
 /* __ heading__subtitle -------------------------------------------------- */
         @import "blocks/heading/__subtitle/heading__subtitle.scss";    
 /* __>> heading__subtitle--small -------------------------------------------------- */
-        @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";  
-/* __>> heading__subtitle--subheading -------------------------------------------------- */
-        @import "blocks/heading/__subtitle/--subheading/heading__subtitle--subheading.scss";  
+        @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";   
 /* project --------------------------------------------------------- */
     @import "blocks/project/project.scss";  
 /* >> project__features --------------------------------------------------------- */
@@ -106,12 +102,7 @@
 
 /* feature --------------------------------------------------------- */
     @import "blocks/feature/feature.scss";  
-/* __ feature__icon-circle -------------------------------------------------- */
-        @import "blocks/feature/__icon-circle/feature__icon-circle.scss";  
-/* __>> feature__icon-circle--black -------------------------------------------------- */
-            @import "blocks/feature/__icon-circle/--black/feature__icon-circle--black.scss";
-/* __>> feature__icon-circle--last -------------------------------------------------- */
-            @import "blocks/feature/__icon-circle/--last/feature__icon-circle--last.scss";
+
 /* __ feature__icon -------------------------------------------------- */
         @import "blocks/feature/__icon/feature__icon.scss";  
 /* __>> feature__icon--top -------------------------------------------------- */
@@ -120,10 +111,6 @@
         @import "blocks/feature/__svg/feature__svg.scss";  
 /* __ feature__text -------------------------------------------------- */
         @import "blocks/feature/__text/feature__text.scss";   
-/* __ feature__title -------------------------------------------------- */
-        @import "blocks/feature/__title/feature__title.scss";  
-/* __>> feature__title--lowercase -------------------------------------------------- */
-        @import "blocks/feature/__title/--lowercase/feature__title--lowercase.scss";  
 /* __ feature__description -------------------------------------------------- */
         @import "blocks/feature/__description/feature__description.scss";
 /* __>> feature__description--small -------------------------------------------------- */
