@@ -11,7 +11,7 @@
     width: 220px;
     height: 220px;
     background-color: $grey-lvl2;
- //   border-radius: 50%;
+    border-radius: 50%;
     margin: 0 45px 45px 45px;      
     @include flexbox(center, center);
   }
@@ -19,7 +19,7 @@
   &__picture {
     width: 90%;
     height: 90%;
-  //  border-radius: 50%;
+    border-radius: 50%;
   }
   
   &__quotation {

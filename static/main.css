@@ -674,6 +674,7 @@ a:hover {
     width: 220px;
     height: 220px;
     background-color: #f9f9f9;
+    border-radius: 50%;
     margin: 0 45px 45px 45px;
     display: -webkit-box;
     display: -moz-box;
@@ -688,7 +689,8 @@ a:hover {
     align-items: center; }
   .opinion__picture {
     width: 90%;
-    height: 90%; }
+    height: 90%;
+    border-radius: 50%; }
   .opinion__quotation {
     background-color: #f9f9f9;
     padding: 40px;
@@ -723,11 +725,9 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
-
-/* __ partners__logo -------------------------------------------------- */
-.partners__logo {
-  padding: 20px;
-  width: 100%; }
+  .partners__logo {
+    padding: 20px;
+    width: 100%; }
 
 /* socials ---------------------------------------------------- */
 /* __ socials__copyright -------------------------------------------------- */

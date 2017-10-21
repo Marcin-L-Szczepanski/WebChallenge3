@@ -1,0 +1,10 @@
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__logo {
+    padding: 20px;
+    width: 100%;
+  }
+}
