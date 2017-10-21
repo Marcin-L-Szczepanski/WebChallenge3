@@ -730,47 +730,32 @@ a:hover {
     width: 100%; }
 
 /* socials ---------------------------------------------------- */
-/* __ socials__copyright -------------------------------------------------- */
-/* __ socials__icons -------------------------------------------------- */
-.socials__icons {
+.socials {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px; }
-  @media only screen and (min-width: 1024px) {
-    .socials__icons {
-      position: absolute;
-      left: calc(50% - 100px);
-      margin: 0; } }
+  .socials__icon {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    transition: background-color 150ms linear; }
+    .socials__icon--facebook:hover {
+      background-color: #3b5998; }
+    .socials__icon--google:hover {
+      background-color: #da2713; }
+    .socials__icon--pinterest:hover {
+      background-color: #cb2028; }
+    .socials__icon--twitter:hover {
+      background-color: #00aced; }
 
-/* __ socials__icon -------------------------------------------------- */
-.socials__icon {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  margin: 5px;
-  transition: background-color 150ms linear; }
-
-/* __>> socials__icon--twitter -------------------------------------------------- */
-.socials__icon--twitter:hover {
-  background-color: #00aced; }
-
-/* __>> socials__icon--facebook -------------------------------------------------- */
-.socials__icon--facebook:hover {
-  background-color: #3b5998; }
-
-/* __>> socials__icon--pinterest -------------------------------------------------- */
-.socials__icon--pinterest:hover {
-  background-color: #cb2028; }
-
-/* __>> socials__icon--google -------------------------------------------------- */
-.socials__icon--google:hover {
-  background-color: #da2713; }
-
+/* __ socials__copyright -------------------------------------------------- */
+/* __ socials__icons -------------------------------------------------- */
 /* button  ---------------------------------------------------- */
 .button {
   background-color: transparent;
@@ -885,5 +870,10 @@ a:hover {
     .opinion__quotation:nth-child(even) .opinion__quotation::before {
       left: 100%;
       transform: scaleX(-1); } }
+@media only screen and (min-width: 1024px) {
+  .socials {
+    position: absolute;
+    left: calc(50% - 100px);
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */

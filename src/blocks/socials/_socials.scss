@@ -1,0 +1,40 @@
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  &__icon {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    transition: background-color 150ms linear;
+    
+    &--facebook:hover {
+      background-color: #3b5998;
+    }
+    &--google:hover {
+      background-color: #da2713;
+    }
+    &--pinterest:hover {
+      background-color: #cb2028;
+    }
+    &--twitter:hover {
+      background-color: #00aced;
+    }
+  }
+}
+
+// Media queries
+@mixin socials--xlarge-screen {
+  .socials {
+    position: absolute;
+    left: calc(50% - 100px);
+    margin: 0;
+  }
+}

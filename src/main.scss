@@ -146,21 +146,10 @@
     @import "blocks/partners/partners"; 
 
 /* socials ---------------------------------------------------- */
-   // @import "blocks/socials/socials.scss"; 
+    @import "blocks/socials/socials"; 
 /* __ socials__copyright -------------------------------------------------- */
-        @import "blocks/socials/__copyright/socials__copyright.scss";
+    //    @import "blocks/socials/__copyright/socials__copyright.scss";
 /* __ socials__icons -------------------------------------------------- */
-        @import "blocks/socials/__icons/socials__icons.scss";
-/* __ socials__icon -------------------------------------------------- */
-        @import "blocks/socials/__icon/socials__icon.scss";
-/* __>> socials__icon--twitter -------------------------------------------------- */
-        @import "blocks/socials/__icon/--twitter/socials__icon--twitter.scss";
-/* __>> socials__icon--facebook -------------------------------------------------- */
-        @import "blocks/socials/__icon/--facebook/socials__icon--facebook.scss";
-/* __>> socials__icon--pinterest -------------------------------------------------- */
-        @import "blocks/socials/__icon/--pinterest/socials__icon--pinterest.scss";
-/* __>> socials__icon--google -------------------------------------------------- */
-        @import "blocks/socials/__icon/--google/socials__icon--google.scss";
 
 /* button  ---------------------------------------------------- */
     @import "blocks/button/button.scss";  
