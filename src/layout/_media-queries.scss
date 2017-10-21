@@ -22,11 +22,10 @@
 // Large screen size (--large-screen)
 @media only screen and (min-width: 750px) {
   @include opinion--large-screen;
-  @include opinion__picture-background--large-screen;
-  @include opinion__quotation--large-screen;
 }
 
 // X-large screen size (--xlarge-screen)
 @media only screen and (min-width: 1024px) {
+  //@include 
   @include socials--xlarge-screen;
 }

@@ -12,7 +12,7 @@
   
   &__title {
     font-family: $font-second;
-    font-size: 18px;
+    font-size: $font-size-s;
     text-transform: uppercase;
     color: $grey-lvl8;
     margin-bottom: 5px; 
@@ -101,6 +101,8 @@
 
 
 
+
+
 .feature:first-child {
    // margin-top: 0;
 }
@@ -120,9 +122,14 @@
     .feature__title {
     margin-bottom: 15px;
 }
-  
-
 }
+
+
+
+@media only all and (max-width: 360px) {
+        //description 
+      font-size: 11px;
+    }
 
 
 @include respond(1024px) {
@@ -130,9 +137,3 @@
     padding-bottom: 30px;
 }
 }
-
-
-@media only all and (max-width: 360px) {
-        //description 
-      font-size: 11px;
-    }

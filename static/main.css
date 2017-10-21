@@ -482,15 +482,7 @@ a:hover {
     font-weight: 600; }
 
 /* >> project__features --------------------------------------------------------- */
-.project__features {
-  text-align: left; }
-
 /* >> project__link --------------------------------------------------------- */
-.project__link {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600; }
-
 /* feature --------------------------------------------------------- */
 .feature, .items-list {
   display: flex;
@@ -564,11 +556,11 @@ a:hover {
 @media only screen and (min-width: 1024px) {
   .feature__title, .items-list__title {
     margin-bottom: 15px; } }
+@media only all and (max-width: 360px) {
+  font-size: 11px; }
 @media only screen and (min-width: 1024px) {
   .feature__icon {
     padding-bottom: 30px; } }
-@media only all and (max-width: 360px) {
-  font-size: 11px; }
 /* list ---------------------------------------------------- */
 .list {
   list-style-type: none; }
@@ -802,25 +794,23 @@ a:hover {
     flex-direction: row; }
     .opinion:nth-child(even) {
       flex-direction: row-reverse; }
-
-  .opinion__picture-background {
-    margin: 0;
-    width: 100%;
-    max-width: 220px; }
-
-  .opinion__quotation {
-    margin-left: 30px;
-    margin-right: 30px; }
-    .opinion__quotation::before {
-      top: calc(50% - 13px);
-      left: -23px;
-      border-right: 23px solid #f9f9f9;
-      border-top: 13px solid transparent;
-      border-bottom: 13px solid transparent;
-      border-left: none; }
-    .opinion__quotation:nth-child(even) .opinion__quotation::before {
-      left: 100%;
-      transform: scaleX(-1); } }
+    .opinion__picture-background {
+      margin: 0;
+      width: 100%;
+      max-width: 220px; }
+    .opinion__quotation {
+      margin-left: 30px;
+      margin-right: 30px; }
+      .opinion__quotation::before {
+        top: calc(50% - 13px);
+        left: -23px;
+        border-right: 23px solid #f9f9f9;
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: none; }
+      .opinion__quotation:nth-child(even) .opinion__quotation::before {
+        left: 100%;
+        transform: scaleX(-1); } }
 @media only screen and (min-width: 1024px) {
   .socials {
     position: absolute;
