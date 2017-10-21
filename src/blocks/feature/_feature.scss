@@ -25,14 +25,6 @@
   &__description {
     font-size: 14px;
     line-height: 1.5;
-    
-    &--small {
-      font-size: 12px;
-    }
-    
-    &--hashtag {
-      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L";
-    }
   }
   
   &__icon-circle {
@@ -62,11 +54,6 @@
   
   &__icon {
     padding-bottom: 15px;
-    
-    &--top {
-      align-self: flex-start;
-      padding-top: 3px;
-    }
   }
   
   &__svg {  
@@ -111,36 +98,6 @@
 }
 
 
-
-
-
-  
-.l-section--background_dark .feature {
-    align-items: flex-start;
-}
-
-.l-section--background_dark .feature__title {
-    color: $grey-lvl1;
-    margin-bottom: 15px;
-}
-
-.l-section--background_dark .feature__description {
-    color: $grey-lvl2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin: 7px;
-}
-
-.l-section--background_dark .feature__icon {
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0;
-    padding-right: 10px;
-}
 
 
 

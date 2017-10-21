@@ -492,7 +492,7 @@ a:hover {
   font-weight: 600; }
 
 /* feature --------------------------------------------------------- */
-.feature {
+.feature, .items-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -500,7 +500,7 @@ a:hover {
   .feature__text {
     margin-left: 15px;
     text-align: left; }
-  .feature__title {
+  .feature__title, .items-list__title {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
@@ -508,13 +508,9 @@ a:hover {
     margin-bottom: 5px; }
     .feature__title--lowercase {
       text-transform: capitalize; }
-  .feature__description {
+  .feature__description, .items-list__description {
     font-size: 14px;
     line-height: 1.5; }
-    .feature__description--small {
-      font-size: 12px; }
-    .feature__description--hashtag {
-      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L"; }
   .feature__icon-circle {
     margin: 0 auto 0 auto;
     display: flex;
@@ -538,9 +534,6 @@ a:hover {
       position: relative; }
   .feature__icon {
     padding-bottom: 15px; }
-    .feature__icon--top {
-      align-self: flex-start;
-      padding-top: 3px; }
   .feature__svg {
     transition: transform 150ms ease-in; }
   .feature--inline {
@@ -556,7 +549,7 @@ a:hover {
       margin-bottom: 15px; }
     .feature--inline .feature__icon {
       padding: 0; }
-  .feature:hover .feature__icon-circle--resizing, .feature:hover .feature__svg {
+  .feature:hover .feature__icon-circle--resizing, .items-list:hover .feature__icon-circle--resizing, .feature:hover .feature__svg, .items-list:hover .feature__svg {
     transform: scale(1.2); }
 
 @media all and (min-width: 1024px) {
@@ -568,31 +561,8 @@ a:hover {
     left: 115px;
     border-bottom: 2.5px solid #777777;
     display: inline; } }
-.l-section--background_dark .feature {
-  align-items: flex-start; }
-
-.l-section--background_dark .feature__title {
-  color: #ffffff;
-  margin-bottom: 15px; }
-
-.l-section--background_dark .feature__description {
-  color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  margin: 7px; }
-
-.l-section--background_dark .feature__icon {
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0;
-  padding-right: 10px; }
-
 @media only screen and (min-width: 1024px) {
-  .feature__title {
+  .feature__title, .items-list__title {
     margin-bottom: 15px; } }
 @media only screen and (min-width: 1024px) {
   .feature__icon {
@@ -681,6 +651,34 @@ a:hover {
   .partners__logo {
     padding: 20px;
     width: 100%; }
+
+/* items-list --------------------------------------------------------- */
+.items-list {
+  align-items: flex-start; }
+  .items-list__title {
+    color: #ffffff;
+    margin-bottom: 15px; }
+  .items-list__description {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 7px; }
+    .items-list__description--small {
+      font-size: 12px; }
+    .items-list__description--hashtag {
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L"; }
+  .items-list__icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-right: 10px; }
+    .items-list__icon--top {
+      align-self: flex-start;
+      padding-top: 3px; }
 
 /* socials ---------------------------------------------------- */
 .socials {

@@ -1,0 +1,43 @@
+.items-list {
+  @extend .feature;
+  align-items: flex-start;
+
+  &__title {
+    @extend .feature__title;
+    color: $grey-lvl1;
+    margin-bottom: 15px;
+  }
+  
+  &__description {
+    @extend .feature__description;
+    color: $grey-lvl2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 7px;
+    
+    &--small {
+      font-size: 12px;
+    }
+    
+    &--hashtag {
+      font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L";
+    }
+  }
+
+  &__icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-right: 10px;
+    
+    &--top {
+      align-self: flex-start;
+      padding-top: 3px;
+    }
+  }
+}
+
