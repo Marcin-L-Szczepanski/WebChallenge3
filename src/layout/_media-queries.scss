@@ -24,8 +24,8 @@
   @include opinion--large-screen;
 }
 
-// X-large screen size (--xlarge-screen)
+// X-large screen size (--x-large-screen)
 @media only screen and (min-width: 1024px) {
-  //@include 
-  @include socials--xlarge-screen;
+  @include feature--x-large-screen;
+  @include socials--x-large-screen;
 }
