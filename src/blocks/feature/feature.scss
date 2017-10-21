@@ -72,6 +72,24 @@
   &__svg {  
     transition: transform 150ms ease-in;
   }
+  
+  &--inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 470px; */
+    margin-top: 15px;
+    width: 100%;
+    max-width: 470px;
+    &:last-of-type {
+      margin-bottom: 15px;
+    }
+    .feature__icon {
+      padding: 0;
+    }
+  }
+  
   &:hover .feature__icon-circle--resizing, &:hover .feature__svg {
     transform: scale(1.2);
   }

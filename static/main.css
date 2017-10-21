@@ -543,6 +543,19 @@ a:hover {
       padding-top: 3px; }
   .feature__svg {
     transition: transform 150ms ease-in; }
+  .feature--inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 470px; */
+    margin-top: 15px;
+    width: 100%;
+    max-width: 470px; }
+    .feature--inline:last-of-type {
+      margin-bottom: 15px; }
+    .feature--inline .feature__icon {
+      padding: 0; }
   .feature:hover .feature__icon-circle--resizing, .feature:hover .feature__svg {
     transform: scale(1.2); }
 
@@ -586,23 +599,6 @@ a:hover {
     padding-bottom: 30px; } }
 @media only all and (max-width: 360px) {
   font-size: 11px; }
-/* B--M feature--inline -------------------------------------------------- */
-.feature--inline {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  /* width: 470px; */
-  margin-top: 15px;
-  width: 100%;
-  max-width: 470px; }
-
-.feature--inline:last-of-type {
-  margin-bottom: 15px; }
-
-.feature--inline .feature__icon {
-  padding: 0; }
-
 /* list ---------------------------------------------------- */
 .list {
   list-style-type: none; }
