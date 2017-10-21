@@ -531,7 +531,9 @@ a:hover {
     .feature__icon--top {
       align-self: flex-start;
       padding-top: 3px; }
-  .feature :hover .feature__icon-circle--resizing {
+  .feature__svg {
+    transition: transform 150ms ease-in; }
+  .feature:hover .feature__icon-circle--resizing, .feature:hover .feature__svg {
     transform: scale(1.2); }
 
 @media all and (min-width: 1024px) {
@@ -563,14 +565,6 @@ a:hover {
   align-items: center;
   padding-bottom: 0;
   padding-right: 10px; }
-
-/* __ feature__svg -------------------------------------------------- */
-.feature__svg {
-  transition: transform 150ms ease-in; }
-
-/*.l-section--background_light*/
-.feature:hover .feature__svg {
-  transform: scale(1.2); }
 
 /* __ feature__text -------------------------------------------------- */
 .feature__text {

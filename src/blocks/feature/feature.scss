@@ -51,7 +51,11 @@
       padding-top: 3px;
     }
   }
-  :hover .feature__icon-circle--resizing {
+  
+  &__svg {  
+    transition: transform 150ms ease-in;
+  }
+  &:hover .feature__icon-circle--resizing, &:hover .feature__svg {
     transform: scale(1.2);
   }
 }
