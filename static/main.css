@@ -526,6 +526,11 @@ a:hover {
       border: 2px solid #000000;
       border-radius: 50%;
       position: relative; }
+  .feature__icon {
+    padding-bottom: 15px; }
+    .feature__icon--top {
+      align-self: flex-start;
+      padding-top: 3px; }
   .feature :hover .feature__icon-circle--resizing {
     transform: scale(1.2); }
 
@@ -548,10 +553,6 @@ a:hover {
 
   .l-section--background_dark .feature {
     align-items: flex-start; } }
-/* __ feature__icon -------------------------------------------------- */
-.feature__icon {
-  padding-bottom: 15px; }
-
 @media only screen and (min-width: 1024px) {
   .feature__icon {
     padding-bottom: 30px; } }
@@ -562,11 +563,6 @@ a:hover {
   align-items: center;
   padding-bottom: 0;
   padding-right: 10px; }
-
-/* __>> feature__icon--top -------------------------------------------------- */
-.feature__icon--top {
-  align-self: flex-start;
-  padding-top: 3px; }
 
 /* __ feature__svg -------------------------------------------------- */
 .feature__svg {
