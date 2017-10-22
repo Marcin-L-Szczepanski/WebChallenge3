@@ -12,7 +12,7 @@
       margin-bottom: 40px;
     }
     
-    &--white {
+    &--light {
       color: $grey-lvl1;
     }
   }
@@ -20,28 +20,18 @@
   &__subtitle {
     font-size: $font-size-m;
     color: $grey-lvl6;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     
     &--small {
       font-size: $font-size-xs;
       max-width: 520px;
     }
+    &--light {
+      color: $grey-lvl5;
+    }
   }
 }
 
-  
-
-
-.l-section--banner .heading__subtitle {
-    margin-bottom: 60px;
-    color: $grey-lvl5;
-}
-
-.l-section--offer .heading__subtitle {
-    margin-bottom: 20px;
-    color: $grey-lvl5;
-}
-  
   
 
 // Media queries 

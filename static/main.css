@@ -427,23 +427,17 @@ a:hover {
   .heading__title--large {
     font-size: 40px;
     margin-bottom: 40px; }
-  .heading__title--white {
+  .heading__title--light {
     color: #ffffff; }
 .heading__subtitle {
   font-size: 20px;
   color: #777777;
-  margin-bottom: 60px; }
+  margin-bottom: 90px; }
   .heading__subtitle--small {
     font-size: 16px;
     max-width: 520px; }
-
-.l-section--banner .heading__subtitle {
-  margin-bottom: 60px;
-  color: #cccccc; }
-
-.l-section--offer .heading__subtitle {
-  margin-bottom: 20px;
-  color: #cccccc; }
+  .heading__subtitle--light {
+    color: #cccccc; }
 
 /* project --------------------------------------------------------- */
 .project {
@@ -817,5 +811,11 @@ a:hover {
     position: absolute;
     left: calc(50% - 100px);
     margin: 0; } }
+/* SHAME  ---------------------------------------------------- */
+.l-section--banner .heading__subtitle {
+  margin-bottom: 60px; }
+
+.l-section--offer .heading__subtitle {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
