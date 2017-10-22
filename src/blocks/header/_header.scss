@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background-color: $grey-lvl1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  &__wrapper {
+    width: 90%;
+    max-width: 940px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    @include flexbox(space-between, center);
+    transition: all 300ms linear;
+  }
+}
+
+
+// Media queries 
+  // Large screen >750px
+  @mixin header--large-screen {
+    .header__wrapper {
+        height: 115px;
+    }
+  }
+
+// Portrait
+  @mixin header__wrapper--portait {
+  .header__wrapper {
+        height: 80px;
+    }
+  }

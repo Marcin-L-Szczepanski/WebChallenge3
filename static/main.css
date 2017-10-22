@@ -318,26 +318,24 @@ a:hover {
   top: 0;
   left: 0;
   z-index: 100; }
-
-/* __ header__wrapper -------------------------------------------------- */
-.header__wrapper {
-  width: 90%;
-  max-width: 940px;
-  height: 80px;
-  margin: 0 auto 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.header__wrapper a {
-  text-decoration: none; }
-
-@media only screen and (min-width: 765px) {
   .header__wrapper {
-    height: 115px; } }
-@media only screen and (max-device-width: 900px) and (orientation: landscape) {
-  .header__wrapper {
-    height: 50px; } }
+    width: 90%;
+    max-width: 940px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: all 300ms linear; }
+
 /* logo  ---------------------------------------------------- */
 .logo {
   display: -webkit-box;
@@ -764,10 +762,19 @@ a:hover {
   .button--menu {
     height: 50px; }
 
+  .header__wrapper {
+    height: 80px; }
+
   .menu__list--open {
     top: 80px;
     height: 300px; } }
 @media only screen and (min-width: 750px) {
+  .header__wrapper {
+    height: 115px; }
+
+  .l-section--banner {
+    margin-top: 115px; }
+
   .opinion {
     flex-direction: row; }
     .opinion:nth-child(even) {

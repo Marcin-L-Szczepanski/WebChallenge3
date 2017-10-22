@@ -18,6 +18,14 @@
     left: 0;
 }
 
+// Media queries 
+  // Large screen >750px
+  @mixin l-section--banner--large-screen {
+    .l-section--banner {
+    margin-top: 115px;
+    }
+  }
+
 @media screen and (max-device-width: 900px) and (orientation: landscape) {
     .l-section--banner {
         margin-top: 50px;
