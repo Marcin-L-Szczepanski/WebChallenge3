@@ -82,23 +82,12 @@
 
 
 /* heading  ---------------------------------------------------- */
-    /*@import "blocks/heading/heading.scss"; 
-/* __ heading__title -------------------------------------------------- */
-        @import "blocks/heading/__title/heading__title.scss";  
-/* __>> heading__title--white -------------------------------------------------- */
-        @import "blocks/heading/__title/--white/heading__title--white.scss";   
-/* __>> heading__title--large -------------------------------------------------- */
-        @import "blocks/heading/__title/--large/heading__title--large.scss";   
-/* __ heading__subtitle -------------------------------------------------- */
-        @import "blocks/heading/__subtitle/heading__subtitle.scss";    
-/* __>> heading__subtitle--small -------------------------------------------------- */
-        @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";   
+    @import "blocks/heading/heading"; 
+
+
 /* project --------------------------------------------------------- */
     @import "blocks/project/project.scss";  
-/* >> project__features --------------------------------------------------------- */
-    @import "blocks/project/__features/project__features.scss";  
-/* >> project__link --------------------------------------------------------- */
-    @import "blocks/project/__link/project__link.scss";  
+
 
 /* feature --------------------------------------------------------- */
     @import "blocks/feature/feature";  
