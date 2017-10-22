@@ -528,18 +528,15 @@ a:hover {
 /* list ---------------------------------------------------- */
 .list {
   list-style-type: none; }
-
-/* __ list__item -------------------------------------------------- */
-.list__item {
-  background-image: url("../img/offer/circle-checkmark.svg");
-  background-position: 0 6px;
-  background-repeat: no-repeat;
-  padding-left: 41px;
-  padding-top: 12px;
-  padding-bottom: 12px; }
-
-.list__item:last-child {
-  margin-bottom: 50px; }
+  .list__item {
+    background-image: url("../img/offer/circle-checkmark.svg");
+    background-position: 0 6px;
+    background-repeat: no-repeat;
+    padding-left: 41px;
+    padding-top: 12px;
+    padding-bottom: 12px; }
+    .list__item:last-child {
+      margin-bottom: 50px; }
 
 /* opinion ---------------------------------------------------- */
 .opinion {

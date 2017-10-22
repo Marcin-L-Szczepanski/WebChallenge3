@@ -1,0 +1,19 @@
+.list {
+  list-style-type: none;
+  
+  &__item {
+    background: {
+      image: url("../img/offer/circle-checkmark.svg");
+      position: 0 6px;
+      repeat: no-repeat;
+    }
+    padding: {
+        left: 41px;
+        top: 12px;
+        bottom: 12px;
+    }
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+}
