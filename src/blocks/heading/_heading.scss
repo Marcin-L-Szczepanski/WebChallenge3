@@ -1,0 +1,54 @@
+.heading {
+  &__title {
+    font-family: $font-second;
+    font-size: $font-size-xl;
+    color: $grey-lvl8;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+    &--large {
+      font-size: 60px;
+      margin-bottom: 40px;
+    }
+    
+    &--white {
+      color: $grey-lvl1;
+    }
+  
+  &__subtitle {
+    font-size: $font-size-m;
+    color: $grey-lvl6;
+    margin-bottom: 60px;
+    
+    &--small {
+      font-size: $font-size-xs;
+      max-width: 520px;
+    }
+  }
+}
+
+
+
+.l-section--banner .heading__subtitle {
+    margin-bottom: 60px;
+    color: $grey-lvl5;
+}
+
+.l-section--offer .heading__subtitle {
+    margin-bottom: 20px;
+    color: $grey-lvl5;
+}
+  
+
+  @media only all and (max-width: 360px) {
+        //title 
+    font-size: 33px;
+    }
+  
+  
+    @media only all and (max-width: 360px) {
+       // title-large
+      font-size: 43px;
+    }
+}

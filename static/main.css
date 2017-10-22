@@ -1,22 +1,22 @@
 /*
-Error: File to import not found or unreadable: blocks/project/__features/project__features.scss.
+Error: File to import not found or unreadable: blocks/heading/__title/heading__title.scss.
        Load path: F:/projects/Weekly webdev challenge/zad3/project/src
-        on line 99 of src/main.scss
+        on line 87 of src/main.scss
 
-94: /* __>> heading__subtitle--small -------------------------------------------------- *\/
-95:         @import "blocks/heading/__subtitle/--small/heading__subtitle--small.scss";   
-96: /* project --------------------------------------------------------- *\/
-97:     @import "blocks/project/project.scss";  
-98: /* >> project__features --------------------------------------------------------- *\/
-99:     @import "blocks/project/__features/project__features.scss";  
-100: /* >> project__link --------------------------------------------------------- *\/
-101:     @import "blocks/project/__link/project__link.scss";  
-102: 
-103: /* feature --------------------------------------------------------- *\/
-104:     @import "blocks/feature/feature";  
+82: 
+83: 
+84: /* heading  ---------------------------------------------------- *\/
+85:     /*@import "blocks/heading/heading.scss"; 
+86: /* __ heading__title -------------------------------------------------- *\/
+87:         @import "blocks/heading/__title/heading__title.scss";  
+88: /* __>> heading__title--white -------------------------------------------------- *\/
+89:         @import "blocks/heading/__title/--white/heading__title--white.scss";   
+90: /* __>> heading__title--large -------------------------------------------------- *\/
+91:         @import "blocks/heading/__title/--large/heading__title--large.scss";   
+92: /* __ heading__subtitle -------------------------------------------------- *\/
 
 Backtrace:
-src/main.scss:99
+src/main.scss:87
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -61,4 +61,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: blocks/project/__features/project__features.scss.\A        Load path: F:/projects/Weekly webdev challenge/zad3/project/src\A         on line 99 of src/main.scss\A \A 94: /* __>> heading__subtitle--small -------------------------------------------------- */\A 95:         @import \"blocks/heading/__subtitle/--small/heading__subtitle--small.scss\";   \A 96: /* project --------------------------------------------------------- */\A 97:     @import \"blocks/project/project.scss\";  \A 98: /* >> project__features --------------------------------------------------------- */\A 99:     @import \"blocks/project/__features/project__features.scss\";  \A 100: /* >> project__link --------------------------------------------------------- */\A 101:     @import \"blocks/project/__link/project__link.scss\";  \A 102: \A 103: /* feature --------------------------------------------------------- */\A 104:     @import \"blocks/feature/feature\";  "; }
+  content: "Error: File to import not found or unreadable: blocks/heading/__title/heading__title.scss.\A        Load path: F:/projects/Weekly webdev challenge/zad3/project/src\A         on line 87 of src/main.scss\A \A 82: \A 83: \A 84: /* heading  ---------------------------------------------------- */\A 85:     /*@import \"blocks/heading/heading.scss\"; \A 86: /* __ heading__title -------------------------------------------------- */\A 87:         @import \"blocks/heading/__title/heading__title.scss\";  \A 88: /* __>> heading__title--white -------------------------------------------------- */\A 89:         @import \"blocks/heading/__title/--white/heading__title--white.scss\";   \A 90: /* __>> heading__title--large -------------------------------------------------- */\A 91:         @import \"blocks/heading/__title/--large/heading__title--large.scss\";   \A 92: /* __ heading__subtitle -------------------------------------------------- */"; }
