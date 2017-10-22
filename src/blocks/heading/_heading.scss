@@ -1,20 +1,21 @@
 .heading {
   &__title {
     font-family: $font-second;
-    font-size: $font-size-xl;
+    font-size: 33px;
     color: $grey-lvl8;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 20px;
     
     &--large {
-      font-size: 60px;
+      font-size: $font-size-xl;
       margin-bottom: 40px;
     }
     
     &--white {
       color: $grey-lvl1;
     }
+  }
   
   &__subtitle {
     font-size: $font-size-m;
@@ -28,6 +29,7 @@
   }
 }
 
+  
 
 
 .l-section--banner .heading__subtitle {
@@ -40,15 +42,16 @@
     color: $grey-lvl5;
 }
   
+  
 
-  @media only all and (max-width: 360px) {
-        //title 
-    font-size: 33px;
+// Media queries 
+  // X-Large screen > 370px
+  @mixin heading--small-screen {
+    .heading__title {
+      font-size: $font-size-xl;
+      
+      &--large {
+        font-size: $font-size-xxl;
+      }
     }
-  
-  
-    @media only all and (max-width: 360px) {
-       // title-large
-      font-size: 43px;
-    }
-}
+  }

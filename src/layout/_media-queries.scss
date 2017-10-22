@@ -5,6 +5,7 @@
 // Small screen size (--small-screen)
 @media only screen and (min-width: 370px) {
   @include button--menu--small-screen;
+  @include heading--small-screen;
 }
 
 // Medium screen size (--medium-screen)
