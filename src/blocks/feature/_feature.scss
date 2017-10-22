@@ -26,7 +26,7 @@
   }
   
   &__description {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
   }
   
@@ -89,6 +89,13 @@
   
 
 // Media queries 
+  // Small screen > 376px 
+  @mixin feature__description--small-screen {
+    .feature__description {
+      font-size: $font-size-xxs;
+    }
+  }
+
   // X-Large screen > 1024px
   @mixin feature--x-large-screen {
     .feature {
@@ -117,10 +124,3 @@
     }
   }
 }
-/*
-@media only all and (max-width: 360px) {
-        //description 
-          .feature__description {
-      font-size: 11px;
-    }
-}*/

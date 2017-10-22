@@ -24,10 +24,9 @@
         height: 115px;
     }
   }
-
 // Portrait
   @mixin header__wrapper--portait {
-  .header__wrapper {
-        height: 80px;
+    .header__wrapper {
+      height: 80px;
     }
   }
