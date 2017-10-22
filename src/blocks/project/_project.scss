@@ -1,0 +1,30 @@
+.project {
+  text-align: left;
+  width: 100%;
+  max-width: 470px;
+
+  &__title {
+    @extend .heading__title;
+    font-size: $font-size-s;
+    text-align: left;
+  }
+  
+  &__description {
+    @extend .heading__subtitle;
+    font-size: $font-size-xxs;
+    width: 100%;
+    max-width: 380px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  
+  &__features {
+    text-align: left;
+  }
+  
+  &__link {
+    font-family: $font-second;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
