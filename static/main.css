@@ -633,6 +633,10 @@ a:hover {
       align-self: flex-start;
       padding-top: 3px; }
 
+/* copyright -------------------------------------------------- */
+.copyright {
+  font-size: 14px; }
+
 /* socials ---------------------------------------------------- */
 .socials {
   display: flex;
@@ -658,7 +662,6 @@ a:hover {
     .socials__icon--twitter:hover {
       background-color: #00aced; }
 
-/* __ socials__copyright -------------------------------------------------- */
 /* __ socials__icons -------------------------------------------------- */
 /* button  ---------------------------------------------------- */
 .button {
