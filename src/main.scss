@@ -2,8 +2,8 @@
 
 //-------------------------------------------------------------------------
 // CONTENTS                                                              |
-//         
-// # 1 UTILS                                                              |
+//                                                                       |
+// # 1 ABSTRACTS                                                         |
 //   --- Variables ---                                                   |
 //   --- Mixins ---                                                      |
 //                                                                       |
@@ -19,12 +19,12 @@
 //-----------------------------------------------------------------------/
 
 // ----------------------------------------------------------------------
-  // #1 Utils - contains tools and helpers used across the project, such as variables, mixins
+  // #1 Abstracts - contains tools and helpers used across the project, such as variables, mixins
 // ----------------------------------------------------------------------
 // variables  -----------------------------------------------------------
-  @import "utils/variables"; 
+  @import "abstracts/variables"; 
 // mixins  --------------------------------------------------------------
-  @import "utils/mixins"; 
+  @import "abstracts/mixins"; 
 
 /* preloader  -----------------------------------------------------------*/
   @import "base/preloader"; 
