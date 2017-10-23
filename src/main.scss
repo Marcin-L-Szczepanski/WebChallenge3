@@ -1,43 +1,46 @@
 @charset "UTF-8";
 
-//-------------------------------------------------------------------------
-// CONTENTS                                                              |
-//                                                                       |
-// # 1 ABSTRACTS                                                         |
-//   --- Variables ---                                                   |
-//   --- Mixins ---                                                      |
-//                                                                       |
-// #2 Base                                                               |
-//   --- Normalize.css ---                                               |
-//   --- Global ---                                                      |
-//                                                                       |
-// #2 LAYOUT                                                             |
-//                                                                       |
+// The Sass architecture in this project is a modification of
+// solution introduced in Hugo Giraudel's Sass Guidelines: 
+// -> https://sass-guidelin.es/#architecture
+//
+// Components have been replaced with Blocks to keep reference 
+// to BEM methodology that has been used in this project.
+//
+// All the partials have been stuffed into 4 different folders: 
+// Abstracts, Base, Blocks and Layout.
+//
+//
+//------------------------------------------------------------------\
+// CONTENTS                                                         |
+//                                                                  |
+// # 1 ABSTRACTS                                                    |
+//   --- Variables ---                                              |
+//   --- Mixins ---                                                 |
+//                                                                  |
+// #2 Base                                                          |
+//   --- Normalize.css ---                                          |
+//   --- Global ---                                                 |
+//                                                                  |
+// #2 LAYOUT                                                        |
+//                                                                  |
 // #3 BLOCKS  
 
 
 //-----------------------------------------------------------------------/
 
 // ----------------------------------------------------------------------
-  // #1 Abstracts - contains tools and helpers used across the project, such as variables, mixins
+  // #1 Abstracts - contains tools and helpers used across the project, such as variables and mixins
 // ----------------------------------------------------------------------
-// variables  -----------------------------------------------------------
   @import "abstracts/variables"; 
-// mixins  --------------------------------------------------------------
   @import "abstracts/mixins"; 
-
-/* preloader  -----------------------------------------------------------*/
-  @import "base/preloader"; 
-// ----------------------------------------------------------------------
-
 
 // ----------------------------------------------------------------------
   // #2 Base - contains global styles, such as resets, typography, colors,  etc.
 // ----------------------------------------------------------------------
-// Normalize.css
   @import "../static/normalize"; 
-/* global  -------------------------------------------------------------*/
   @import "base/global"; 
+  @import "base/preloader"; 
 
 
 
