@@ -6,7 +6,7 @@ Converted page is available at: https://marcin-l-szczepanski.github.io/WebChalle
 
 Languages / methodologies used:
 * HTML5
-* CSS5
+* CSS3
 * Sass
 * Javascript
 * [BEM](#bem)
@@ -23,7 +23,7 @@ Modifiers are flags on blocks or elements to change appearance or behavior.
 #### Naming
 In this project, two types of modifiers are used:
  - a boolean flag
- - key/value pair.
+ - a key/value pair.
 Naming conventions:
 
   * Boolean modifiers:<br>
