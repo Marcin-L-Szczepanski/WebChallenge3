@@ -50,7 +50,7 @@ BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatshe
 
 ## File structure
 ```
-srcs/
+src/
 |
 |-- abstracts/
 |   |-- _mixins.scss          # Scss Mixins
