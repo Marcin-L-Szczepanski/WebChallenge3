@@ -6,7 +6,7 @@ Converted page is available at: https://marcin-l-szczepanski.github.io/WebChalle
 
 Languages / methodologies used:
 * HTML5
-* CSS5
+* CSS3
 * Sass
 * Javascript
 * [BEM](#bem)
