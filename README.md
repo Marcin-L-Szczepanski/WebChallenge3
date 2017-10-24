@@ -10,6 +10,7 @@ Languages / methodologies used:
 * Sass
 * Javascript
 * [BEM](#bem)
+* [Media queries](#media-queries)
 * [File structure](#file-structure)
 
 ![WebChallenge3 PSD design](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/master/resources/3.jpg)
@@ -47,6 +48,11 @@ Elements can also be affected by a block-level modifier:
 See more: http://getbem.com/faq/#block-modifier-affects-elements
 
 BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatsheet
+
+## Media queries
+Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
+!ADD DESCRIPTION
+
 
 ## File structure
 ```
