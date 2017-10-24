@@ -24,8 +24,8 @@
 
 // Large screen size (--large-screen)
 @media only screen and (min-width: 750px) {
-  @include header--large-screen;
   @include l-section--banner--large-screen;
+  @include header--large-screen;
   @include opinion--large-screen;
 }
 

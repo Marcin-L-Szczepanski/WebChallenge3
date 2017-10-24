@@ -7,38 +7,44 @@
 // Components have been replaced with Blocks to keep reference 
 // to BEM methodology that has been used in this project.
 //
-// All the partials have been stuffed into 4 different folders: 
+// All the partials have been stuffed into 5 different folders: 
 // Abstracts, Base, Blocks and Layout.
 //
 //
 //------------------------------------------------------------------\
 // CONTENTS                                                         |
 //                                                                  |
-// # 1 ABSTRACTS                                                    |
+// #1 Vendor                                                        |
+//   --- Normalize.css ---                                          |
+//                                                                  |
+// #2 ABSTRACTS                                                     |
 //   --- Variables ---                                              |
 //   --- Mixins ---                                                 |
 //                                                                  |
-// #2 Base                                                          |
-//   --- Normalize.css ---                                          |
+// #3 Base                                                          |
 //   --- Global ---                                                 |
 //                                                                  |
-// #3 LAYOUT                                                        |
-//                                                                  |
-// #4 BLOCKS                                                        |
-//                                                                  |
+// #4 LAYOUT                                                        |
+//   --- Media queries ---                                          |
+// #5 BLOCKS                                                        |
+// #6 HACKS                                                         |
+//   --- shame.css ---                                              |
 //------------------------------------------------------------------/
 
+// ----------------------------------------------------------------------
+  // #1 Vendor - contains 3rd-party vendor tools (frameworks, libraries, helpers)
+// ----------------------------------------------------------------------
+  @import "vendor/normalize"; // v7.0.0
 
 // ----------------------------------------------------------------------
-  // #1 Abstracts - contains tools and helpers used across the project, such as variables and mixins
+  // #2 Abstracts - contains tools and helpers used across the project, such as variables and mixins
 // ----------------------------------------------------------------------
   @import "abstracts/variables"; 
   @import "abstracts/mixins"; 
 
 // ----------------------------------------------------------------------
-  // #2 Base - contains global styles, such as resets, typography, colors,  etc.
+  // #3 Base - contains global styles XXXXXXXXXXXXXXXXXXXXXXXX
 // ----------------------------------------------------------------------
-  @import "../static/normalize"; 
   @import "base/global"; 
   @import "base/preloader"; 
 
@@ -110,5 +116,5 @@
 @import "layout/media-queries"; 
 
 
-/* SHAME  ---------------------------------------------------- */
-@import "base/shame"; 
+/* Hacks  ---------------------------------------------------- */
+@import "hacks/shame"; 
