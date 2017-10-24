@@ -22,7 +22,7 @@ Modifiers are flags on blocks or elements to change appearance or behavior.
 #### Naming
 In this project, two types of modifiers are used:
  - a boolean flag
- - key/value pair.
+ - a key/value pair.
 Naming conventions:
 
   * Boolean modifiers:<br>
