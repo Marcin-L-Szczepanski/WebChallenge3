@@ -6,12 +6,12 @@
 
 ::-moz-selection { /* Code for Firefox */
     color: $grey-lvl8;
-    background: $green;
+    background: $color-main;
 }
 
 ::selection {
     color: $grey-lvl8;
-    background: $green;
+    background: $color-main;
 }
 
 html {
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: $green;
+    color: $color-main;
 }
 
 .green-text {
