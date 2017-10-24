@@ -4,9 +4,9 @@ Below PSD design converted to code.
 
 Converted page is available at: https://marcin-l-szczepanski.github.io/WebChallenge3/
 
-* [BEM](../blob/master/LICENSE)
+* [BEM](#BEM)
 
-![WebChallenge3 PSD design](#BEM)
+![WebChallenge3 PSD design]
 
 ## BEM
 ### MODIFIER
