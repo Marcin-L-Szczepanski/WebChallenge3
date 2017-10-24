@@ -21,6 +21,21 @@
       left: 0;
     }
   }
+  
+  &--background-color {
+    &_main { 
+      background-color: $color-main; 
+    }
+    &_light {
+      background-color: $grey-lvl2;
+    }
+    &_medium {
+      background-color: $grey-lvl3;
+    }
+    &_dark { 
+      background-color: $grey-lvl8; 
+    }
+  }
 }
 
 
