@@ -10,6 +10,7 @@ Languages / methodologies used:
 * Sass
 * Javascript
 * [BEM](#bem)
+* [File structure](#file-structure)
 
 ![WebChallenge3 PSD design](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/master/resources/3.jpg)
 
@@ -46,3 +47,19 @@ Elements can also be affected by a block-level modifier:
 See more: http://getbem.com/faq/#block-modifier-affects-elements
 
 BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatsheet
+
+## File structure
+```
+srcs/
+|
+|-- abstracts/
+|   |-- _mixins.scss          # Scss Mixins
+|   |-- _typography.scss      # Scss Variables
+|   ...
+|
+|-- base/                     # Base style
+|   ...
+|
+|-- style.scss                # Main Scss file compiles to style.css
+
+```
