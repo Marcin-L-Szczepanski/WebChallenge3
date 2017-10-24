@@ -2,17 +2,17 @@
 // Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
 
 
-// Small screen size (--small-screen)
+// X-small screen size (--x-small-screen)
 @media only screen and (min-width: 376px) {
-  @include button--menu--small-screen;
-  @include heading--small-screen;
-  @include feature__description--small-screen;
+  @include button--menu--x-small-screen;
+  @include heading--x-small-screen;
+  @include feature__description--x-small-screen;
 }
 
-// Medium screen size (--medium-screen)
+// Small screen size (--small-screen)
 @media only screen and (min-width: 640px) {
-  @include button--menu--medium-screen;
-  @include menu__list--medium-screen;
+  @include button--menu--small-screen;
+  @include menu__list--small-screen;
 }
 
 // Portrait orientation
@@ -22,15 +22,25 @@
   @include menu__list--open--portait;
 }
 
-// Large screen size (--large-screen)
+// Medium screen size (--medium-screen)
 @media only screen and (min-width: 750px) {
-  @include l-section--banner--large-screen;
-  @include header--large-screen;
-  @include opinion--large-screen;
+  @include l-section--banner--medium-screen;
+  @include header--medium-screen;
+  @include opinion--medium-screen;
+}
+
+// Large screen size (--large-screen)
+@media only screen and (min-width: 850px) {
+  @include l-section--projects--large-screen;
 }
 
 // X-large screen size (--x-large-screen)
 @media only screen and (min-width: 1024px) {
   @include feature--x-large-screen;
   @include socials--x-large-screen;
+}
+
+// Max screen size (--max-screen)
+@media only screen and (min-width: 1200px) {
+  @include l-section--projects--max-screen;
 }

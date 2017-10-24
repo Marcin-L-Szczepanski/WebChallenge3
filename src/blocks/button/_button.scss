@@ -96,12 +96,12 @@
 }
 
 // Media queries
-@mixin button--menu--small-screen {
+@mixin button--menu--x-small-screen {
   .button--menu {
     padding: 0 30px;
   }
 }
-@mixin button--menu--medium-screen {
+@mixin button--menu--small-screen {
     .button--menu {
       display: none;
     }

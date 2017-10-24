@@ -90,7 +90,7 @@
 
 // Media queries 
   // Small screen > 376px 
-  @mixin feature__description--small-screen {
+  @mixin feature__description--x-small-screen {
     .feature__description {
       font-size: $font-size-xxs;
     }

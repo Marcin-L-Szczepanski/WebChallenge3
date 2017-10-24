@@ -36,7 +36,7 @@
 
 // Media queries 
   // X-Large screen > 370px
-  @mixin heading--small-screen {
+  @mixin heading--x-small-screen {
     .heading__title {
       font-size: $font-size-xl;
       

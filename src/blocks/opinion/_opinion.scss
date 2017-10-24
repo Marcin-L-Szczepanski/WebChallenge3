@@ -63,7 +63,7 @@
 
 // Media queries 
   // Large screen >750px
-  @mixin opinion--large-screen {
+  @mixin opinion--medium-screen {
     .opinion {
       flex-direction: row;
       &:nth-child(even) {

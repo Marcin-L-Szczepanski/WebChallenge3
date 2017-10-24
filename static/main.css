@@ -1123,6 +1123,13 @@ a:hover {
       .opinion__quotation:nth-child(even) .opinion__quotation::before {
         left: 100%;
         transform: scaleX(-1); } }
+@media only screen and (min-width: 850px) {
+  .l-section--projects {
+    background: url("../img/projects/ipad.png");
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 57%; } }
 @media only screen and (min-width: 1024px) {
   .feature, .items-list {
     margin-top: 0; }
@@ -1145,6 +1152,9 @@ a:hover {
     position: absolute;
     left: calc(50% - 100px);
     margin: 0; } }
+@media only screen and (min-width: 1200px) {
+  .l-section--projects {
+    background-size: auto; } }
 /* Hacks  ---------------------------------------------------- */
 .l-section--banner .heading__subtitle {
   margin-bottom: 60px; }
