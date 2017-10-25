@@ -5,16 +5,12 @@
     z-index: 1;
   
   &--side {
-    background: url("../img/offer/background.png");
     width: 100%;
     max-width: none;
     margin: 0;
     padding: 100px 25px;
     align-self: flex-end;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     text-align: left;
     color: $grey-lvl5;
     
@@ -31,32 +27,56 @@
   }
 }
 
+// Side wrapper within .l-section--offer gets background image
+// http://getbem.com/faq/#block-modifier-affects-elements
 
-
-@media only screen and (min-width: 970px) {
-    .l-section--offer .l-section__content-wrapper{
-        padding-left: 90px;
-        width: 75%;
-        min-width: 750px;
-    }
-    .l-section--offer .l-section__content-wrapper::after {
-    content: "";
-    width: 200px;
-    height: 100%;
-    background: url("../img/offer/gear.png");
-    background-color: $grey-lvl3;
-    background-position: left;
+.l-section--offer .l-section__content-wrapper--side {
+    background: url("../img/offer/background.png");
     background-repeat: no-repeat;
-    position: relative;
-    position: absolute;
-    top: 0;
-    left: -200px;
-    z-index: -100;
+    background-size: cover;
+    background-position: center;
 }
-}
+
+
+// Media queries 
+  // Large screen >850px
+  @mixin l-section__content-wrapper--side--large-screen {
+    .l-section__content-wrapper--side {
+      padding-left: 90px;
+      width: 75%;
+      min-width: 750px;
+      
+      &::after {
+        content: "";
+        width: 200px;
+        height: 100%;
+        background: url("../img/offer/gear.png");
+        background-color: $grey-lvl3;
+        background-position: left;
+        background-repeat: no-repeat;
+        position: relative;
+        position: absolute;
+        top: 0;
+        left: -200px;
+        z-index: -100;
+      }
+    }
+  }
+
+  // X-large screen size >1024px
+  @mixin l-section__content-wrapper--x-large-screen {
+    .l-section__content-wrapper {
+      margin: 100px auto;
+    }
+    .l-section__content-wrapper--side {
+      margin: 0;
+    }
+  }
+      
+    
 
 @media only screen and (min-width: 1367px) {
-    .l-section--offer .l-section__content-wrapper{
+    .l-section--offer .l-section__content-wrapper {
         background-attachment: fixed;  
     }
 }
@@ -73,9 +93,3 @@
 }
 
 
-
-@include respond(1024px) {
-    .l-section__content-wrapper {
-    margin: 100px auto;
-}
-}

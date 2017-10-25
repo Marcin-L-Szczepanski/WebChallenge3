@@ -1,5 +1,6 @@
 // Media Queries //
 // Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
+// Issues: Problem with naming many irregular breakpoints
 
 
 // X-small screen size (--x-small-screen)
@@ -32,10 +33,12 @@
 // Large screen size (--large-screen)
 @media only screen and (min-width: 850px) {
   @include l-section--projects--large-screen;
+  @include l-section__content-wrapper--side--large-screen;
 }
 
 // X-large screen size (--x-large-screen)
 @media only screen and (min-width: 1024px) {
+  @include l-section__content-wrapper--x-large-screen;
   @include feature--x-large-screen;
   @include socials--x-large-screen;
 }

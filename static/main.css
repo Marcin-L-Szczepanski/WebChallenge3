@@ -577,16 +577,12 @@ a:hover {
   margin: 60px auto;
   z-index: 1; }
   .l-section__content-wrapper--side {
-    background: url("../img/offer/background.png");
     width: 100%;
     max-width: none;
     margin: 0;
     padding: 100px 25px;
     align-self: flex-end;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     text-align: left;
     color: #cccccc; }
     .l-section__content-wrapper--side::before {
@@ -599,25 +595,12 @@ a:hover {
       left: 0;
       z-index: -100; }
 
-@media only screen and (min-width: 970px) {
-  .l-section--offer .l-section__content-wrapper {
-    padding-left: 90px;
-    width: 75%;
-    min-width: 750px; }
+.l-section--offer .l-section__content-wrapper--side {
+  background: url("../img/offer/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
-  .l-section--offer .l-section__content-wrapper::after {
-    content: "";
-    width: 200px;
-    height: 100%;
-    background: url("../img/offer/gear.png");
-    background-color: #e9e9e9;
-    background-position: left;
-    background-repeat: no-repeat;
-    position: relative;
-    position: absolute;
-    top: 0;
-    left: -200px;
-    z-index: -100; } }
 @media only screen and (min-width: 1367px) {
   .l-section--offer .l-section__content-wrapper {
     background-attachment: fixed; } }
@@ -630,9 +613,6 @@ a:hover {
       position: relative;
       flex-direction: row; } }
 
-@media only screen and (min-width: 1024px) {
-  .l-section__content-wrapper {
-    margin: 100px auto; } }
 /* __ l-section__content-wrapper--small-margin -------------------------------------------------- */
 .l-section__content-wrapper--margin-small {
   margin: 60px auto; }
@@ -1116,8 +1096,32 @@ a:hover {
     background-position-x: right;
     background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size: 57%; } }
+    background-size: 57%; }
+
+  .l-section__content-wrapper--side {
+    padding-left: 90px;
+    width: 75%;
+    min-width: 750px; }
+    .l-section__content-wrapper--side::after {
+      content: "";
+      width: 200px;
+      height: 100%;
+      background: url("../img/offer/gear.png");
+      background-color: #e9e9e9;
+      background-position: left;
+      background-repeat: no-repeat;
+      position: relative;
+      position: absolute;
+      top: 0;
+      left: -200px;
+      z-index: -100; } }
 @media only screen and (min-width: 1024px) {
+  .l-section__content-wrapper {
+    margin: 100px auto; }
+
+  .l-section__content-wrapper--side {
+    margin: 0; }
+
   .feature, .items-list {
     margin-top: 0; }
     .feature--inline {
