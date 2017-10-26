@@ -1,22 +1,22 @@
 /*
-Error: File to import not found or unreadable: layout/l-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss.
+Error: File to import not found or unreadable: layout/l-section/--offer/l-section--offer.scss.
        Load path: F:/projects/Weekly webdev challenge/zad3/project/src
-        on line 70 of src/main.scss
+        on line 62 of src/main.scss
 
+57: /* header  ---------------------------------------------------- *\/
+58:     @import "layout/header/header"; 
+59: /* l-section  ---------------------------------------------------- *\/
+60: @import "layout/l-section/l-section.scss"; 
+61: /* >> l-section--offer -------------------------------------------------- *\/
+62:     @import "layout/l-section/--offer/l-section--offer.scss";
+63: /* >> l-section--footer -------------------------------------------------- *\/
+64:     @import "layout/l-section/--footer/l-section--footer.scss";
 65: 
 66: 
 67: /* __ l-wrapper -------------------------------------------------- *\/
-68:     @import "layout/l-wrapper/l-wrapper.scss"; 
-69: /* __ l-section__content-wrapper--small-margin -------------------------------------------------- *\/
-70:     @import "layout/l-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss"; 
-71: /* __ l-section__content-wrapper--xsmall-margin -------------------------------------------------- *\/
-72:     @import "layout/l-wrapper/--margin-xsmall/l-section__content-wrapper--margin-xsmall.scss"; 
-73: /* l-features-wrapper ---------------------------------------------------- *\/
-74: @import "layout/l-features-wrapper/l-features-wrapper.scss"; 
-75: /* >> l-features-wrapper--top-aligned ---------------------------------------------------- *\/
 
 Backtrace:
-src/main.scss:70
+src/main.scss:62
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -61,4 +61,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: layout/l-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss.\A        Load path: F:/projects/Weekly webdev challenge/zad3/project/src\A         on line 70 of src/main.scss\A \A 65: \A 66: \A 67: /* __ l-wrapper -------------------------------------------------- */\A 68:     @import \"layout/l-wrapper/l-wrapper.scss\"; \A 69: /* __ l-section__content-wrapper--small-margin -------------------------------------------------- */\A 70:     @import \"layout/l-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss\"; \A 71: /* __ l-section__content-wrapper--xsmall-margin -------------------------------------------------- */\A 72:     @import \"layout/l-wrapper/--margin-xsmall/l-section__content-wrapper--margin-xsmall.scss\"; \A 73: /* l-features-wrapper ---------------------------------------------------- */\A 74: @import \"layout/l-features-wrapper/l-features-wrapper.scss\"; \A 75: /* >> l-features-wrapper--top-aligned ---------------------------------------------------- */"; }
+  content: "Error: File to import not found or unreadable: layout/l-section/--offer/l-section--offer.scss.\A        Load path: F:/projects/Weekly webdev challenge/zad3/project/src\A         on line 62 of src/main.scss\A \A 57: /* header  ---------------------------------------------------- */\A 58:     @import \"layout/header/header\"; \A 59: /* l-section  ---------------------------------------------------- */\A 60: @import \"layout/l-section/l-section.scss\"; \A 61: /* >> l-section--offer -------------------------------------------------- */\A 62:     @import \"layout/l-section/--offer/l-section--offer.scss\";\A 63: /* >> l-section--footer -------------------------------------------------- */\A 64:     @import \"layout/l-section/--footer/l-section--footer.scss\";\A 65: \A 66: \A 67: /* __ l-wrapper -------------------------------------------------- */"; }

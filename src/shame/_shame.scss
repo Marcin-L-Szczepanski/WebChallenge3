@@ -7,3 +7,42 @@
       .l-section--offer .heading__subtitle {
           margin-bottom: 20px;
       }
+
+
+
+.l-section--footer { 
+        flex-direction: column-reverse;
+    }
+
+@media only screen and (min-width: 700px) {
+    .l-section--footer { 
+        flex-direction: row;
+    }
+}
+
+
+.l-section--offer {
+}
+
+
+
+
+
+@media only screen and (min-width: 1367px) {
+    .l-section--offer .l-wrapper {
+        background-attachment: fixed;  
+    }
+}
+
+.l-section--footer .l-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    @include respond(1024px) {
+            position: relative;
+            flex-direction: row;
+        }   
+}
+
+
