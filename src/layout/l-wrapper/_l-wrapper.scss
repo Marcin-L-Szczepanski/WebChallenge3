@@ -1,4 +1,4 @@
-.l-section__content-wrapper {
+.l-wrapper {
     width: 90%;
     max-width: 940px;
     margin: 60px auto;
@@ -30,7 +30,7 @@
 // Side wrapper within .l-section--offer gets background image
 // http://getbem.com/faq/#block-modifier-affects-elements
 
-.l-section--offer .l-section__content-wrapper--side {
+.l-section--offer .l-wrapper--side {
     background: url("../img/offer/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,8 +40,8 @@
 
 // Media queries 
   // Large screen >850px
-  @mixin l-section__content-wrapper--side--screen-size_large {
-    .l-section__content-wrapper--side {
+  @mixin l-wrapper--side--screen-size_large {
+    .l-wrapper--side {
       padding-left: 90px;
       width: 75%;
       min-width: 750px;
@@ -64,11 +64,11 @@
   }
 
   // X-large screen size >1024px
-  @mixin l-section__content-wrapper--screen-size_wide {
-    .l-section__content-wrapper {
+  @mixin l-wrapper--screen-size_wide {
+    .l-wrapper {
       margin: 100px auto;
     }
-    .l-section__content-wrapper--side {
+    .l-wrapper--side {
       margin: 0;
     }
   }
@@ -76,12 +76,12 @@
     
 
 @media only screen and (min-width: 1367px) {
-    .l-section--offer .l-section__content-wrapper {
+    .l-section--offer .l-wrapper {
         background-attachment: fixed;  
     }
 }
 
-.l-section--footer .l-section__content-wrapper {
+.l-section--footer .l-wrapper {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

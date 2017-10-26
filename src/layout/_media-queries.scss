@@ -35,12 +35,12 @@
 // Large screen (--screen-size_large)
 @media only screen and (min-width: 850px) {
   @include l-section--projects--screen-size_large;
-  @include l-section__content-wrapper--side--screen-size_large;
+  @include l-wrapper--side--screen-size_large;
 }
 
 // Wide screen (--screen-size_wide)
 @media only screen and (min-width: 1024px) {
-  @include l-section__content-wrapper--screen-size_wide;
+  @include l-wrapper--screen-size_wide;
   @include feature--screen-size_wide;
   @include socials--screen-size_wide;
 }

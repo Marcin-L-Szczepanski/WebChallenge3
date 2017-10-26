@@ -570,13 +570,13 @@ a:hover {
 @media only screen and (min-width: 700px) {
   .l-section--footer {
     flex-direction: row; } }
-/* __ l-section__content-wrapper -------------------------------------------------- */
-.l-section__content-wrapper {
+/* __ l-wrapper -------------------------------------------------- */
+.l-wrapper {
   width: 90%;
   max-width: 940px;
   margin: 60px auto;
   z-index: 1; }
-  .l-section__content-wrapper--side {
+  .l-wrapper--side {
     width: 100%;
     max-width: none;
     margin: 0;
@@ -585,7 +585,7 @@ a:hover {
     position: relative;
     text-align: left;
     color: #cccccc; }
-    .l-section__content-wrapper--side::before {
+    .l-wrapper--side::before {
       content: "";
       width: 100%;
       height: 100%;
@@ -595,21 +595,21 @@ a:hover {
       left: 0;
       z-index: -100; }
 
-.l-section--offer .l-section__content-wrapper--side {
+.l-section--offer .l-wrapper--side {
   background: url("../img/offer/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
 
 @media only screen and (min-width: 1367px) {
-  .l-section--offer .l-section__content-wrapper {
+  .l-section--offer .l-wrapper {
     background-attachment: fixed; } }
-.l-section--footer .l-section__content-wrapper {
+.l-section--footer .l-wrapper {
   display: flex;
   flex-direction: column-reverse;
   align-items: center; }
   @media only screen and (min-width: 1024px) {
-    .l-section--footer .l-section__content-wrapper {
+    .l-section--footer .l-wrapper {
       position: relative;
       flex-direction: row; } }
 
@@ -1098,11 +1098,11 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 57%; }
 
-  .l-section__content-wrapper--side {
+  .l-wrapper--side {
     padding-left: 90px;
     width: 75%;
     min-width: 750px; }
-    .l-section__content-wrapper--side::after {
+    .l-wrapper--side::after {
       content: "";
       width: 200px;
       height: 100%;
@@ -1116,10 +1116,10 @@ a:hover {
       left: -200px;
       z-index: -100; } }
 @media only screen and (min-width: 1024px) {
-  .l-section__content-wrapper {
+  .l-wrapper {
     margin: 100px auto; }
 
-  .l-section__content-wrapper--side {
+  .l-wrapper--side {
     margin: 0; }
 
   .feature, .items-list {

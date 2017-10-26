@@ -62,12 +62,14 @@
     @import "layout/l-section/--offer/l-section--offer.scss";
 /* >> l-section--footer -------------------------------------------------- */
     @import "layout/l-section/--footer/l-section--footer.scss";
-/* __ l-section__content-wrapper -------------------------------------------------- */
-    @import "layout/l-section/__content-wrapper/l-section__content-wrapper.scss"; 
+
+
+/* __ l-wrapper -------------------------------------------------- */
+    @import "layout/l-wrapper/l-wrapper.scss"; 
 /* __ l-section__content-wrapper--small-margin -------------------------------------------------- */
-    @import "layout/l-section/__content-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss"; 
+    @import "layout/l-wrapper/--margin-small/l-section__content-wrapper--margin-small.scss"; 
 /* __ l-section__content-wrapper--xsmall-margin -------------------------------------------------- */
-    @import "layout/l-section/__content-wrapper/--margin-xsmall/l-section__content-wrapper--margin-xsmall.scss"; 
+    @import "layout/l-wrapper/--margin-xsmall/l-section__content-wrapper--margin-xsmall.scss"; 
 /* l-features-wrapper ---------------------------------------------------- */
 @import "layout/l-features-wrapper/l-features-wrapper.scss"; 
 /* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
