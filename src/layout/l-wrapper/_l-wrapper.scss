@@ -4,6 +4,10 @@
     margin: 60px auto;
     z-index: 1;
   
+  &--margin-xsmall {
+    margin: 40px auto;
+  }
+  
   &--side {
     width: 100%;
     max-width: none;
@@ -67,12 +71,18 @@
   @mixin l-wrapper--screen-size_wide {
     .l-wrapper {
       margin: 100px auto;
-    }
-    .l-wrapper--side {
-      margin: 0;
+      
+      &--side {
+        margin: 0;
+      }
+      &--margin-small {
+        margin: 60px auto;
+      }
+      &--margin-xsmall {
+        margin: 40px auto;
+      }
     }
   }
-      
     
 
 @media only screen and (min-width: 1367px) {
