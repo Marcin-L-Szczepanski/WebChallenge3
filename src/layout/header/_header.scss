@@ -19,7 +19,7 @@
 
 // Media queries 
   // Large screen >750px
-  @mixin header--medium-screen {
+  @mixin header--screen-size_medium {
     .header__wrapper {
         height: 115px;
     }

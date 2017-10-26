@@ -37,7 +37,7 @@
 }
 
 // Media queries
-@mixin menu__list--small-screen {
+@mixin menu__list--screen-size_small {
   .menu__list {
     display: flex;
   }

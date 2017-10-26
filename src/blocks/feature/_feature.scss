@@ -90,14 +90,14 @@
 
 // Media queries 
   // Small screen > 376px 
-  @mixin feature__description--x-small-screen {
+  @mixin feature__description--screen-size_tiny {
     .feature__description {
       font-size: $font-size-xxs;
     }
   }
 
   // X-Large screen > 1024px
-  @mixin feature--x-large-screen {
+  @mixin feature--screen-size_wide {
     .feature {
       margin-top: 0; 
       

@@ -1,19 +1,21 @@
 // Media Queries //
 // Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
-// Issues: Problem with naming many irregular breakpoints
+// Issues: 
+// - Problem with naming many irregular breakpoints
+// - Double elements
 
 
-// X-small screen size (--x-small-screen)
+// Tiny screen (--screen-size_tiny)
 @media only screen and (min-width: 376px) {
-  @include button--menu--x-small-screen;
-  @include heading--x-small-screen;
-  @include feature__description--x-small-screen;
+  @include button--menu--screen-size_tiny;
+  @include heading--screen-size_tiny;
+  @include feature__description--screen-size_tiny;
 }
 
-// Small screen size (--small-screen)
+// Small screen (--screen-size_small)
 @media only screen and (min-width: 640px) {
-  @include button--menu--small-screen;
-  @include menu__list--small-screen;
+  @include button--menu--screen-size_small;
+  @include menu__list--screen-size_small;
 }
 
 // Portrait orientation
@@ -23,27 +25,27 @@
   @include menu__list--open--portait;
 }
 
-// Medium screen size (--medium-screen)
+// Medium screen (--screen-size_medium)
 @media only screen and (min-width: 750px) {
-  @include l-section--banner--medium-screen;
-  @include header--medium-screen;
-  @include opinion--medium-screen;
+  @include l-section--banner--screen-size_medium;
+  @include header--screen-size_medium;
+  @include opinion--screen-size_medium;
 }
 
-// Large screen size (--large-screen)
+// Large screen (--screen-size_large)
 @media only screen and (min-width: 850px) {
-  @include l-section--projects--large-screen;
-  @include l-section__content-wrapper--side--large-screen;
+  @include l-section--projects--screen-size_large;
+  @include l-section__content-wrapper--side--screen-size_large;
 }
 
-// X-large screen size (--x-large-screen)
+// Wide screen (--screen-size_wide)
 @media only screen and (min-width: 1024px) {
-  @include l-section__content-wrapper--x-large-screen;
-  @include feature--x-large-screen;
-  @include socials--x-large-screen;
+  @include l-section__content-wrapper--screen-size_wide;
+  @include feature--screen-size_wide;
+  @include socials--screen-size_wide;
 }
 
-// Max screen size (--max-screen)
+// Mega screen (--screen-size_mega)
 @media only screen and (min-width: 1200px) {
-  @include l-section--projects--max-screen;
+  @include l-section--projects--screen-size_mega;
 }

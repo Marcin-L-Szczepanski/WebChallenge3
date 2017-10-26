@@ -42,14 +42,14 @@
 
 // Media queries 
   // Medium screen >750px
-  @mixin l-section--banner--medium-screen {
+  @mixin l-section--banner--screen-size_medium {
     .l-section--banner {
     margin-top: 115px;
     }
   }
 
   // Large screen >850px
-  @mixin l-section--projects--large-screen {
+  @mixin l-section--projects--screen-size_large {
     .l-section--projects {
       background: url("../img/projects/ipad.png");
       background-position-x: right;
@@ -60,7 +60,7 @@
   }
 
   // Max screen >1200px
-  @mixin l-section--projects--max-screen {
+  @mixin l-section--projects--screen-size_mega {
     .l-section--projects {
       background-size: auto;
     }

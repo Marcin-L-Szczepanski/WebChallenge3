@@ -31,7 +31,7 @@
 }
 
 // Media queries
-@mixin socials--x-large-screen {
+@mixin socials--screen-size_wide {
   .socials {
     position: absolute;
     left: calc(50% - 100px);
