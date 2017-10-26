@@ -41,6 +41,7 @@
 // Wide screen (--screen-size_wide)
 @media only screen and (min-width: 1024px) {
   @include l-wrapper--screen-size_wide;
+  @include features--screen-size_wide;
   @include feature--screen-size_wide;
   @include socials--screen-size_wide;
 }

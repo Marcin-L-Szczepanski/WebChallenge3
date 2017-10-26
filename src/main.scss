@@ -27,7 +27,7 @@
 // #4 LAYOUT                                                        |
 //   --- Media queries ---                                          |
 // #5 BLOCKS                                                        |
-// #6 HACKS                                                         |
+// #6 SHAME                                                         |
 //   --- shame.css ---                                              |
 //------------------------------------------------------------------/
 
@@ -48,28 +48,19 @@
   @import "base/global"; 
   @import "base/preloader"; 
 
-
-
-
 // ----------------------------------------------------------------------
-  // #3 Layout - contains styling for larger layout components; e.g. nav, header, footer, etc.
+  // #4 Layout - contains styling for larger layout components; e.g. nav, header, footer, etc.
 // ----------------------------------------------------------------------
 /* header  ---------------------------------------------------- */
-    @import "layout/header/header"; 
+    @import "layout/l-header/l-header"; 
 /* l-section  ---------------------------------------------------- */
-@import "layout/l-section/l-section.scss"; 
-
-
+    @import "layout/l-section/l-section.scss"; 
 /* __ l-wrapper -------------------------------------------------- */
     @import "layout/l-wrapper/l-wrapper.scss"; 
-/* l-features-wrapper ---------------------------------------------------- */
-@import "layout/l-features-wrapper/l-features-wrapper.scss"; 
-/* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
-    @import "layout/l-features-wrapper/--top-aligned/l-features-wrapper--top-aligned.scss"; 
 
-/************************************************************************\
-  3# BLOCKS
-\************************************************************************/
+// ----------------------------------------------------------------------
+  // #5 Blocks - contains XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// ----------------------------------------------------------------------
 /* logo  ---------------------------------------------------- */
     @import "blocks/logo/logo"; 
 /* menu  ---------------------------------------------------- */
@@ -78,6 +69,8 @@
     @import "blocks/heading/heading"; 
 /* project --------------------------------------------------------- */
     @import "blocks/project/project";  
+/* features ---------------------------------------------------- */
+    @import "blocks/features/features"; 
 /* feature --------------------------------------------------------- */
     @import "blocks/feature/feature";  
 /* list ---------------------------------------------------- */

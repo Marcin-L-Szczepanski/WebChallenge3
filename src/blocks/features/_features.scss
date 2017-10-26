@@ -1,0 +1,22 @@
+.features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+// Media queries
+  // Wide screen >1024px
+ @mixin features--screen-size_wide {
+  .features {
+    flex-direction: row;
+    width: 100%;
+    max-width: 940px;
+    
+    &--top-aligned {
+      align-items: flex-start;
+    }
+  }
+}

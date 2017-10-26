@@ -595,26 +595,6 @@ a:hover {
   background-size: cover;
   background-position: center; }
 
-/* l-features-wrapper ---------------------------------------------------- */
-.l-features-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-
-@media all and (min-width: 1024px) {
-  .l-features-wrapper {
-    flex-direction: row;
-    width: 100%;
-    max-width: 940px; } }
-/* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
-@media all and (min-width: 1024px) {
-  .l-features-wrapper--top-aligned {
-    align-items: flex-start; } }
-/************************************************************************\
-  3# BLOCKS
-\************************************************************************/
 /* logo  ---------------------------------------------------- */
 .logo {
   display: -webkit-box;
@@ -739,6 +719,14 @@ a:hover {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 600; }
+
+/* features ---------------------------------------------------- */
+.features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
 
 /* feature --------------------------------------------------------- */
 .feature, .items-list {
@@ -1098,6 +1086,13 @@ a:hover {
       margin: 60px auto; }
     .l-wrapper--margin-tiny {
       margin: 40px auto; }
+
+  .features {
+    flex-direction: row;
+    width: 100%;
+    max-width: 940px; }
+    .features--top-aligned {
+      align-items: flex-start; }
 
   .feature, .items-list {
     margin-top: 0; }
