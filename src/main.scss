@@ -58,16 +58,10 @@
     @import "layout/header/header"; 
 /* l-section  ---------------------------------------------------- */
 @import "layout/l-section/l-section.scss"; 
-/* >> l-section--offer -------------------------------------------------- */
-    @import "layout/l-section/--offer/l-section--offer.scss";
-/* >> l-section--footer -------------------------------------------------- */
-    @import "layout/l-section/--footer/l-section--footer.scss";
 
 
 /* __ l-wrapper -------------------------------------------------- */
     @import "layout/l-wrapper/l-wrapper.scss"; 
-
-
 /* l-features-wrapper ---------------------------------------------------- */
 @import "layout/l-features-wrapper/l-features-wrapper.scss"; 
 /* >> l-features-wrapper--top-aligned ---------------------------------------------------- */
