@@ -959,7 +959,8 @@ a:hover {
     height: 35px;
     padding: 0 10px; }
     .button--menu:hover .button__icon {
-      stroke: #222222; }
+      stroke: #222222;
+      transition: all 300ms linear; }
   .button__icon-container {
     margin-left: 5px; }
   .button__icon {
@@ -975,7 +976,7 @@ a:hover {
   .button--open .button__icon--close line {
     opacity: 1;
     transform: translateY(0);
-    transition: all 300ms linear; }
+    transition: transform 300ms linear; }
   .button--close .button__icon--open {
     opacity: 1;
     transform: translateY(0); }
