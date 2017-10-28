@@ -17,8 +17,9 @@ More information about the project:
 
 [BEM methodology](https://en.bem.info) has been used in this project.
 
-Naming convention follows [Harry Roberts' naming convention](https://en.bem.info/toolbox/sdk/bem-naming/#harry-roberts-naming-convention)
+Naming convention follows [Harry Roberts' naming convention](https://en.bem.info/toolbox/sdk/bem-naming/#harry-roberts-naming-convention).
 Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
+
 Two types of modifiers are used:
  - a boolean flag
  - a key/value pair
@@ -29,7 +30,6 @@ Two types of modifiers are used:
   * Key/value modifiers:<br>
     Original block/element name + double dash + mod key name + single underscore + mod value<br>
     **.b-block--key_value** or **.b-block__elem--key_value**
-
 For example:
 ```html
   <button class="button button--secondary">...</button>
@@ -49,14 +49,14 @@ BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatshe
 
 ## CSS specificity
 
-It is often [recommended](https://css-tricks.com/strategies-keeping-css-specificity-low/) to keep specificity low, consistent and very little difference between the selectors in order to make the stylesheet maintainable.
+It is often [recommended](https://csswizardry.com/2014/10/the-specificity-graph/) to keep specificity low, consistent and very little difference between the selectors in order to make the stylesheet maintainable.
 Use of BEM methodology in this project allowed to keep specificity low and avoid spikes.
 The below graph, genearated by Jonas Ohlsson’s [CSS Specificity Graph Generator](https://jonassebastianohlsson.com/specificity-graph/) shows specificity of this project's stylesheet.
 ![Project's stylesheet specificity](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/master/resources/specificity.png)
 Notes: 
 
 ## Media queries
-Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
+Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844)
 !ADD DESCRIPTION
 
 
