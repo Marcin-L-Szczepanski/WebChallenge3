@@ -1,6 +1,6 @@
 # WebChallenge 3
 
-Below PSD design converted to code.
+Below PSD design converted to responsive website.
 
 Converted page is available at: https://marcin-l-szczepanski.github.io/WebChallenge3/
 
