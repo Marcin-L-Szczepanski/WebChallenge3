@@ -17,10 +17,8 @@ More information about the project:
 
 [BEM methodology](https://en.bem.info) has been used in this project.
 
-### Naming convention 
-
-Naming convention follows [Harry Roberts' naming convention](#https://en.bem.info/toolbox/sdk/bem-naming/#harry-roberts-naming-convention)
-Read more in the [Guidelines](#https://cssguidelin.es/#bem-like-naming).
+Naming convention follows [Harry Roberts' naming convention](https://en.bem.info/toolbox/sdk/bem-naming/#harry-roberts-naming-convention)
+Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
 Two types of modifiers are used:
  - a boolean flag
  - a key/value pair
