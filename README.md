@@ -54,7 +54,7 @@ BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatshe
 It is often [recommended](#https://css-tricks.com/strategies-keeping-css-specificity-low/) to keep specificity low, consistent and very little difference between the selectors in order to make the stylesheet maintainable.
 Use of BEM methodology in this project allowed to keep specificity low and avoid spikes.
 The below graph, genearated by Jonas Ohlsson’s [CSS Specificity Graph Generator](#https://jonassebastianohlsson.com/specificity-graph/) shows specificity of this project's stylesheet.
-![Project's stylesheet specificity](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/master/resources/specificity.jpg)
+![Project's stylesheet specificity](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/master/resources/specificity.png)
 Notes: 
 
 ## Media queries
