@@ -1,0 +1,22 @@
+.go-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  @include flexbox(center, center);
+  @include box-shadow(5px, 5px, 16px, rgba(0, 0, 0, 1));
+  background-color: $color-main;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 45px;
+  font-size: $font-size-xs;
+  color: $grey-lvl1;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+  transition: all 300ms ease-in;
+  z-index: 3;
+  cursor: pointer;
+    &:hover {
+      background-color: $grey-lvl1;
+      color: $grey-lvl8;
+      text-shadow: none;
+    }
+  }
