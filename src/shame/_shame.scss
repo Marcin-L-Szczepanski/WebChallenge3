@@ -1,27 +1,24 @@
-// Heading
+// Heading - SOLVED
 // Margin bottom under heading__subtitle currently depends on their context
-      .l-section--banner .heading__subtitle {
-          margin-bottom: 60px;
-      }
-
-      .l-section--offer .heading__subtitle {
-          margin-bottom: 20px;
-      }
-
-
-
-.l-section--footer { 
-        flex-direction: column-reverse;
-    }
-
-@media only screen and (min-width: 700px) {
-    .l-section--footer { 
-        flex-direction: row;
-    }
-}
-
-
-
+//      .l-section--banner .heading__subtitle {
+//          margin-bottom: 60px;
+//      }
+//
+//      .l-section--offer .heading__subtitle {
+//          margin-bottom: 20px;
+//      }
+//
+// -> SOLUTION:
+//    Include Element's key-value Modifier
+//      .heading__subtitle--margin_small {
+//        margin-bottom: 60px;
+//      }
+//
+//      .heading__subtitle--margin_tiny {
+//        margin-bottom: 20px;
+//      }
+//
+/////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 1367px) {
     .l-section--offer .l-wrapper {
@@ -35,7 +32,6 @@
     align-items: center;
     
     @include respond(1024px) {
-            position: relative;
             flex-direction: row;
         }   
 }

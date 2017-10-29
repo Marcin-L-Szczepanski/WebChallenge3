@@ -29,6 +29,12 @@
     &--light {
       color: $grey-lvl5;
     }
+    &--margin_small {
+      margin-bottom: 60px;
+    }
+    &--margin_tiny {
+      margin-bottom: 20px;
+    }
   }
 }
 
