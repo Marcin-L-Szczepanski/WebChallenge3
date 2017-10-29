@@ -21,14 +21,14 @@ Naming convention follows [Harry Roberts' naming convention](https://en.bem.info
 Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
 
 Two types of modifiers are used:
- - a boolean flag
+ - a boolean flag<br>
     Original block/element name + double dash + mod name<br>
     **.b-block--mod** or **.b-block__elem--mod**
- - a key/value pair
+ - a key/value pair<br>
     Original block/element name + double dash + mod key name + single underscore + mod value<br>
     **.b-block--key_value** or **.b-block__elem--key_value**
     
-<br>For example:
+For example:
 ```html
   <button class="button button--secondary">...</button>
   <section class="l-section l-section--background_light">...</section>
