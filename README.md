@@ -57,7 +57,29 @@ Notes:
 
 ## Media queries
 Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844)
-!ADD DESCRIPTION
+
+- all media queries are defined in only one [media-queries.scss](/src/layout/_media-queries.scss) file.
+- if a block requires media queries, the file contains mixins at the end - [See example](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/4fae64fdc17e7642bb09bd768c4aabda160cfb3f/src/layout/l-wrapper/_l-wrapper.scss#L51)
+- These mixins are called inside the break points defined in the media-queries.scss file
+
+Naming convention:
+The responsive suffix has been changed the from the Dominique's '--' (same as BEM's modifier suffix) to '@', which is a suggested suffix in [BEMIT syntax](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) although the use is different than in BEMIT.
+
+Example: 
+_block.scss
+```css
+@mixin block\@screen_large {
+    .block { styles }
+```
+media-queries.scss
+```css
+@media only screen and (min-width: 850px) {
+  @include block\@screen_large;
+```
+
+Issues: 
+- Problem with naming many irregular breakpoints
+
 
 
 ## Src File structure
@@ -68,7 +90,7 @@ The Sass architecture in this project is a modification of solution introduced i
 
 Components have been replaced with Blocks to keep reference to BEM methodology that has been used in this project.
 
-BLock folder includes _block.scss partial file, which contains the Block's Elements and Modifiers, as well as a block.js file.
+Block folder includes _block.scss partial file, which contains the Block's Elements and Modifiers, as well as a block.js file.
 
 All the partials have been stuffed into 5 main folders: Vendor, Abstracts, Base, Blocks and Layout + an additional Shame folder including the [shame.css](https://csswizardry.com/2013/04/shame-css/) that keeps hacks, quick-fix and temporary solution awaiting for better ones.
 
@@ -121,8 +143,8 @@ src/
 
 ```
 
-Note to myself: Try and use ITCSS for next project.
-Check other structure: 
+Note to myself: Try and use ITCSS in next projects.
+Check also other structures: 
 - http://vanseodesign.com/css/sass-directory-structures/
 - http://matthewelsom.com/blog/simple-scss-playbook.html
 - https://github.com/chris-pearce/scally
