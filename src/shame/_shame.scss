@@ -1,4 +1,6 @@
-// Heading - SOLVED
+//////////////////////////////////////////////////////////////////////////
+//
+// Heading margins - SOLVED
 // Margin bottom under heading__subtitle currently depends on their context
 //      .l-section--banner .heading__subtitle {
 //          margin-bottom: 60px;
@@ -19,19 +21,24 @@
 //      }
 //
 /////////////////////////////////////////////////////////////////////////////
-
-
-//@media only screen and (min-width: 1367px) {
-//    .l-section--offer .l-wrapper {
+//
+// Background-attachment: fixed causes causes issues on mobile browsers.
+// Temporary solution: Use property for screens larger than 1367px only:
+//    @media only screen and (min-width: 1367px) {
+//      .l-section--offer .l-wrapper {
 //        background-attachment: fixed;  
+//      }
 //    }
-//}
-
-    .l-section--offer .l-wrapper {
-        background-attachment: fixed;  
-    }
-
-
+//
+// -> SOLUTION:
+//    Use @supports CSS at-rule to check if the browser supports background-attachment property:
+//      @supports (background-attachment: fixed) {
+//        .l-section--offer .l-wrapper {
+//          background-attachment: fixed;  
+//          }
+//        }
+//
+//////////////////////////////////////////////////////////////////////////////
 .l-section--footer .l-wrapper {
     display: flex;
     flex-direction: column-reverse;
