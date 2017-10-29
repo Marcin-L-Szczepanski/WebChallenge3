@@ -43,14 +43,6 @@
 //      }
 //
 //////////////////////////////////////////////////////////////////////////////
-.l-section--footer .l-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    
-    @include respond(1024px) {
-            flex-direction: row;
-        }   
-}
+
 
 

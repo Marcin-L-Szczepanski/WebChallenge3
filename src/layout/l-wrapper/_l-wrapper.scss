@@ -41,6 +41,12 @@
     background-position: center;
 }
 
+.l-section--footer .l-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
 
 // Media queries 
   // Large screen >850px
@@ -82,4 +88,8 @@
         margin: 40px auto;
       }
     }
+    
+    .l-section--footer .l-wrapper {
+      flex-direction: row;
+    } 
   }
