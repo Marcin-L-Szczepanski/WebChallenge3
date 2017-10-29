@@ -20,7 +20,14 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-@media only screen and (min-width: 1367px) {
+
+//@media only screen and (min-width: 1367px) {
+//    .l-section--offer .l-wrapper {
+//        background-attachment: fixed;  
+//    }
+//}
+
+@supports (background-attachment: fixed) {
     .l-section--offer .l-wrapper {
         background-attachment: fixed;  
     }
