@@ -2,6 +2,14 @@
   @include flexbox(center, center);
   flex-direction: column;
   text-align: center;
+  
+  &__anchor {
+    display: block;
+    height: 50px; /*same height as header*/
+    margin-top: -50px; /*same height as header*/
+    visibility: hidden;
+
+  }
 
   &--banner {
     margin-top: 80px;
@@ -41,9 +49,15 @@
 
 // Media queries 
   // Medium screen >750px
-  @mixin l-section--banner\@screen_medium {
-    .l-section--banner {
-    margin-top: 115px;
+  @mixin l-section\@screen_medium {
+    .l-section {
+      &__anchor {
+        height: 115px;
+        margin-top: -115px;
+      }
+      &--banner {
+        margin-top: 115px;
+      }
     }
   }
 
@@ -62,5 +76,15 @@
   @mixin l-section--projects\@screen_mega {
     .l-section--projects {
       background-size: auto;
+    }
+  }
+
+  // Portrait
+  @mixin l-section\@screen_portait {
+    .l-section {
+      &__anchor {
+        height: 80px;
+        margin-top: -80px;
+      }
     }
   }
