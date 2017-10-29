@@ -60,12 +60,13 @@ Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers
 
 - all media queries are defined in only one [media-queries.scss](/src/layout/_media-queries.scss) file.
 - if a block requires media queries, the file contains mixins at the end - [See example](https://github.com/Marcin-L-Szczepanski/WebChallenge3/blob/4fae64fdc17e7642bb09bd768c4aabda160cfb3f/src/layout/l-wrapper/_l-wrapper.scss#L51)
-- These mixins are called inside the break points defined in the media-queries.scss file
+- these mixins are called inside the break points defined in the media-queries.scss file
 
 Naming convention:
 The responsive suffix has been changed the from the Dominique's '--' (same as BEM's modifier suffix) to '@', which is a suggested suffix in [BEMIT syntax](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) although the use is different than in BEMIT.
 
 Example: 
+
 _block.scss
 ```css
 @mixin block\@screen_large {
