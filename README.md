@@ -72,7 +72,7 @@ _block.scss
 @mixin block\@screen_large {
     .block { styles }
 ```
-media-queries.scss
+_media-queries.scss
 ```css
 @media only screen and (min-width: 850px) {
   @include block\@screen_large;
