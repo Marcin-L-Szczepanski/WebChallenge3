@@ -24,19 +24,23 @@
 //
 // Background-attachment: fixed causes causes issues on mobile browsers.
 // Temporary solution: Use property for screens larger than 1367px only:
-//    @media only screen and (min-width: 1367px) {
-//      .l-section--offer .l-wrapper {
-//        background-attachment: fixed;  
-//      }
-//    }
+    @media only screen and (min-width: 1367px) {
+      .l-section--offer .l-wrapper--side {
+        background-attachment: fixed;  
+      }
+    }
 //
-// -> SOLUTION:
+// -> SOLUTION (doesn't seem to be working):
 //    Use @supports CSS at-rule to check if the browser supports background-attachment property:
+//      .l-section--offer .l-wrapper {
+//      ...
+//      background-attachment: scroll;  
 //      @supports (background-attachment: fixed) {
 //        .l-section--offer .l-wrapper {
 //          background-attachment: fixed;  
 //          }
 //        }
+//      }
 //
 //////////////////////////////////////////////////////////////////////////////
 .l-section--footer .l-wrapper {
