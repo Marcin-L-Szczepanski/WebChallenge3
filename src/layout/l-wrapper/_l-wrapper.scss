@@ -44,7 +44,7 @@
 
 // Media queries 
   // Large screen >850px
-  @mixin l-wrapper--side--screen-size_large {
+  @mixin l-wrapper--side\@screen_large {
     .l-wrapper--side {
       padding-left: 90px;
       width: 75%;
@@ -68,7 +68,7 @@
   }
 
   // Wide screen >1024px
-  @mixin l-wrapper--screen-size_wide {
+  @mixin l-wrapper\@screen_wide {
     .l-wrapper {
       margin: 100px auto;
       

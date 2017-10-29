@@ -61,6 +61,8 @@ Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers
 
 
 ## File structure
+
+Elements and Modifiers are included in the Block's file.
 ```
 src/
 |

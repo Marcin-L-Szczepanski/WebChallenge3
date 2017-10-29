@@ -9,7 +9,7 @@
 
 // Media queries
   // Wide screen >1024px
- @mixin features--screen-size_wide {
+ @mixin features\@screen_wide {
   .features {
     flex-direction: row;
     width: 100%;

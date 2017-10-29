@@ -97,17 +97,17 @@
 }
 
 // Media queries
-@mixin button--menu--screen-size_tiny {
+@mixin button--menu\@screen_tiny {
   .button--menu {
     padding: 0 30px;
   }
 }
-@mixin button--menu--screen-size_small {
+@mixin button--menu\@screen_small {
     .button--menu {
       display: none;
     }
   }
-@mixin button--menu--potrait {
+@mixin button--menu\@screen_potrait {
   .button--menu {
     height: 50px;
   }

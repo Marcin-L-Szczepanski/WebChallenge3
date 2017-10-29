@@ -2,51 +2,53 @@
 // Inspired by https://medium.com/front-end-developers/the-solution-to-media-queries-in-sass-5493ebe16844
 // Issues: 
 // - Problem with naming many irregular breakpoints
-// - Double elements
+// - Double elements | solution: changed the responsive suffix from '--' (same as BEM's modifier suffix) to '@',
+// which is a suggested suffix in BEMIT syntax (https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
+// although the use is different than in BEMIT.
 
 
 // Tiny screen (--screen-size_tiny)
 @media only screen and (min-width: 376px) {
-  @include button--menu--screen-size_tiny;
-  @include heading--screen-size_tiny;
-  @include feature__description--screen-size_tiny;
+  @include button--menu\@screen_tiny;
+  @include heading\@screen_tiny;
+  @include feature__description\@screen_tiny;
 }
 
 // Small screen (--screen-size_small)
 @media only screen and (min-width: 640px) {
-  @include button--menu--screen-size_small;
-  @include menu__list--screen-size_small;
+  @include button--menu\@screen_small;
+  @include menu__list\@screen_small;
 }
 
 // Portrait orientation
 @media only screen and (min-width: 640px), (orientation: portrait) {
-  @include button--menu--potrait;
-  @include header__wrapper--portait;
-  @include menu__list--open--portait;
+  @include button--menu\@screen_potrait;
+  @include header__wrapper\@screen_portait;
+  @include menu__list--open\@screen_portait;
 }
 
 // Medium screen (--screen-size_medium)
 @media only screen and (min-width: 750px) {
-  @include l-section--banner--screen-size_medium;
-  @include header--screen-size_medium;
-  @include opinion--screen-size_medium;
+  @include l-section--banner\@screen_medium;
+  @include header__wrapper\@screen_medium;
+  @include opinion\@screen_medium;
 }
 
 // Large screen (--screen-size_large)
 @media only screen and (min-width: 850px) {
-  @include l-section--projects--screen-size_large;
-  @include l-wrapper--side--screen-size_large;
+  @include l-section--projects\@screen_large;
+  @include l-wrapper--side\@screen_large;
 }
 
 // Wide screen (--screen-size_wide)
 @media only screen and (min-width: 1024px) {
-  @include l-wrapper--screen-size_wide;
-  @include features--screen-size_wide;
-  @include feature--screen-size_wide;
-  @include socials--screen-size_wide;
+  @include l-wrapper\@screen_wide;
+  @include features\@screen_wide;
+  @include feature\@screen_wide;
+  @include socials\@screen_wide;
 }
 
 // Mega screen (--screen-size_mega)
 @media only screen and (min-width: 1200px) {
-  @include l-section--projects--screen-size_mega;
+  @include l-section--projects\@screen_mega;
 }

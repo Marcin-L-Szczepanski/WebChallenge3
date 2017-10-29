@@ -1,4 +1,4 @@
-.header {
+.l-header {
   width: 100%;
   background-color: $grey-lvl1;
   position: fixed;
@@ -19,14 +19,14 @@
 
 // Media queries 
   // Large screen >750px
-  @mixin header--screen-size_medium {
-    .header__wrapper {
+  @mixin header__wrapper\@screen_medium {
+    .l-header__wrapper {
         height: 115px;
     }
   }
 // Portrait
-  @mixin header__wrapper--portait {
-    .header__wrapper {
+  @mixin header__wrapper\@screen_portait {
+    .l-header__wrapper {
       height: 80px;
     }
   }
