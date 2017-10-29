@@ -22,15 +22,13 @@ Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
 
 Two types of modifiers are used:
  - a boolean flag
- - a key/value pair
- 
-  * Boolean modifiers:<br>
     Original block/element name + double dash + mod name<br>
     **.b-block--mod** or **.b-block__elem--mod**
-  * Key/value modifiers:<br>
+ - a key/value pair
     Original block/element name + double dash + mod key name + single underscore + mod value<br>
     **.b-block--key_value** or **.b-block__elem--key_value**
-For example:
+    
+<br>For example:
 ```html
   <button class="button button--secondary">...</button>
   <section class="l-section l-section--background_light">...</section>
@@ -43,8 +41,7 @@ an Element can be affected by a Block-level Modifier:
     background: url("../img/offer/background.png");
 }
 ```
-See more: http://getbem.com/faq/#block-modifier-affects-elements
-
+See more: http://getbem.com/faq/#block-modifier-affects-elements<br>
 BEM cheatsheet: https://gist.github.com/ingdir/0b211b9253c376f9cfa5#bem-cheatsheet
 
 ## CSS specificity
@@ -65,8 +62,7 @@ Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers
 Naming convention:
 The responsive suffix has been changed the from the Dominique's '--' (same as BEM's modifier suffix) to '@', which is a suggested suffix in [BEMIT syntax](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) although the use is different than in BEMIT.
 
-Example: 
-
+Example: <br>
 _block.scss
 ```css
 @mixin block\@screen_large {
@@ -78,7 +74,7 @@ _media-queries.scss
   @include block\@screen_large;
 ```
 
-Issues: 
+Issues: <br>
 - Problem with naming many irregular breakpoints
 
 
