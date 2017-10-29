@@ -60,20 +60,65 @@ Inspired by Dominique Briggs' [solution](https://medium.com/front-end-developers
 !ADD DESCRIPTION
 
 
-## File structure
+## Src File structure
 
-Elements and Modifiers are included in the Block's file.
+The Sass architecture in this project is a modification of solution introduced in Hugo Giraudel's Sass Guidelines: 
+-> https://sass-guidelin.es/#architecture
+Components have been replaced with Blocks to keep reference to BEM methodology that has been used in this project.
+BLock folder includes _block.scss partial file, which contains the Block's Elements and Modifiers, as well as a block.js file.
+All the partials have been stuffed into 5 main folders: Vendor, Abstracts, Base, Blocks and Layout + an additional Shame folder including the [shame.css](https://csswizardry.com/2013/04/shame-css/) that keeps hacks, quick-fix and temporary solution awaiting for better ones.
+
+
 ```
 src/
 |
-|-- abstracts/
-|   |-- _mixins.scss          # Scss Mixins
-|   |-- _typography.scss      # Scss Variables
-|   ...
+|-- abstracts/                # Global Mixins and Variables
+|   |-- _mixins.scss
+|   |-- _variables.scss
 |
-|-- base/                     # Base style
-|   ...
+|-- base/                     # Base styles
+|   |-- _global.scss
+|
+|-- blocks/                   # Blocks, Elements and Modifiers
+|   |-- button/
+|       |-- _button.scss
+|       |-- button--menu.js
+|   |-- _copyright.scss
+|   |-- _feature.scss
+|   |-- _features.scss
+|   |-- _heading.scss
+|   |-- _items-list.scss
+|   |-- _list.scss
+|   |-- _logo.scss
+|   |-- menu/
+|       |-- _menu.scss
+|       |-- menu__item.js
+|   |-- _opinion.scss
+|   |-- _partners.scss
+|   |-- preloader/
+|       |-- _preloader.scss
+|       |-- preloader.js
+|   |-- _project.scss
+|   |-- _socials.scss
+|
+|-- layout/                   # Larger layout components; e.g. header, section, footer, etc.
+|   |-- _l-header.scss
+|   |-- _l-section.scss
+|   |-- _l-wrapper.scss
+|   |-- _media-queries.scss
+|
+|-- shame/                    # Stylings awaiting improving
+|   |-- _shame.scss   # ---
+|
+|-- vendor/                   # Third party CSS files
+|   |-- _normalize.scss       # Normalize.css v7.0.0
 |
 |-- style.scss                # Main Scss file compiles to style.css
 
 ```
+
+Note to myself: Try and use ITCSS for next project.
+Check other structure: 
+- http://vanseodesign.com/css/sass-directory-structures/
+- http://matthewelsom.com/blog/simple-scss-playbook.html
+- https://github.com/chris-pearce/scally

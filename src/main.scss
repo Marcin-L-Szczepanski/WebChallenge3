@@ -7,8 +7,10 @@
 // Components have been replaced with Blocks to keep reference 
 // to BEM methodology that has been used in this project.
 //
-// All the partials have been stuffed into 5 different folders: 
-// Abstracts, Base, Blocks and Layout.
+// All the partials have been stuffed into 5 main folders: 
+// Vendor, Abstracts, Base, Blocks, Layout,
+// + additional Shame folder that keeps hacks, quick-fix and
+// temporary solution awaiting for better ones (https://csswizardry.com/2013/04/shame-css/)
 //
 //
 //------------------------------------------------------------------\
@@ -32,34 +34,30 @@
 //------------------------------------------------------------------/
 
 // ----------------------------------------------------------------------
-  // #1 Vendor - contains 3rd-party vendor tools (frameworks, libraries, helpers)
+  // #1 Vendor
 // ----------------------------------------------------------------------
   @import "vendor/normalize"; // v7.0.0
 
 // ----------------------------------------------------------------------
-  // #2 Abstracts - contains tools and helpers used across the project, such as variables and mixins
+  // #2 Abstracts
 // ----------------------------------------------------------------------
   @import "abstracts/variables"; 
   @import "abstracts/mixins"; 
 
 // ----------------------------------------------------------------------
-  // #3 Base - contains global styles XXXXXXXXXXXXXXXXXXXXXXXX
+  // #3 Base
 // ----------------------------------------------------------------------
   @import "base/global"; 
-  @import "base/preloader"; 
 
 // ----------------------------------------------------------------------
   // #4 Layout - contains styling for larger layout components; e.g. nav, header, footer, etc.
 // ----------------------------------------------------------------------
-/* header  ---------------------------------------------------- */
     @import "layout/l-header/l-header"; 
-/* l-section  ---------------------------------------------------- */
     @import "layout/l-section/l-section.scss"; 
-/* __ l-wrapper -------------------------------------------------- */
     @import "layout/l-wrapper/l-wrapper.scss"; 
 
 // ----------------------------------------------------------------------
-  // #5 Blocks - contains XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  // #5 Blocks
 // ----------------------------------------------------------------------
     @import "blocks/logo/logo"; 
     @import "blocks/menu/menu"; 
@@ -73,7 +71,8 @@
     @import "blocks/items-list/items-list";  
     @import "blocks/copyright/copyright";
     @import "blocks/socials/socials"; 
-    @import "blocks/button/button";  
+    @import "blocks/button/button";
+    @import "blocks/preloader/preloader"; 
 
 
 /* Media Queries  ---------------------------------------------------- */
