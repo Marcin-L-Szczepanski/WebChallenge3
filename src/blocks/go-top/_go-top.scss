@@ -3,7 +3,7 @@
   bottom: 30px;
   right: 30px;
   @include flexbox(center, center);
-  @include box-shadow(5px, 5px, 16px, rgba(0, 0, 0, 1));
+  @include box-shadow(5px, 5px, 16px, rgba(0, 0, 0, 0.6));
   background-color: $color-main;
   height: 50px;
   padding: 0 15px;
