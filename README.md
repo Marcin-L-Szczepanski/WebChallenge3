@@ -20,7 +20,7 @@ More information about the project:
 Naming convention follows [Harry Roberts' naming convention](https://en.bem.info/toolbox/sdk/bem-naming/#harry-roberts-naming-convention).
 Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
 
-Two types of modifiers are used:
+### Two types of modifiers are used:
  - a boolean flag<br>
     Original block/element name + double dash + mod name<br>
     **.b-block--mod** or **.b-block__elem--mod**
@@ -34,6 +34,7 @@ For example:
   <section class="l-section l-section--background_light">...</section>
 ```
 
+### Block-Modifier affects Elements
 A descendant selector can be used to modify an Element based on a Modifier on the Block, i.e.
 an Element can be affected by a Block-level Modifier:
 ```css
