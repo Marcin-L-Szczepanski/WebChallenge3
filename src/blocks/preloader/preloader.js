@@ -6,5 +6,5 @@ window.addEventListener('load', function() {
     preloader.addEventListener('transitionend', function() {
         this.classList.add('preloader--hidden');
         this.classList.remove('preloader--hiding');
-    });
-});
+    }, false);
+}, false);
