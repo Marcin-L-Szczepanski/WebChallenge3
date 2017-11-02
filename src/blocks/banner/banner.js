@@ -8,11 +8,11 @@ preloader.addEventListener("transitionend", function() {
 
   setTimeout(function () {
     bannerTitle.classList.add("is-showing");
-  }, 200);
+  }, 100);
   setTimeout(function () {
       bannerSubtitle.classList.add("is-showing");
   }, 600);
   setTimeout(function () {
     bannerButton.classList.add("is-showing");
-  }, 1000);
+  }, 1100);
 }, false);
