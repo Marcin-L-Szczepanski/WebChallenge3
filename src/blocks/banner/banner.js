@@ -1,6 +1,4 @@
-const preloader = document.querySelector("#preloader");
-
-preloader.addEventListener("transitionend", function() {
+document.querySelector("#preloader").addEventListener("transitionend", function () {
   "use strict";
   const bannerTitle = document.querySelector(".banner__title");
   const bannerSubtitle = document.querySelector(".banner__subtitle");

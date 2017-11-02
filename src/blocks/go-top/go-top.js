@@ -1,4 +1,4 @@
-document.addEventListener('scroll', function() {
+document.addEventListener("scroll", function() {
   "use strict";
   const gotop_btn = document.querySelector("#go-top");
   let scroll_position = window.scrollY;

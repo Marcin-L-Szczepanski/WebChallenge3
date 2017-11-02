@@ -8,8 +8,10 @@ document.addEventListener("scroll", function () {
   
   if(scrollPosition > (projectOffsetTop - 700)) {
     setInterval(function () {
-      feature[i].classList.add("feature--showing");
-      i++;
+      if(i < feature.length) {
+        feature[i].classList.add("feature--showing");
+        i++;
+      }
     }, 600);
   }
 }, false);
