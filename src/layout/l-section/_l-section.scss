@@ -5,8 +5,8 @@
   
   &__anchor {
     display: block;
-    height: 50px; /*same height as header*/
-    margin-top: -50px; /*same height as header*/
+    height: 49px; /*same height as header - 1px*/
+    margin-top: -49px; /*same height as header*/
     visibility: hidden;
 
   }
@@ -53,10 +53,10 @@
     .l-section {
       &__anchor {
         height: 115px;
-        margin-top: -115px;
+        margin-top: -114px;
       }
       &--banner {
-        margin-top: 115px;
+        margin-top: 114px;
       }
     }
   }
@@ -83,8 +83,8 @@
   @mixin l-section\@screen_portait {
     .l-section {
       &__anchor {
-        height: 80px;
-        margin-top: -80px;
+        height: 79px;
+        margin-top: -79px;
       }
     }
   }
