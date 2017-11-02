@@ -1,0 +1,23 @@
+%hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 600ms linear;
+}
+
+  .banner {
+  &__title {
+    @extend %hidden;
+  }
+  &__subtitle {
+    @extend %hidden;
+    
+  }
+  &__button {
+    @extend %hidden;
+  }
+}
+
+.is-showing {
+  opacity: 1;
+  transform: translateY(0);
+}
