@@ -13,17 +13,3 @@ document.addEventListener("scroll", function () {
     }, 600);
   }
 }, false);
-  /*
-  
-  function loop () {
-    setTimeout(function () {
-      feature[i].classList.add("feature--showing");
-      i++;
-    })
-  }
-  
-   
-  }
-}, false);
-
-*/
