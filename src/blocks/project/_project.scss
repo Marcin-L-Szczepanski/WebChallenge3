@@ -2,9 +2,6 @@
   text-align: left;
   width: 100%;
   max-width: 470px;
-  opacity: 0;
-  transform: translateX(-300px) rotate(-90deg);
-  transition: all 600ms linear;
   
 
   &__title {
@@ -31,11 +28,5 @@
     font-family: $font-second;
     text-transform: uppercase;
     font-weight: 600;
-  }
-  
-  &--showing {
-    opacity: 1;
-    transform: translateX(0);
-    
   }
 }

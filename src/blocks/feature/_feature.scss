@@ -72,12 +72,21 @@
     margin-top: 15px;
     width: 100%;
     max-width: 470px;
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 600ms linear;
     &:last-of-type {
       margin-bottom: 15px;
     }
+    
     .feature__icon {
       padding: 0;
     }
+  }
+
+  &--showing {
+    opacity: 1;
+    transform: translateX(0);
   }
   
   &:hover .feature__icon-circle--resizing, &:hover .feature__svg {
