@@ -4,7 +4,7 @@
     margin: 60px auto;
     z-index: 1;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
     transition: all 600ms linear;
   
   &--margin-tiny {
@@ -20,6 +20,9 @@
     position: relative;
     text-align: left;
     color: $grey-lvl5;
+    opacity: 1;
+    transform: translateY(0);
+    transition: none;
     
     &::before {
       content: "";
