@@ -7,7 +7,7 @@ document.addEventListener("scroll", function () {
   for(i; wrapper.length; i++) {
     if(i === 2) { continue; }
     let wrapperOffsetTop = wrapper[i].offsetTop;
-    if(scrollPosition > (wrapperOffsetTop - (window.innerHeight * 0.7))) {
+    if(scrollPosition > (wrapperOffsetTop - (document.documentElement.clientHeight * 0.7))) {
       wrapper[i].classList.add("l-wrapper--showing");
     }
   }
