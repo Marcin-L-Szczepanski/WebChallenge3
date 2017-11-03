@@ -87,10 +87,10 @@
           border-bottom: 13px solid transparent;
           border-left: none;
         }
-        &:nth-child(even) .opinion__quotation::before {
+      }
+      &:nth-child(even) .opinion__quotation::before {
           left: 100%;
           transform: scaleX(-1);
         }
-      }
     }
   }
