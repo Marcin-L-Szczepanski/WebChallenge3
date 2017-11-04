@@ -12,6 +12,5 @@ document.addEventListener("scroll", function () {
     if(scrollPosition > (sectionOffsetTop - (screenHeight * 0.8))) {
       section[i].classList.add("l-wrapper--showing");
     }
-  }
-  
+  }  
 }, false);

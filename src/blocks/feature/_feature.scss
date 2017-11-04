@@ -86,7 +86,7 @@
 
   &--showing {
     opacity: 1;
-    transform: translateX(0);
+    transform: none;
   }
   
   &:hover .feature__icon-circle--resizing, &:hover .feature__svg {

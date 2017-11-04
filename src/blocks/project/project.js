@@ -1,3 +1,8 @@
+function fadeIn(element) {
+  element.style.opacity = 1;
+  element.style.transform = "translateY(0px)";
+}
+
 document.addEventListener("scroll", function () {
   "use strict";
   const project = document.querySelector(".project");
