@@ -1,12 +1,12 @@
 document.addEventListener("scroll", function () {
   "use strict";
   const project = document.querySelector(".project");
-  const projectOffsetTop = project.offsetTop;
+  const projectPosition = project.getBoundingClientRect().y;
+  const screenHeight = document.documentElement.clientHeight;
   const feature = document.querySelectorAll(".feature--inline");
-  let scrollPosition = window.scrollY;
   let i = 0;
   
-  if(scrollPosition > (projectOffsetTop - 700)) {
+  if(projectPosition / screenHeight < 0.75) {
     setInterval(function () {
       if(i < feature.length) {
         feature[i].classList.add("feature--showing");
