@@ -4,7 +4,7 @@ document.addEventListener("scroll", function () {
   let scrollPosition = window.scrollY;
   let i = 1;
   
-  for(i; wrapper.length; i++) {
+  for(i; i < (wrapper.length - 1); i++) {
     if(i === 2) { continue; }
     let wrapperOffsetTop = wrapper[i].offsetTop;
     if(scrollPosition > (wrapperOffsetTop - (document.documentElement.clientHeight * 0.8))) {
