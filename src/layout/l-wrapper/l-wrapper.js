@@ -2,7 +2,7 @@ document.addEventListener("scroll", function () {
   "use strict";
   const screenHeight = document.documentElement.clientHeight;
   let section = document.querySelectorAll(".l-wrapper");
-  let scrollPosition = window.scrollY;
+  let scrollPosition = window.pageYOffset;
   let i = 1;
   
   // No animation for second and last section
