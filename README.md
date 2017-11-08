@@ -23,10 +23,10 @@ Read more in the [Guidelines](https://cssguidelin.es/#bem-like-naming).
 ### Two types of modifiers are used:
  - a boolean flag<br>
     Original block/element name + double dash + mod name<br>
-    **.b-block--mod** or **.b-block__elem--mod**
+    **.block--mod** or **.block__elem--mod**
  - a key/value pair<br>
     Original block/element name + double dash + mod key name + single underscore + mod value<br>
-    **.b-block--key_value** or **.b-block__elem--key_value**
+    **.block--key_value** or **.block__elem--key_value**
     
 For example:
 ```html
@@ -80,7 +80,7 @@ Issues: <br>
 
 
 
-## Src File structure
+## Source File structure
 
 The Sass architecture in this project is a modification of solution introduced in Hugo Giraudel's Sass Guidelines:
 
@@ -104,12 +104,18 @@ src/
 |   |-- _global.scss
 |
 |-- blocks/                   # Blocks, Elements and Modifiers
+|   |-- banner/
+|       |-- _banner.scss
+|       |-- banner.js
 |   |-- button/
 |       |-- _button.scss
 |       |-- button--menu.js
 |   |-- _copyright.scss
 |   |-- _feature.scss
 |   |-- _features.scss
+|   |-- go-top/
+|       |-- _go-top.scss
+|       |-- go-top.js
 |   |-- _heading.scss
 |   |-- _items-list.scss
 |   |-- _list.scss
@@ -122,13 +128,17 @@ src/
 |   |-- preloader/
 |       |-- _preloader.scss
 |       |-- preloader.js
-|   |-- _project.scss
+|   |-- project/
+|       |-- _project.scss
+|       |-- project.js
 |   |-- _socials.scss
 |
 |-- layout/                   # Larger layout components; e.g. header, section, footer, etc.
 |   |-- _l-header.scss
 |   |-- _l-section.scss
-|   |-- _l-wrapper.scss
+|   |-- l-wrapper/
+|       |-- _l-wrapper.scss
+|       |-- l-wrapper.js
 |   |-- _media-queries.scss
 |
 |-- shame/                    # Stylings awaiting improving
