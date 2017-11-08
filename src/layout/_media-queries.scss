@@ -7,14 +7,14 @@
 // although the use is different than in BEMIT.
 
 
-// Tiny screen (--screen-size_tiny)
+// Tiny screen (@screen-size_tiny)
 @media only screen and (min-width: 376px) {
   @include button--menu\@screen_tiny;
   @include heading\@screen_tiny;
   @include feature__description\@screen_tiny;
 }
 
-// Small screen (--screen-size_small)
+// Small screen (@screen-size_small)
 @media only screen and (min-width: 640px) {
   @include button--menu\@screen_small;
   @include menu__list\@screen_small;
@@ -28,20 +28,20 @@
   @include menu__list--open\@screen_portait;
 }
 
-// Medium screen (--screen-size_medium)
+// Medium screen (@screen-size_medium)
 @media only screen and (min-width: 750px) {
   @include l-section\@screen_medium;
   @include header__wrapper\@screen_medium;
   @include opinion\@screen_medium;
 }
 
-// Large screen (--screen-size_large)
+// Large screen (@screen-size_large)
 @media only screen and (min-width: 850px) {
   @include l-section--projects\@screen_large;
   @include l-wrapper--side\@screen_large;
 }
 
-// Wide screen (--screen-size_wide)
+// Wide screen (@screen-size_wide)
 @media only screen and (min-width: 1024px) {
   @include l-wrapper\@screen_wide;
   @include features\@screen_wide;
@@ -49,7 +49,7 @@
   @include socials\@screen_wide;
 }
 
-// Mega screen (--screen-size_mega)
+// Mega screen (@screen-size_mega)
 @media only screen and (min-width: 1200px) {
   @include l-section--projects\@screen_mega;
 }
