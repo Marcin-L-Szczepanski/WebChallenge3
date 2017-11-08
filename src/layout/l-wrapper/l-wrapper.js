@@ -1,6 +1,8 @@
 const screenHeight = document.documentElement.clientHeight;
 let section = document.querySelectorAll(".l-wrapper");
   if(screenHeight > 700) {
+    section[1].style.WebkitTransition = 'none';
+    section[1].style.MozTransition = 'none';
     section[1].classList.add("l-wrapper--showing");
   }
 
