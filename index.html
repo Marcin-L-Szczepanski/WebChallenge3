@@ -41,7 +41,7 @@
                 </div>
                 </a>
                 <nav class="menu">
-                    <button type="button" class="menu__button button button--dark button--menu button--close" title="Open Menu">
+                    <button type="button" aria-expanded="false" aria-controls="menu" class="menu__button button button--dark button--menu button--close" title="Open Menu">
                         Menu
                          <svg class="button__icon-container" width="26" height="25" xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <g class="button__icon button__icon--open">
@@ -54,7 +54,7 @@
                             </g>
                         </svg>
                     </button>
-                    <ul class="menu__list">
+                    <ul class="menu__list" id="menu">
                         <li class="menu__item"><a class="menu__link" href="#home" title="Home page">Home</a></li>
                         <li class="menu__item"><a class="menu__link" href="#about" title="About Treehouse">About</a></li>
                         <li class="menu__item"><a class="menu__link" href="#blog" title="Read our Blog">Blog</a></li>
