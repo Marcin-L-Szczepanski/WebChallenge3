@@ -6,7 +6,10 @@ function closeButtonIcon() {
 
 function closeShowMenu() {
   "use strict";
+  button.setAttribute("aria-expanded", "false");
+  button.setAttribute("title", "Open menu");
   document.querySelector(".menu__list").classList.remove("menu__list--open");
+  document.querySelector(".menu__list").classList.add("menu__list--close");
   document.querySelector("body").classList.remove("body-cover");
   document.querySelector("main").classList.remove("blur");
   document.querySelector(".footer").classList.remove("blur");
