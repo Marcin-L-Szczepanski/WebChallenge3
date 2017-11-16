@@ -6,6 +6,7 @@ function toggleButtonIcon() {
 
 function openShowMenu() {
   "use strict";
+  button.setAttribute("aria-label", "Close");
   button.setAttribute("aria-expanded", "true");
   button.setAttribute("title", "Close menu");
   document.querySelector(".menu__list").classList.remove("menu__list--close");
@@ -17,6 +18,7 @@ function openShowMenu() {
 
 function closeShowMenu() {
   "use strict";
+  button.setAttribute("aria-label", "Open");
   button.setAttribute("aria-expanded", "false");
   button.setAttribute("title", "Open menu");
   document.querySelector(".menu__list").classList.remove("menu__list--open");
