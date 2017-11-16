@@ -1,7 +1,8 @@
 .menu {
   &__list {
-    display: none;
-
+    &--close {
+      display: none;
+    }
     &--open {
       position: absolute;
       top: 50px;
