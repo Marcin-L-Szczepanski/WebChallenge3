@@ -31,7 +31,7 @@
     align-items: center;
     height: 35px;
     padding: 0 10px;
-    &:hover, &:focus .button__icon {
+    &:hover .button__icon, &:focus .button__icon {
       stroke: $grey-lvl8;
       transition: all 300ms linear;
     }
